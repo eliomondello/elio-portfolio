@@ -13,10 +13,10 @@ const Home = ({ language }) => {
     en: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "DIGITAL TRANSFORMATION & AI SPECIALIST",
-        subtitle: "Experienced Professional in Business Development, Education & Technology Integration",
-        description: "15 years of international experience in education, business development, and digital innovation. Proven track record in AI automation, multilingual project management, and revenue optimization across multiple industries.",
-        cta: "View My Portfolio",
+        highlight: "MARKETING & CONTENT SPECIALIST",
+        subtitle: "Copywriting • SEO/GEO • Multilingual Content • Digital Marketing",
+        description: "Experienced professional with 15+ years in education and business development. Currently writing articles for local businesses and managing digital marketing projects. Fluent in 4 languages with proven results in content creation and search optimization.",
+        cta: "See My Work",
         scroll: "Scroll to Discover"
       },
       stats: [
@@ -28,23 +28,23 @@ const Home = ({ language }) => {
         { number: "12", label: "AI Assistants", icon: "🤖" }
       ],
       services: {
-        title: "Core Competencies",
-        subtitle: "Key areas of expertise and professional experience",
+        title: "What I Can Do For Your Company",
+        subtitle: "Practical skills and services I can provide immediately",
         items: [
           {
-            title: "AI & Digital Transformation",
-            description: "Implementation of AI solutions, process automation, and digital innovation strategies across multiple industries",
-            icon: "🤖"
+            title: "Content Writing & Copywriting",
+            description: "Articles, website content, social media posts, and marketing materials. Currently writing for Munkmuseet and local businesses.",
+            icon: "✍️"
           },
           {
-            title: "International Business Development",
-            description: "Cross-cultural project management, multilingual communication, and global market expansion strategies",
+            title: "SEO & Search Optimization",
+            description: "Help your business get found on Google and other search engines. Expert in both traditional SEO and new GEO (AI-powered search).",
+            icon: "🔍"
+          },
+          {
+            title: "Multilingual Marketing",
+            description: "Create content in Norwegian, English, Italian, and French. Perfect for businesses targeting international customers.",
             icon: "🌍"
-          },
-          {
-            title: "Education & Training Leadership",
-            description: "15+ years in educational leadership, curriculum development, and professional training programs",
-            icon: "📚"
           }
         ]
       },
@@ -76,10 +76,10 @@ const Home = ({ language }) => {
     it: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "SPECIALISTA IN TRASFORMAZIONE DIGITALE E IA",
-        subtitle: "Professionista Esperto in Sviluppo Business, Educazione e Integrazione Tecnologica",
-        description: "15 anni di esperienza internazionale nell'educazione, sviluppo business e innovazione digitale. Comprovata esperienza in automazione IA, gestione progetti multilingue e ottimizzazione ricavi in diversi settori.",
-        cta: "Visualizza Portfolio",
+        highlight: "SPECIALISTA MARKETING E CONTENUTI",
+        subtitle: "Copywriting • SEO/GEO • Contenuti Multilingue • Marketing Digitale",
+        description: "Professionista esperto con 15+ anni nell'educazione e sviluppo business. Attualmente scrivo articoli per aziende locali e gestisco progetti di marketing digitale. Parlo 4 lingue con risultati comprovati nella creazione di contenuti e ottimizzazione per motori di ricerca.",
+        cta: "Vedi Il Mio Lavoro",
         scroll: "Scorri per Scoprire"
       },
       stats: [
@@ -91,23 +91,23 @@ const Home = ({ language }) => {
         { number: "12", label: "Assistenti IA", icon: "🤖" }
       ],
       services: {
-        title: "Competenze Principali",
-        subtitle: "Aree chiave di expertise ed esperienza professionale",
+        title: "Cosa Posso Fare Per La Tua Azienda",
+        subtitle: "Competenze pratiche e servizi che posso fornire immediatamente",
         items: [
           {
-            title: "IA e Trasformazione Digitale",
-            description: "Implementazione di soluzioni IA, automazione dei processi e strategie di innovazione digitale in diversi settori",
-            icon: "🤖"
+            title: "Scrittura Contenuti & Copywriting",
+            description: "Articoli, contenuti per siti web, post social media e materiali marketing. Attualmente scrivo per Munkmuseet e aziende locali.",
+            icon: "✍️"
           },
           {
-            title: "Sviluppo Business Internazionale",
-            description: "Gestione progetti interculturali, comunicazione multilingue e strategie di espansione nei mercati globali",
+            title: "SEO & Ottimizzazione Ricerca",
+            description: "Aiuto la tua azienda a essere trovata su Google e altri motori di ricerca. Esperto sia in SEO tradizionale che in GEO (ricerca potenziata da IA).",
+            icon: "🔍"
+          },
+          {
+            title: "Marketing Multilingue",
+            description: "Creo contenuti in norvegese, inglese, italiano e francese. Perfetto per aziende che puntano a clienti internazionali.",
             icon: "🌍"
-          },
-          {
-            title: "Leadership Educativa e Formazione",
-            description: "15+ anni nella leadership educativa, sviluppo curricolare e programmi di formazione professionale",
-            icon: "📚"
           }
         ]
       },
@@ -139,10 +139,10 @@ const Home = ({ language }) => {
     no: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "DIGITAL TRANSFORMASJON & AI SPESIALIST",
-        subtitle: "Erfaren Profesjonell innen Forretningsutvikling, Utdanning og Teknologiintegrasjon",
-        description: "15 år internasjonal erfaring innen utdanning, forretningsutvikling og digital innovasjon. Dokumentert erfaring med AI-automatisering, flerspråklig prosjektledelse og inntektsoptimalisering på tvers av flere bransjer.",
-        cta: "Se Min Portefølje",
+        highlight: "MARKEDSFØRING & INNHOLD SPESIALIST",
+        subtitle: "Tekstforfatning • SEO/GEO • Flerspråklig Innhold • Digital Markedsføring",
+        description: "Erfaren profesjonell med 15+ år innen utdanning og forretningsutvikling. Skriver for tiden artikler for lokale bedrifter og leder digitale markedsføringsprosjekter. Snakker 4 språk med dokumenterte resultater innen innholdsproduksjon og søkeoptimalisering.",
+        cta: "Se Mitt Arbeid",
         scroll: "Rull for å Oppdage"
       },
       stats: [
@@ -154,23 +154,23 @@ const Home = ({ language }) => {
         { number: "12", label: "AI Assistenter", icon: "🤖" }
       ],
       services: {
-        title: "Kjernekompetanser",
-        subtitle: "Nøkkelområder for ekspertise og profesjonell erfaring",
+        title: "Hva Jeg Kan Gjøre For Bedriften Din",
+        subtitle: "Praktiske ferdigheter og tjenester jeg kan levere umiddelbart",
         items: [
           {
-            title: "AI & Digital Transformasjon",
-            description: "Implementering av AI-løsninger, prosessautomatisering og digitale innovasjonsstrategier på tvers av flere bransjer",
-            icon: "🤖"
+            title: "Innholdskriving & Tekstforfatning",
+            description: "Artikler, nettstedinnhold, sosiale medier-innlegg og markedsføringsmateriell. Skriver for tiden for Munkmuseet og lokale bedrifter.",
+            icon: "✍️"
           },
           {
-            title: "Internasjonal Forretningsutvikling",
-            description: "Tverrkulturell prosjektledelse, flerspråklig kommunikasjon og globale markedsekspansjonsstrategier",
+            title: "SEO & Søkeoptimalisering",
+            description: "Hjelper bedriften din å bli funnet på Google og andre søkemotorer. Ekspert på både tradisjonell SEO og ny GEO (AI-drevet søk).",
+            icon: "🔍"
+          },
+          {
+            title: "Flerspråklig Markedsføring",
+            description: "Lager innhold på norsk, engelsk, italiensk og fransk. Perfekt for bedrifter som retter seg mot internasjonale kunder.",
             icon: "🌍"
-          },
-          {
-            title: "Utdanningsledelse & Opplæring",
-            description: "15+ år innen utdanningsledelse, læreplanutvikling og profesjonelle opplæringsprogrammer",
-            icon: "📚"
           }
         ]
       },
