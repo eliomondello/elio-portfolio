@@ -13,10 +13,10 @@ const Home = ({ language }) => {
     en: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "AI-POWERED BUSINESS TRANSFORMATION",
-        subtitle: "Help Italian Entrepreneurs in Norway Grow with Technology & Winning Strategies",
-        description: "15 years in international education and business development. I transform businesses with AI automation, multilingual coaching, and proven strategies tested on 250+ properties generating €150k+ revenue.",
-        cta: "Book Free Consultation",
+        highlight: "DIGITAL TRANSFORMATION & AI SPECIALIST",
+        subtitle: "Experienced Professional in Business Development, Education & Technology Integration",
+        description: "15 years of international experience in education, business development, and digital innovation. Proven track record in AI automation, multilingual project management, and revenue optimization across multiple industries.",
+        cta: "View My Portfolio",
         scroll: "Scroll to Discover"
       },
       stats: [
@@ -28,23 +28,23 @@ const Home = ({ language }) => {
         { number: "12", label: "AI Assistants", icon: "🤖" }
       ],
       services: {
-        title: "How I Help You Grow",
-        subtitle: "Three proven areas for business transformation",
+        title: "Core Competencies",
+        subtitle: "Key areas of expertise and professional experience",
         items: [
           {
-            title: "AI Business Automation",
-            description: "Transform your operations with 12 specialized AI assistants and proven automation strategies",
+            title: "AI & Digital Transformation",
+            description: "Implementation of AI solutions, process automation, and digital innovation strategies across multiple industries",
             icon: "🤖"
           },
           {
-            title: "International Expansion",
-            description: "Multilingual coaching and cultural insights to expand your business globally",
+            title: "International Business Development",
+            description: "Cross-cultural project management, multilingual communication, and global market expansion strategies",
             icon: "🌍"
           },
           {
-            title: "Property & Revenue Optimization",
-            description: "Proven strategies that generated €150k+ revenue from 250+ properties",
-            icon: "📈"
+            title: "Education & Training Leadership",
+            description: "15+ years in educational leadership, curriculum development, and professional training programs",
+            icon: "📚"
           }
         ]
       },
@@ -76,10 +76,10 @@ const Home = ({ language }) => {
     it: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "TRASFORMAZIONE DIGITALE CON IA",
-        subtitle: "Aiuto Imprenditori Italiani in Norvegia a Crescere con Tecnologia e Strategie Vincenti",
-        description: "15 anni nell'educazione e sviluppo business internazionale. Trasformo aziende con automazione IA, coaching multilingue e strategie testate su 250+ proprietà che generano €150k+ di fatturato.",
-        cta: "Prenota Consulenza Gratuita",
+        highlight: "SPECIALISTA IN TRASFORMAZIONE DIGITALE E IA",
+        subtitle: "Professionista Esperto in Sviluppo Business, Educazione e Integrazione Tecnologica",
+        description: "15 anni di esperienza internazionale nell'educazione, sviluppo business e innovazione digitale. Comprovata esperienza in automazione IA, gestione progetti multilingue e ottimizzazione ricavi in diversi settori.",
+        cta: "Visualizza Portfolio",
         scroll: "Scorri per Scoprire"
       },
       stats: [
@@ -91,23 +91,23 @@ const Home = ({ language }) => {
         { number: "12", label: "Assistenti IA", icon: "🤖" }
       ],
       services: {
-        title: "Come Ti Aiuto a Crescere",
-        subtitle: "Tre aree comprovate per la trasformazione aziendale",
+        title: "Competenze Principali",
+        subtitle: "Aree chiave di expertise ed esperienza professionale",
         items: [
           {
-            title: "Automazione Business con IA",
-            description: "Trasforma le tue operazioni con 12 assistenti IA specializzati e strategie di automazione testate",
+            title: "IA e Trasformazione Digitale",
+            description: "Implementazione di soluzioni IA, automazione dei processi e strategie di innovazione digitale in diversi settori",
             icon: "🤖"
           },
           {
-            title: "Espansione Internazionale",
-            description: "Coaching multilingue e insights culturali per espandere il tuo business globalmente",
+            title: "Sviluppo Business Internazionale",
+            description: "Gestione progetti interculturali, comunicazione multilingue e strategie di espansione nei mercati globali",
             icon: "🌍"
           },
           {
-            title: "Ottimizzazione Proprietà e Ricavi",
-            description: "Strategie comprovate che hanno generato €150k+ di fatturato da 250+ proprietà",
-            icon: "📈"
+            title: "Leadership Educativa e Formazione",
+            description: "15+ anni nella leadership educativa, sviluppo curricolare e programmi di formazione professionale",
+            icon: "📚"
           }
         ]
       },
@@ -139,10 +139,10 @@ const Home = ({ language }) => {
     no: {
       hero: {
         title: "ELIO MONDELLO ANZÀ",
-        highlight: "AI-DREVET DIGITAL TRANSFORMASJON",
-        subtitle: "Hjelper Italienske Entreprenører i Norge å Vokse med Teknologi og Vinnende Strategier",
-        description: "15 år innen internasjonal utdanning og forretningsutvikling. Jeg transformerer virksomheter med AI-automatisering, flerspråklig coaching og beviste strategier testet på 250+ eiendommer som genererer €150k+ inntekt.",
-        cta: "Book Gratis Konsultasjon",
+        highlight: "DIGITAL TRANSFORMASJON & AI SPESIALIST",
+        subtitle: "Erfaren Profesjonell innen Forretningsutvikling, Utdanning og Teknologiintegrasjon",
+        description: "15 år internasjonal erfaring innen utdanning, forretningsutvikling og digital innovasjon. Dokumentert erfaring med AI-automatisering, flerspråklig prosjektledelse og inntektsoptimalisering på tvers av flere bransjer.",
+        cta: "Se Min Portefølje",
         scroll: "Rull for å Oppdage"
       },
       stats: [
@@ -154,23 +154,23 @@ const Home = ({ language }) => {
         { number: "12", label: "AI Assistenter", icon: "🤖" }
       ],
       services: {
-        title: "Hvordan Jeg Hjelper Deg Vokse",
-        subtitle: "Tre beviste områder for virksomhetstransformasjon",
+        title: "Kjernekompetanser",
+        subtitle: "Nøkkelområder for ekspertise og profesjonell erfaring",
         items: [
           {
-            title: "AI Business Automatisering",
-            description: "Transformer dine operasjoner med 12 spesialiserte AI-assistenter og beviste automatiseringsstrategier",
+            title: "AI & Digital Transformasjon",
+            description: "Implementering av AI-løsninger, prosessautomatisering og digitale innovasjonsstrategier på tvers av flere bransjer",
             icon: "🤖"
           },
           {
-            title: "Internasjonal Ekspansjon",
-            description: "Flerspråklig coaching og kulturelle innsikter for å utvide virksomheten globalt",
+            title: "Internasjonal Forretningsutvikling",
+            description: "Tverrkulturell prosjektledelse, flerspråklig kommunikasjon og globale markedsekspansjonsstrategier",
             icon: "🌍"
           },
           {
-            title: "Eiendom & Inntektsoptimalisering",
-            description: "Beviste strategier som genererte €150k+ inntekt fra 250+ eiendommer",
-            icon: "📈"
+            title: "Utdanningsledelse & Opplæring",
+            description: "15+ år innen utdanningsledelse, læreplanutvikling og profesjonelle opplæringsprogrammer",
+            icon: "📚"
           }
         ]
       },
