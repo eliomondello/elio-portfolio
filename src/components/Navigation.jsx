@@ -51,7 +51,7 @@ const Navigation = ({ language, setLanguage }) => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {menuItems.map((item) => (
+            {navItems[language].map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
