@@ -4,10 +4,9 @@ import { Button } from '@/components/ui/button'
 
 // Timeline images
 import babyPhoto from '../assets/1735828571062-bd9249cc-eeda-4a47-9363-a20976690d17_.jpg'
-import childhoodWithSister from '../assets/292545060_456058393193792_2993380915861520879_n.png'
-import youngElio from '../assets/1735827870885-65247ff4-e761-4a26-9439-43785afb1b37~2.jpg'
-import universityPhoto from '../assets/1735906733530-b8373210-4f32-4e4b-812e-5c96af97f79d_.jpg'
-import masterPhoto from '../assets/1735907852443-2556443e-90ef-4b68-98f5-1bef9534d46c_.jpg'
+import universityPhoto from '../assets/100_0349.JPG'
+import erasmusPhoto from '../assets/grenoble.jpg'
+import masterPhoto from '../assets/100_0347.JPG'
 import teachingPhoto from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import airbnbPhoto from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
 import norwayPhoto from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
@@ -45,7 +44,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, France",
           description: "Studied Public Administration through the European Union Exchange Program, developing multicultural perspectives and international networking skills.",
           icon: "🌍",
-          image: childhoodWithSister
+          image: erasmusPhoto
         },
         {
           year: "2005-2006",
@@ -165,7 +164,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, Francia",
           description: "Ha studiato Amministrazione Pubblica attraverso il Programma di Scambio dell'Unione Europea, sviluppando prospettive multiculturali e competenze di networking internazionale.",
           icon: "🌍",
-          image: childhoodWithSister
+          image: erasmusPhoto
         },
         {
           year: "2005-2006",
@@ -285,7 +284,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, Frankrike",
           description: "Studerte offentlig administrasjon gjennom Den Europeiske Unions utvekslingsprogram, utviklet multikulturelle perspektiver og internasjonale nettverksferdigheter.",
           icon: "🌍",
-          image: childhoodWithSister
+          image: erasmusPhoto
         },
         {
           year: "2005-2006",
