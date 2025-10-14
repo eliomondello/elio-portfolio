@@ -333,7 +333,7 @@ const Services = ({ language }) => {
             <h2 className="text-2xl md:text-3xl text-white mb-6">
               {currentContent.hero.subtitle}
             </h2>
-            <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               {currentContent.hero.description}
             </p>
           </motion.div>
@@ -375,7 +375,7 @@ const Services = ({ language }) => {
                       <h3 className="text-3xl font-bold text-white">{service.title}</h3>
                     </div>
                     
-                    <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+                    <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
                       {service.description}
                     </p>
 
@@ -552,8 +552,8 @@ const Services = ({ language }) => {
                     </div>
                     <div className="text-4xl">{step.icon}</div>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-4">{step.title}</h3>
-                  <p className="text-gray-400 leading-relaxed">{step.description}</p>
+                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">{step.title}</h3>
+                  <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">{step.description}</p>
                 </motion.div>
               ))}
             </div>

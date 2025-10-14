@@ -3,9 +3,11 @@ import { Calendar, MapPin, Award, BookOpen, Users, Globe } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 // Timeline images
-import childhoodPhoto from '../assets/292545060_456058393193792_2993380915861520879_n.png'
+import babyPhoto from '../assets/1735828571062-bd9249cc-eeda-4a47-9363-a20976690d17_.jpg'
+import childhoodWithSister from '../assets/292545060_456058393193792_2993380915861520879_n.png'
 import youngElio from '../assets/1735827870885-65247ff4-e761-4a26-9439-43785afb1b37~2.jpg'
-import educationPhoto from '../assets/1735828571062-bd9249cc-eeda-4a47-9363-a20976690d17_.jpg'
+import universityPhoto from '../assets/1735906733530-b8373210-4f32-4e4b-812e-5c96af97f79d_.jpg'
+import masterPhoto from '../assets/1735907852443-2556443e-90ef-4b68-98f5-1bef9534d46c_.jpg'
 import teachingPhoto from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import airbnbPhoto from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
 import norwayPhoto from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
@@ -17,17 +19,17 @@ const About = ({ language }) => {
     en: {
       hero: {
         title: "ELIO'S STORY",
-        subtitle: "From Sicily to the World",
+        subtitle: "From Abbiategrasso to the World",
         description: "A journey of resilience, innovation, and transformation across three countries and multiple industries."
       },
       timeline: [
         {
           year: "1978",
-          title: "Born in Sicily",
-          location: "Italy",
-          description: "Born on October 1, 1978, in Sicily, Italy. Growing up in a vibrant Mediterranean culture that values family, hard work, and entrepreneurial spirit.",
+          title: "Born in Abbiategrasso",
+          location: "Milan, Italy",
+          description: "Born on October 1, 1978, in Abbiategrasso, Milan, Italy. Growing up in a vibrant Italian culture that values family, hard work, and entrepreneurial spirit.",
           icon: "👶",
-          image: childhoodPhoto
+          image: babyPhoto
         },
         {
           year: "1996-2002",
@@ -35,7 +37,7 @@ const About = ({ language }) => {
           location: "Italy",
           description: "Pursued higher education in Italy, developing a strong foundation in business and international relations that would shape future career paths.",
           icon: "📚",
-          image: youngElio
+          image: universityPhoto
         },
         {
           year: "2003-2004",
@@ -43,7 +45,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, France",
           description: "Studied Public Administration through the European Union Exchange Program, developing multicultural perspectives and international networking skills.",
           icon: "🌍",
-          image: educationPhoto
+          image: childhoodWithSister
         },
         {
           year: "2005-2006",
@@ -51,7 +53,7 @@ const About = ({ language }) => {
           location: "Università degli Studi di Milano, Italy",
           description: "Completed Master of Arts in Project Management with internship at ISTUD business school, laying the foundation for strategic thinking and business leadership.",
           icon: "🎓",
-          image: educationPhoto
+          image: masterPhoto
         },
         {
           year: "2009-2014",
@@ -137,7 +139,7 @@ const About = ({ language }) => {
     it: {
       hero: {
         title: "LA STORIA DI ELIO",
-        subtitle: "Dalla Sicilia al Mondo",
+        subtitle: "Da Abbiategrasso al Mondo",
         description: "Un viaggio di resilienza, innovazione e trasformazione attraverso tre paesi e molteplici settori."
       },
       timeline: [
@@ -257,7 +259,7 @@ const About = ({ language }) => {
     no: {
       hero: {
         title: "ELIOS HISTORIE",
-        subtitle: "Fra Sicilia til Verden",
+        subtitle: "Fra Abbiategrasso til Verden",
         description: "En reise av motstandskraft, innovasjon og transformasjon på tvers av tre land og flere bransjer."
       },
       timeline: [

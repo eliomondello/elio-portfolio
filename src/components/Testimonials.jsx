@@ -150,7 +150,7 @@ const Testimonials = ({ language }) => {
       stats: {
         title: "Impact by Numbers",
         items: [
-          { number: "100+", label: "Clients Served", icon: "👥" },
+          { number: "10,000+", label: "People Served", icon: "👥" },
           { number: "15+", label: "Industries", icon: "🏢" },
           { number: "25+", label: "Countries", icon: "🌍" },
           { number: "92%", label: "Success Rate", icon: "📈" },
@@ -185,7 +185,7 @@ const Testimonials = ({ language }) => {
       stats: {
         title: "Impatto in Numeri",
         items: [
-          { number: "100+", label: "Clienti Serviti", icon: "👥" },
+          { number: "10.000+", label: "Persone Servite", icon: "👥" },
           { number: "15+", label: "Settori", icon: "🏢" },
           { number: "25+", label: "Paesi", icon: "🌍" },
           { number: "92%", label: "Tasso di Successo", icon: "📈" },
@@ -220,7 +220,7 @@ const Testimonials = ({ language }) => {
       stats: {
         title: "Påvirkning i Tall",
         items: [
-          { number: "100+", label: "Klienter Betjent", icon: "👥" },
+          { number: "10 000+", label: "Personer Betjent", icon: "👥" },
           { number: "15+", label: "Bransjer", icon: "🏢" },
           { number: "25+", label: "Land", icon: "🌍" },
           { number: "92%", label: "Suksessrate", icon: "📈" },
