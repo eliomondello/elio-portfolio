@@ -1,59 +1,97 @@
 import { motion } from 'framer-motion'
 import { Calendar, MapPin, Award, BookOpen, Users, Globe } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import elioAbout from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
-import elioProfile from '../assets/YellowInspirationModernInstagramProfilePicture.png'
+
+// Timeline images
+import childhoodPhoto from '../assets/292545060_456058393193792_2993380915861520879_n.png'
+import youngElio from '../assets/1735827870885-65247ff4-e761-4a26-9439-43785afb1b37~2.jpg'
+import educationPhoto from '../assets/1735828571062-bd9249cc-eeda-4a47-9363-a20976690d17_.jpg'
+import teachingPhoto from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
+import airbnbPhoto from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
+import norwayPhoto from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
+import aiCoachingPhoto from '../assets/IMG_20250709_132004267_HDR_PORTRAIT.jpg'
+import currentPhoto from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
 
 const About = ({ language }) => {
   const content = {
     en: {
       hero: {
         title: "ELIO'S STORY",
-        subtitle: "From Humble Beginnings to International Success",
+        subtitle: "From Sicily to the World",
         description: "A journey of resilience, innovation, and transformation across three countries and multiple industries."
       },
       timeline: [
         {
-          year: "2005-2006",
-          title: "Master's in Project Management",
-          location: "Università degli Studi di Milano, Italy",
-          description: "Completed Master of Arts in Project Management with internship at ISTUD business school, laying the foundation for strategic thinking and business leadership.",
-          icon: "🎓"
+          year: "1978",
+          title: "Born in Sicily",
+          location: "Italy",
+          description: "Born on October 1, 1978, in Sicily, Italy. Growing up in a vibrant Mediterranean culture that values family, hard work, and entrepreneurial spirit.",
+          icon: "👶",
+          image: childhoodPhoto
+        },
+        {
+          year: "1996-2002",
+          title: "University Education",
+          location: "Italy",
+          description: "Pursued higher education in Italy, developing a strong foundation in business and international relations that would shape future career paths.",
+          icon: "📚",
+          image: youngElio
         },
         {
           year: "2003-2004",
           title: "Erasmus Exchange Program",
           location: "Sciences Po Grenoble, France",
           description: "Studied Public Administration through the European Union Exchange Program, developing multicultural perspectives and international networking skills.",
-          icon: "🌍"
+          icon: "🌍",
+          image: educationPhoto
+        },
+        {
+          year: "2005-2006",
+          title: "Master's in Project Management",
+          location: "Università degli Studi di Milano, Italy",
+          description: "Completed Master of Arts in Project Management with internship at ISTUD business school, laying the foundation for strategic thinking and business leadership.",
+          icon: "🎓",
+          image: educationPhoto
         },
         {
           year: "2009-2014",
           title: "Educational Leadership",
           location: "Italy & Norway",
           description: "Started as English Language Teacher, evolved into Educational Leadership Consultant. Founded Mondelio, a non-profit with 300+ members offering free courses.",
-          icon: "📚"
+          icon: "👨‍🏫",
+          image: teachingPhoto
         },
         {
-          year: "2014-Present",
+          year: "2010-2023",
           title: "Property Management Empire",
           location: "Italy",
           description: "Built and managed 250+ short-term rental listings, achieving Top 3 ranking nationally on Airbnb platform with €150k+ annual revenue.",
-          icon: "🏠"
+          icon: "🏠",
+          image: airbnbPhoto
         },
         {
           year: "2022-Present",
           title: "AI-Powered Coaching",
           location: "Global",
           description: "Launched Mondosol coaching business, integrating 12 AI virtual assistants to provide personalized coaching in 4 languages across multiple industries.",
-          icon: "🤖"
+          icon: "🤖",
+          image: aiCoachingPhoto
         },
         {
           year: "2023-Present",
-          title: "Norwegian Integration",
+          title: "Life in Norway",
           location: "Hønefoss, Norway",
           description: "Working as Kindergarten Teacher and Substitute Teacher while expanding coaching business internationally, bridging education and entrepreneurship.",
-          icon: "🇳🇴"
+          icon: "🇳🇴",
+          image: norwayPhoto
+        },
+        {
+          year: "2025",
+          title: "Digital Transformation Specialist",
+          location: "Norway & Global",
+          description: "Focusing on content marketing, SEO, and multilingual digital strategies. Helping businesses transform through AI integration and digital innovation.",
+          icon: "💻",
+          image: currentPhoto
         }
       ],
       philosophy: {
@@ -90,71 +128,90 @@ const About = ({ language }) => {
           { label: "Annual Revenue", value: "€150k+", icon: "💰" },
           { label: "Languages Spoken", value: "4 Fluently", icon: "🗣️" },
           { label: "AI Assistants", value: "12 Active", icon: "🤖" },
-          { label: "Years Experience", value: "15+ International", icon: "📅" },
+          { label: "Years Experience", value: "20+ International", icon: "📅" },
           { label: "Industries Served", value: "10+ Different", icon: "🏢" },
           { label: "Countries Lived", value: "3 (Italy, France, Norway)", icon: "🌍" }
-        ]
-      },
-      recognition: {
-        title: "Recognition & Awards",
-        items: [
-          "Top Gun Consulting Maverick Award by Traffic Geyser & Instant Customer",
-          "Follow The Expert: Top Consultant by Mike Koenigs",
-          "Recognition by #1 bestselling author Ed Rush",
-          "Amazon bestselling author for 'Imagine Your Dream'",
-          "Featured as top influencer in hospitality by Repubblica",
-          "Top 10 Airbnb Host in the world according to Incipit Consulting"
         ]
       }
     },
     it: {
       hero: {
         title: "LA STORIA DI ELIO",
-        subtitle: "Da Umili Inizi al Successo Internazionale",
-        description: "Un viaggio di resilienza, innovazione e trasformazione attraverso tre paesi e molteplici industrie."
+        subtitle: "Dalla Sicilia al Mondo",
+        description: "Un viaggio di resilienza, innovazione e trasformazione attraverso tre paesi e molteplici settori."
       },
       timeline: [
         {
-          year: "2005-2006",
-          title: "Master in Project Management",
-          location: "Università degli Studi di Milano, Italia",
-          description: "Completato Master in Project Management con stage presso ISTUD business school, gettando le basi per il pensiero strategico e la leadership aziendale.",
-          icon: "🎓"
+          year: "1978",
+          title: "Nato in Sicilia",
+          location: "Italia",
+          description: "Nato il 1° ottobre 1978 in Sicilia, Italia. Cresciuto in una vibrante cultura mediterranea che valorizza la famiglia, il duro lavoro e lo spirito imprenditoriale.",
+          icon: "👶",
+          image: childhoodPhoto
+        },
+        {
+          year: "1996-2002",
+          title: "Formazione Universitaria",
+          location: "Italia",
+          description: "Ha perseguito l'istruzione superiore in Italia, sviluppando una solida base in business e relazioni internazionali che avrebbe plasmato i futuri percorsi di carriera.",
+          icon: "📚",
+          image: youngElio
         },
         {
           year: "2003-2004",
           title: "Programma Erasmus",
           location: "Sciences Po Grenoble, Francia",
-          description: "Studiato Amministrazione Pubblica attraverso il Programma di Scambio dell'Unione Europea, sviluppando prospettive multiculturali e competenze di networking internazionale.",
-          icon: "🌍"
+          description: "Ha studiato Amministrazione Pubblica attraverso il Programma di Scambio dell'Unione Europea, sviluppando prospettive multiculturali e competenze di networking internazionale.",
+          icon: "🌍",
+          image: educationPhoto
+        },
+        {
+          year: "2005-2006",
+          title: "Master in Project Management",
+          location: "Università degli Studi di Milano, Italia",
+          description: "Ha completato il Master in Project Management con stage presso la business school ISTUD, ponendo le basi per il pensiero strategico e la leadership aziendale.",
+          icon: "🎓",
+          image: educationPhoto
         },
         {
           year: "2009-2014",
           title: "Leadership Educativa",
           location: "Italia e Norvegia",
-          description: "Iniziato come Insegnante di Inglese, evoluto in Consulente di Leadership Educativa. Fondato Mondelio, un'organizzazione no-profit con 300+ membri.",
-          icon: "📚"
+          description: "Ha iniziato come insegnante di lingua inglese, evolvendosi in consulente di leadership educativa. Ha fondato Mondelio, un'organizzazione no-profit con oltre 300 membri che offre corsi gratuiti.",
+          icon: "👨‍🏫",
+          image: teachingPhoto
         },
         {
-          year: "2014-Presente",
+          year: "2010-2023",
           title: "Impero Gestione Immobiliare",
           location: "Italia",
-          description: "Costruito e gestito 250+ annunci di affitti brevi, raggiungendo il Top 3 nazionale su Airbnb con €150k+ di fatturato annuale.",
-          icon: "🏠"
+          description: "Ha costruito e gestito oltre 250 annunci di affitti brevi, raggiungendo il Top 3 della classifica nazionale su Airbnb con oltre €150k di fatturato annuale.",
+          icon: "🏠",
+          image: airbnbPhoto
         },
         {
           year: "2022-Presente",
-          title: "Coaching Potenziato dall'IA",
+          title: "Coaching Potenziato da IA",
           location: "Globale",
-          description: "Lanciato il business di coaching Mondosol, integrando 12 assistenti virtuali IA per fornire coaching personalizzato in 4 lingue.",
-          icon: "🤖"
+          description: "Ha lanciato il business di coaching Mondosol, integrando 12 assistenti virtuali IA per fornire coaching personalizzato in 4 lingue attraverso molteplici settori.",
+          icon: "🤖",
+          image: aiCoachingPhoto
         },
         {
           year: "2023-Presente",
-          title: "Integrazione Norvegese",
+          title: "Vita in Norvegia",
           location: "Hønefoss, Norvegia",
-          description: "Lavorando come Insegnante d'Asilo e Supplente mentre espando il business di coaching internazionalmente.",
-          icon: "🇳🇴"
+          description: "Lavora come insegnante di scuola materna e supplente mentre espande il business di coaching a livello internazionale, collegando educazione e imprenditorialità.",
+          icon: "🇳🇴",
+          image: norwayPhoto
+        },
+        {
+          year: "2025",
+          title: "Specialista Trasformazione Digitale",
+          location: "Norvegia e Globale",
+          description: "Si concentra su content marketing, SEO e strategie digitali multilingue. Aiuta le aziende a trasformarsi attraverso l'integrazione dell'IA e l'innovazione digitale.",
+          icon: "💻",
+          image: currentPhoto
         }
       ],
       philosophy: {
@@ -163,12 +220,12 @@ const About = ({ language }) => {
         points: [
           {
             title: "Resilienza Attraverso le Avversità",
-            description: "Ogni battuta d'arresto è una preparazione per un ritorno. La mia perdita di €150k mi ha insegnato che il fallimento non è l'opposto del successo—è un trampolino di lancio.",
+            description: "Ogni battuta d'arresto è una preparazione per un ritorno. La mia perdita di €150k mi ha insegnato che il fallimento non è l'opposto del successo—è un trampolino di lancio verso di esso.",
             icon: "💪"
           },
           {
             title: "Sinergia IA-Umano",
-            description: "La tecnologia amplifica il potenziale umano. Combinando strumenti IA con coaching personalizzato, possiamo raggiungere risultati senza precedenti.",
+            description: "La tecnologia amplifica il potenziale umano. Combinando strumenti IA con coaching personalizzato, possiamo ottenere risultati senza precedenti nella trasformazione personale e aziendale.",
             icon: "🔗"
           },
           {
@@ -178,7 +235,7 @@ const About = ({ language }) => {
           },
           {
             title: "Apprendimento Continuo",
-            description: "Dall'insegnamento alla gestione immobiliare al coaching IA, credo nell'evolversi e adattarsi costantemente a nuove sfide e opportunità.",
+            description: "Dall'insegnamento alla gestione immobiliare al coaching IA, credo nel costante evolversi e adattarsi a nuove sfide e opportunità.",
             icon: "📈"
           }
         ]
@@ -191,71 +248,90 @@ const About = ({ language }) => {
           { label: "Fatturato Annuale", value: "€150k+", icon: "💰" },
           { label: "Lingue Parlate", value: "4 Fluentemente", icon: "🗣️" },
           { label: "Assistenti IA", value: "12 Attivi", icon: "🤖" },
-          { label: "Anni Esperienza", value: "15+ Internazionali", icon: "📅" },
-          { label: "Industrie Servite", value: "10+ Diverse", icon: "🏢" },
+          { label: "Anni di Esperienza", value: "20+ Internazionali", icon: "📅" },
+          { label: "Settori Serviti", value: "10+ Diversi", icon: "🏢" },
           { label: "Paesi Vissuti", value: "3 (Italia, Francia, Norvegia)", icon: "🌍" }
-        ]
-      },
-      recognition: {
-        title: "Riconoscimenti e Premi",
-        items: [
-          "Top Gun Consulting Maverick Award da Traffic Geyser & Instant Customer",
-          "Follow The Expert: Top Consultant da Mike Koenigs",
-          "Riconoscimento dall'autore bestseller #1 Ed Rush",
-          "Autore bestseller Amazon per 'Imagine Your Dream'",
-          "Presentato come top influencer nell'ospitalità da Repubblica",
-          "Top 10 Host Airbnb nel mondo secondo Incipit Consulting"
         ]
       }
     },
     no: {
       hero: {
         title: "ELIOS HISTORIE",
-        subtitle: "Fra Ydmyke Begynnelser til Internasjonal Suksess",
-        description: "En reise av motstandskraft, innovasjon og transformasjon gjennom tre land og flere bransjer."
+        subtitle: "Fra Sicilia til Verden",
+        description: "En reise av motstandskraft, innovasjon og transformasjon på tvers av tre land og flere bransjer."
       },
       timeline: [
         {
-          year: "2005-2006",
-          title: "Master i Prosjektledelse",
-          location: "Università degli Studi di Milano, Italia",
-          description: "Fullført Master i Prosjektledelse med praksis ved ISTUD business school, la grunnlaget for strategisk tenkning og bedriftsledelse.",
-          icon: "🎓"
+          year: "1978",
+          title: "Født på Sicilia",
+          location: "Italia",
+          description: "Født 1. oktober 1978 på Sicilia, Italia. Vokste opp i en levende middelhavsk kultur som verdsetter familie, hardt arbeid og entreprenørånd.",
+          icon: "👶",
+          image: childhoodPhoto
+        },
+        {
+          year: "1996-2002",
+          title: "Universitetsutdanning",
+          location: "Italia",
+          description: "Tok høyere utdanning i Italia, utviklet et sterkt grunnlag i business og internasjonale relasjoner som ville forme fremtidige karriereveier.",
+          icon: "📚",
+          image: youngElio
         },
         {
           year: "2003-2004",
           title: "Erasmus Utvekslingsprogram",
           location: "Sciences Po Grenoble, Frankrike",
-          description: "Studerte offentlig administrasjon gjennom EUs utvekslingsprogram, utviklet multikulturelle perspektiver og internasjonale nettverksferdigheter.",
-          icon: "🌍"
+          description: "Studerte offentlig administrasjon gjennom Den Europeiske Unions utvekslingsprogram, utviklet multikulturelle perspektiver og internasjonale nettverksferdigheter.",
+          icon: "🌍",
+          image: educationPhoto
+        },
+        {
+          year: "2005-2006",
+          title: "Master i Prosjektledelse",
+          location: "Università degli Studi di Milano, Italia",
+          description: "Fullførte Master i Prosjektledelse med praktikum ved ISTUD handelshøyskole, la grunnlaget for strategisk tenkning og forretningsledelse.",
+          icon: "🎓",
+          image: educationPhoto
         },
         {
           year: "2009-2014",
-          title: "Utdanningsledelse",
+          title: "Pedagogisk Lederskap",
           location: "Italia og Norge",
-          description: "Startet som engelsklærer, utviklet seg til utdanningsledelseskonsulent. Grunnla Mondelio, en ideell organisasjon med 300+ medlemmer.",
-          icon: "📚"
+          description: "Startet som engelsklærer, utviklet seg til pedagogisk ledelseskonsulent. Grunnla Mondelio, en ideell organisasjon med 300+ medlemmer som tilbyr gratis kurs.",
+          icon: "👨‍🏫",
+          image: teachingPhoto
         },
         {
-          year: "2014-Nåtid",
+          year: "2010-2023",
           title: "Eiendomsforvaltningsimperium",
           location: "Italia",
-          description: "Bygget og forvaltet 250+ korttidsutleie annonser, oppnådde topp 3 rangering nasjonalt på Airbnb med €150k+ årlig inntekt.",
-          icon: "🏠"
+          description: "Bygget og forvaltet 250+ korttidsutleie annonser, oppnådde Top 3 rangering nasjonalt på Airbnb-plattformen med €150k+ årlig inntekt.",
+          icon: "🏠",
+          image: airbnbPhoto
         },
         {
           year: "2022-Nåtid",
           title: "AI-Drevet Coaching",
           location: "Global",
-          description: "Lanserte Mondosol coaching-virksomhet, integrerte 12 AI virtuelle assistenter for å gi personlig coaching på 4 språk.",
-          icon: "🤖"
+          description: "Lanserte Mondosol coaching-virksomhet, integrerte 12 AI virtuelle assistenter for å gi personlig coaching på 4 språk på tvers av flere bransjer.",
+          icon: "🤖",
+          image: aiCoachingPhoto
         },
         {
           year: "2023-Nåtid",
-          title: "Norsk Integrasjon",
+          title: "Liv i Norge",
           location: "Hønefoss, Norge",
-          description: "Jobber som barnehagelærer og vikar mens jeg utvider coaching-virksomheten internasjonalt, bygger bro mellom utdanning og entreprenørskap.",
-          icon: "🇳🇴"
+          description: "Jobber som barnehagelærer og vikar mens han utvider coaching-virksomheten internasjonalt, brobygger mellom utdanning og entreprenørskap.",
+          icon: "🇳🇴",
+          image: norwayPhoto
+        },
+        {
+          year: "2025",
+          title: "Digital Transformasjonsspesialist",
+          location: "Norge og Global",
+          description: "Fokuserer på innholdsmarkedsføring, SEO og flerspråklige digitale strategier. Hjelper bedrifter med å transformere gjennom AI-integrasjon og digital innovasjon.",
+          icon: "💻",
+          image: currentPhoto
         }
       ],
       philosophy: {
@@ -264,12 +340,12 @@ const About = ({ language }) => {
         points: [
           {
             title: "Motstandskraft Gjennom Motgang",
-            description: "Hvert tilbakeslag er en oppsetning for et comeback. Mitt €150k tap lærte meg at fiasko ikke er det motsatte av suksess—det er et springbrett til det.",
+            description: "Hvert tilbakeslag er en forberedelse til et comeback. Mitt €150k tap lærte meg at fiasko ikke er det motsatte av suksess—det er et springbrett til det.",
             icon: "💪"
           },
           {
             title: "AI-Menneskelig Synergi",
-            description: "Teknologi forsterker menneskelig potensial. Ved å kombinere AI-verktøy med personlig coaching kan vi oppnå enestående resultater.",
+            description: "Teknologi forsterker menneskelig potensial. Ved å kombinere AI-verktøy med personlig coaching kan vi oppnå enestående resultater i personlig og forretningsmessig transformasjon.",
             icon: "🔗"
           },
           {
@@ -279,7 +355,7 @@ const About = ({ language }) => {
           },
           {
             title: "Kontinuerlig Læring",
-            description: "Fra undervisning til eiendomsforvaltning til AI coaching, tror jeg på å konstant utvikle seg og tilpasse seg nye utfordringer og muligheter.",
+            description: "Fra undervisning til eiendomsforvaltning til AI-coaching, tror jeg på konstant utvikling og tilpasning til nye utfordringer og muligheter.",
             icon: "📈"
           }
         ]
@@ -287,25 +363,14 @@ const About = ({ language }) => {
       achievements: {
         title: "Nøkkelprestasjoner",
         items: [
-          { label: "Topp 3 Airbnb Vert", value: "Italia Nasjonal Rangering", icon: "🏆" },
+          { label: "Top 3 Airbnb Vert", value: "Italia Nasjonal Rangering", icon: "🏆" },
           { label: "Eiendommer Forvaltet", value: "250+ Annonser", icon: "🏠" },
           { label: "Årlig Inntekt", value: "€150k+", icon: "💰" },
           { label: "Språk Snakket", value: "4 Flytende", icon: "🗣️" },
           { label: "AI Assistenter", value: "12 Aktive", icon: "🤖" },
-          { label: "År Erfaring", value: "15+ Internasjonalt", icon: "📅" },
+          { label: "År Erfaring", value: "20+ Internasjonal", icon: "📅" },
           { label: "Bransjer Betjent", value: "10+ Forskjellige", icon: "🏢" },
           { label: "Land Bodd", value: "3 (Italia, Frankrike, Norge)", icon: "🌍" }
-        ]
-      },
-      recognition: {
-        title: "Anerkjennelse og Priser",
-        items: [
-          "Top Gun Consulting Maverick Award av Traffic Geyser & Instant Customer",
-          "Follow The Expert: Top Consultant av Mike Koenigs",
-          "Anerkjennelse av #1 bestselger forfatter Ed Rush",
-          "Amazon bestselger forfatter for 'Imagine Your Dream'",
-          "Omtalt som topp influencer i gjestfrihet av Repubblica",
-          "Topp 10 Airbnb Vert i verden ifølge Incipit Consulting"
         ]
       }
     }
@@ -314,92 +379,71 @@ const About = ({ language }) => {
   const currentContent = content[language]
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-16 bg-black">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              <h1 className="text-5xl md:text-6xl font-bold text-yellow-400 mb-6">
-                {currentContent.hero.title}
-              </h1>
-              <h2 className="text-2xl md:text-3xl text-white mb-6">
-                {currentContent.hero.subtitle}
-              </h2>
-              <p className="text-lg text-gray-400 leading-relaxed">
-                {currentContent.hero.description}
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative"
-            >
-              <div className="relative w-full max-w-md mx-auto">
-                <div className="absolute inset-0 bg-yellow-400 rounded-full blur-3xl opacity-20"></div>
-                <img
-                  src={elioAbout}
-                  alt="Elio Mondello Professional"
-                  className="relative z-10 w-full h-auto rounded-2xl shadow-2xl"
-                />
-              </div>
-            </motion.div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-center"
+          >
+            <h1 className="text-6xl md:text-8xl font-bold text-yellow-400 mb-6">
+              {currentContent.hero.title}
+            </h1>
+            <h2 className="text-3xl md:text-4xl text-white mb-6">
+              {currentContent.hero.subtitle}
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              {currentContent.hero.description}
+            </p>
+          </motion.div>
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="py-20 bg-gray-900">
+      {/* Timeline Section with Images */}
+      <section className="py-20 bg-black">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Professional Journey
-            </h2>
-            <p className="text-xl text-gray-400">
-              Key milestones that shaped my career and expertise
-            </p>
-          </motion.div>
-
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-1 h-full bg-yellow-400/30"></div>
-
+          <div className="space-y-16">
             {currentContent.timeline.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className={`relative flex items-center mb-12 ${
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className={`flex flex-col md:flex-row gap-8 items-center ${
                   index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
                 }`}
               >
-                {/* Timeline Dot */}
-                <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 bg-yellow-400 rounded-full border-4 border-gray-900 z-10"></div>
+                {/* Image */}
+                <div className="w-full md:w-1/2">
+                  <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute top-4 left-4 bg-yellow-400 text-black px-4 py-2 rounded-full font-bold text-lg">
+                      {item.icon} {item.year}
+                    </div>
+                  </div>
+                </div>
 
                 {/* Content */}
-                <div className={`w-full md:w-5/12 ml-16 md:ml-0 ${index % 2 === 0 ? 'md:pr-8' : 'md:pl-8'}`}>
-                  <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-yellow-400/50 transition-all duration-300">
-                    <div className="flex items-center mb-3">
-                      <span className="text-2xl mr-3">{item.icon}</span>
-                      <span className="text-yellow-400 font-semibold">{item.year}</span>
+                <div className="w-full md:w-1/2">
+                  <div className="bg-gradient-to-br from-gray-900 to-black p-8 rounded-2xl border border-yellow-400/20 hover:border-yellow-400/50 transition-all duration-300">
+                    <h3 className="text-3xl font-bold text-yellow-400 mb-3">
+                      {item.title}
+                    </h3>
+                    <div className="flex items-center gap-2 text-gray-400 mb-4">
+                      <MapPin className="w-4 h-4" />
+                      <span>{item.location}</span>
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-                    <div className="flex items-center text-gray-400 mb-3">
-                      <MapPin className="w-4 h-4 mr-2" />
-                      {item.location}
-                    </div>
-                    <p className="text-gray-300 leading-relaxed">{item.description}</p>
+                    <p className="text-gray-300 text-lg leading-relaxed">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
               </motion.div>
@@ -409,17 +453,18 @@ const About = ({ language }) => {
       </section>
 
       {/* Philosophy Section */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-gradient-to-br from-gray-900 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h2 className="text-5xl font-bold text-yellow-400 mb-4">
               {currentContent.philosophy.title}
             </h2>
-            <p className="text-xl text-gray-400 max-w-3xl mx-auto">
+            <p className="text-2xl text-gray-300">
               {currentContent.philosophy.subtitle}
             </p>
           </motion.div>
@@ -430,14 +475,15 @@ const About = ({ language }) => {
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-gray-900 p-8 rounded-xl hover:bg-gray-800 transition-all duration-300 group"
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-black p-8 rounded-2xl border border-yellow-400/20 hover:border-yellow-400/50 transition-all duration-300"
               >
-                <div className="text-4xl mb-4">{point.icon}</div>
-                <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-yellow-400 transition-colors">
+                <div className="text-5xl mb-4">{point.icon}</div>
+                <h3 className="text-2xl font-bold text-yellow-400 mb-3">
                   {point.title}
                 </h3>
-                <p className="text-gray-400 leading-relaxed">
+                <p className="text-gray-300 text-lg leading-relaxed">
                   {point.description}
                 </p>
               </motion.div>
@@ -446,92 +492,36 @@ const About = ({ language }) => {
         </div>
       </section>
 
-      {/* Achievements Section */}
-      <section className="py-20 bg-gray-900">
+      {/* Achievements Grid */}
+      <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
+            viewport={{ once: true }}
+            className="text-5xl font-bold text-yellow-400 text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {currentContent.achievements.title}
-            </h2>
-          </motion.div>
+            {currentContent.achievements.title}
+          </motion.h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {currentContent.achievements.items.map((achievement, index) => (
+            {currentContent.achievements.items.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="text-center p-6 bg-gray-800 rounded-xl hover:bg-gray-700 transition-all duration-300"
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="bg-gradient-to-br from-gray-900 to-black p-6 rounded-xl border border-yellow-400/20 hover:border-yellow-400/50 transition-all duration-300 text-center"
               >
-                <div className="text-3xl mb-3">{achievement.icon}</div>
-                <div className="text-lg font-bold text-yellow-400 mb-2">
-                  {achievement.value}
+                <div className="text-4xl mb-3">{item.icon}</div>
+                <div className="text-2xl font-bold text-yellow-400 mb-2">
+                  {item.value}
                 </div>
-                <div className="text-sm text-gray-400">{achievement.label}</div>
+                <div className="text-sm text-gray-400">{item.label}</div>
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Recognition Section */}
-      <section className="py-20 bg-black">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {currentContent.recognition.title}
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-6">
-            {currentContent.recognition.items.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.1 }}
-                className="flex items-center p-6 bg-gray-900 rounded-xl hover:bg-gray-800 transition-all duration-300"
-              >
-                <Award className="w-6 h-6 text-yellow-400 mr-4 flex-shrink-0" />
-                <p className="text-gray-300">{item}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-yellow-400 to-yellow-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Ready to Write Your Success Story?
-            </h2>
-            <p className="text-xl text-black/80 mb-8 max-w-2xl mx-auto">
-              Let's work together to transform your challenges into opportunities and achieve breakthrough results.
-            </p>
-            <Button 
-              asChild
-              size="lg"
-              className="bg-black text-yellow-400 hover:bg-gray-900 font-semibold text-lg px-12 py-6"
-            >
-              <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                Start Your Transformation
-              </a>
-            </Button>
-          </motion.div>
         </div>
       </section>
     </div>
@@ -539,3 +529,4 @@ const About = ({ language }) => {
 }
 
 export default About
+

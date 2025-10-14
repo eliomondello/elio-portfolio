@@ -4,13 +4,13 @@ import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { motion, AnimatePresence } from 'framer-motion'
 
-// Import all images
-import img1 from '../assets/73f58f9b-1e3f-4484-8811-734a13a7fbc6-IMG_20250709_164428041_HDR_PORTRAIT.jpg'
-import img2 from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
-import img3 from '../assets/IMG_20240611_162138568_HDR.jpg'
-import img4 from '../assets/WIN_20201005_22_30_13_Pro-EDIT.jpg'
-import img5 from '../assets/9164aa45-760b-43cf-98a7-93bb71e291f7.jpg'
-import img6 from '../assets/IMG_20220610_125357490_HDR_PORTRAIT.jpg'
+// Import professional work images
+import img1 from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
+import img2 from '../assets/IMG_20250709_132004267_HDR_PORTRAIT.jpg'
+import img3 from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
+import img4 from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
+import img5 from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
+import img6 from '../assets/IMG_20250707_150302221_HDR_PORTRAIT.jpg'
 
 const Home = ({ language }) => {
   const [currentImage, setCurrentImage] = useState(0)
