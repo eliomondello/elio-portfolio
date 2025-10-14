@@ -250,7 +250,7 @@ const Testimonials = ({ language }) => {
             <h2 className="text-2xl md:text-3xl text-white mb-6">
               {currentContent.hero.subtitle}
             </h2>
-            <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               {currentContent.hero.description}
             </p>
           </motion.div>
@@ -283,7 +283,7 @@ const Testimonials = ({ language }) => {
                 <div className="text-2xl md:text-3xl font-bold text-yellow-400 mb-2">
                   {stat.number}
                 </div>
-                <div className="text-sm text-gray-400">{stat.label}</div>
+                <div className="text-base md:text-lg text-gray-300">{stat.label}</div>
               </motion.div>
             ))}
           </div>
@@ -309,8 +309,8 @@ const Testimonials = ({ language }) => {
                       {testimonial.name.charAt(0)}
                     </div>
                     <div>
-                      <h3 className="text-white font-semibold">{testimonial.name}</h3>
-                      <p className="text-gray-400 text-sm">{testimonial.role}</p>
+                      <h3 className="text-xl font-semibold text-white">{testimonial.name}</h3>
+                      <p className="text-base text-gray-400">{testimonial.role}</p>
                     </div>
                   </div>
                   <div className="flex">
@@ -330,7 +330,7 @@ const Testimonials = ({ language }) => {
                 {/* Quote */}
                 <div className="mb-6">
                   <Quote className="w-6 h-6 text-yellow-400 mb-3" />
-                  <p className="text-gray-300 leading-relaxed italic">
+                  <p className="text-lg md:text-xl text-gray-300 leading-relaxed italic">
                     "{testimonial.quote}"
                   </p>
                 </div>

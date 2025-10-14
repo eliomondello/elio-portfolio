@@ -589,11 +589,11 @@ const Services = ({ language }) => {
                 >
                   <div className="flex items-center mb-4">
                     <span className="text-3xl mr-4">{item.icon}</span>
-                    <h3 className="text-xl font-bold text-white group-hover:text-yellow-400 transition-colors">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white group-hover:text-yellow-400 transition-colors">
                       {item.title}
                     </h3>
                   </div>
-                  <p className="text-gray-400 leading-relaxed">
+                  <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
                     {item.description}
                   </p>
                 </motion.div>

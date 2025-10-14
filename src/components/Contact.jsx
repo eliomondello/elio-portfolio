@@ -506,7 +506,7 @@ const Contact = ({ language }) => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-gray-400">
+            <p className="text-xl md:text-2xl text-gray-300">
               Common questions about my services and approach
             </p>
           </motion.div>
@@ -541,10 +541,10 @@ const Contact = ({ language }) => {
                 transition={{ delay: index * 0.1 }}
                 className="bg-gray-800 p-6 rounded-xl"
               >
-                <h3 className="text-xl font-semibold text-white mb-3">
+                <h3 className="text-2xl md:text-3xl font-semibold text-white mb-4">
                   {faq.question}
                 </h3>
-                <p className="text-gray-400 leading-relaxed">
+                <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
                   {faq.answer}
                 </p>
               </motion.div>

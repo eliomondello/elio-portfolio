@@ -145,11 +145,11 @@ const About = ({ language }) => {
       timeline: [
         {
           year: "1978",
-          title: "Nato in Sicilia",
-          location: "Italia",
-          description: "Nato il 1° ottobre 1978 in Sicilia, Italia. Cresciuto in una vibrante cultura mediterranea che valorizza la famiglia, il duro lavoro e lo spirito imprenditoriale.",
+          title: "Nato ad Abbiategrasso",
+          location: "Milano, Italia",
+          description: "Nato il 1° ottobre 1978 ad Abbiategrasso, Milano, Italia. Cresciuto in una vibrante cultura italiana che valorizza la famiglia, il duro lavoro e lo spirito imprenditoriale.",
           icon: "👶",
-          image: childhoodPhoto
+          image: babyPhoto
         },
         {
           year: "1996-2002",
@@ -157,7 +157,7 @@ const About = ({ language }) => {
           location: "Italia",
           description: "Ha perseguito l'istruzione superiore in Italia, sviluppando una solida base in business e relazioni internazionali che avrebbe plasmato i futuri percorsi di carriera.",
           icon: "📚",
-          image: youngElio
+          image: universityPhoto
         },
         {
           year: "2003-2004",
@@ -165,7 +165,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, Francia",
           description: "Ha studiato Amministrazione Pubblica attraverso il Programma di Scambio dell'Unione Europea, sviluppando prospettive multiculturali e competenze di networking internazionale.",
           icon: "🌍",
-          image: educationPhoto
+          image: childhoodWithSister
         },
         {
           year: "2005-2006",
@@ -173,7 +173,7 @@ const About = ({ language }) => {
           location: "Università degli Studi di Milano, Italia",
           description: "Ha completato il Master in Project Management con stage presso la business school ISTUD, ponendo le basi per il pensiero strategico e la leadership aziendale.",
           icon: "🎓",
-          image: educationPhoto
+          image: masterPhoto
         },
         {
           year: "2009-2014",
@@ -265,11 +265,11 @@ const About = ({ language }) => {
       timeline: [
         {
           year: "1978",
-          title: "Født på Sicilia",
-          location: "Italia",
-          description: "Født 1. oktober 1978 på Sicilia, Italia. Vokste opp i en levende middelhavsk kultur som verdsetter familie, hardt arbeid og entreprenørånd.",
+          title: "Født i Abbiategrasso",
+          location: "Milano, Italia",
+          description: "Født 1. oktober 1978 i Abbiategrasso, Milano, Italia. Vokste opp i en levende italiensk kultur som verdsetter familie, hardt arbeid og entreprenørånd.",
           icon: "👶",
-          image: childhoodPhoto
+          image: babyPhoto
         },
         {
           year: "1996-2002",
@@ -277,7 +277,7 @@ const About = ({ language }) => {
           location: "Italia",
           description: "Tok høyere utdanning i Italia, utviklet et sterkt grunnlag i business og internasjonale relasjoner som ville forme fremtidige karriereveier.",
           icon: "📚",
-          image: youngElio
+          image: universityPhoto
         },
         {
           year: "2003-2004",
@@ -285,7 +285,7 @@ const About = ({ language }) => {
           location: "Sciences Po Grenoble, Frankrike",
           description: "Studerte offentlig administrasjon gjennom Den Europeiske Unions utvekslingsprogram, utviklet multikulturelle perspektiver og internasjonale nettverksferdigheter.",
           icon: "🌍",
-          image: educationPhoto
+          image: childhoodWithSister
         },
         {
           year: "2005-2006",
@@ -293,7 +293,7 @@ const About = ({ language }) => {
           location: "Università degli Studi di Milano, Italia",
           description: "Fullførte Master i Prosjektledelse med praktikum ved ISTUD handelshøyskole, la grunnlaget for strategisk tenkning og forretningsledelse.",
           icon: "🎓",
-          image: educationPhoto
+          image: masterPhoto
         },
         {
           year: "2009-2014",
