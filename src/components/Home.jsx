@@ -126,9 +126,8 @@ const Home = ({ language }) => {
               
               <Button 
                 asChild
-                variant="outline"
                 size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-black font-bold text-lg px-8 py-6"
+                className="bg-white text-black hover:bg-gray-200 font-bold text-lg px-8 py-6"
               >
                 <Link to="/contact">
                   {currentContent.cta.secondary}
