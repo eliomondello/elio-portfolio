@@ -73,6 +73,27 @@ const Services = ({ language }) => {
           ],
           pricing: "€150-300 per session",
           duration: "Flexible scheduling"
+        },
+        {
+          title: "Educational Services & Teaching",
+          icon: "📚",
+          description: "Multilingual teaching and educational support for kindergartens, elementary schools, middle schools, and high schools. Specialized in language instruction and student engagement.",
+          features: [
+            "Multilingual teaching (Italian, English, Norwegian, French)",
+            "Kindergarten and primary education",
+            "Middle and high school instruction",
+            "Special needs support and adaptation",
+            "Curriculum development assistance",
+            "Student engagement strategies"
+          ],
+          benefits: [
+            "Enhance student learning outcomes",
+            "Provide multilingual instruction",
+            "Support diverse learning needs",
+            "Bring international perspective to classroom"
+          ],
+          pricing: "Competitive hourly rates",
+          duration: "Flexible contracts and substitutions"
         }
       ],
       packages: {
@@ -192,6 +213,92 @@ const Services = ({ language }) => {
         subtitle: "Trasforma il Tuo Business con Soluzioni Potenziate dall'IA",
         description: "Servizi completi di coaching e consulenza progettati per sbloccare il tuo potenziale e accelerare il tuo successo in molteplici domini."
       },
+      services: [
+        {
+          title: "Consulenza Gestione Immobiliare",
+          icon: "🏠",
+          description: "Consulenza strategica per massimizzare il reddito da locazione, ottimizzare le operazioni e trasformare i portafogli immobiliari utilizzando insights basati sui dati e tecnologie IA.",
+          features: [
+            "Strategie di ottimizzazione dei ricavi",
+            "Miglioramenti dell'efficienza operativa",
+            "Analisi e insights potenziati dall'IA",
+            "Analisi di mercato e posizionamento",
+            "Miglioramento dell'esperienza degli ospiti",
+            "Gestione automatizzata delle prenotazioni"
+          ],
+          benefits: [
+            "Aumenta il reddito da locazione del 40-60%",
+            "Riduci i costi operativi del 30%",
+            "Ottieni punteggi di soddisfazione degli ospiti più elevati",
+            "Semplifica i processi di gestione immobiliare"
+          ],
+          pricing: "Prezzi personalizzati in base alla dimensione del portafoglio",
+          duration: "Impegno di 3-6 mesi"
+        },
+        {
+          title: "Soluzioni di Marketing Digitale",
+          icon: "🚀",
+          description: "Strategie di marketing digitale complete incluso sviluppo siti WordPress, ottimizzazione SEO e soluzioni di marketing potenziate dall'IA per le aziende.",
+          features: [
+            "Sviluppo siti web WordPress",
+            "Ottimizzazione e strategia SEO",
+            "Creazione contenuti potenziata dall'IA",
+            "Marketing sui social media",
+            "Analisi e monitoraggio delle prestazioni",
+            "Ottimizzazione del tasso di conversione"
+          ],
+          benefits: [
+            "Aumenta la visibilità online del 200%+",
+            "Genera più lead qualificati",
+            "Migliora il posizionamento sui motori di ricerca",
+            "Costruisci una forte presenza digitale"
+          ],
+          pricing: "A partire da €2.500",
+          duration: "Tempistiche progetto 2-4 mesi"
+        },
+        {
+          title: "Coaching Multilingue",
+          icon: "🗣️",
+          description: "Coaching personalizzato in italiano, inglese, norvegese e francese. Aiutare aziende e individui a sbloccare il loro potenziale attraverso guida su misura e insights culturali.",
+          features: [
+            "Formazione sulla comunicazione interculturale",
+            "Accelerazione dell'apprendimento linguistico",
+            "Etichetta aziendale internazionale",
+            "Strategie di adattamento culturale",
+            "Competenze di presentazione professionale",
+            "Tecniche di networking globale"
+          ],
+          benefits: [
+            "Espanditi nei mercati internazionali",
+            "Migliora la comunicazione interculturale",
+            "Costruisci reti professionali globali",
+            "Aumenta la competenza culturale"
+          ],
+          pricing: "€150-300 per sessione",
+          duration: "Programmazione flessibile"
+        },
+        {
+          title: "Servizi Educativi e Insegnamento",
+          icon: "📚",
+          description: "Insegnamento multilingue e supporto educativo per asili, scuole elementari, medie e superiori. Specializzato nell'insegnamento delle lingue e nel coinvolgimento degli studenti.",
+          features: [
+            "Insegnamento multilingue (italiano, inglese, norvegese, francese)",
+            "Educazione per asili e scuole primarie",
+            "Istruzione per scuole medie e superiori",
+            "Supporto e adattamento per bisogni speciali",
+            "Assistenza nello sviluppo del curriculum",
+            "Strategie di coinvolgimento degli studenti"
+          ],
+          benefits: [
+            "Migliora i risultati di apprendimento degli studenti",
+            "Fornisci istruzione multilingue",
+            "Supporta esigenze di apprendimento diverse",
+            "Porta prospettiva internazionale in classe"
+          ],
+          pricing: "Tariffe orarie competitive",
+          duration: "Contratti flessibili e sostituzioni"
+        }
+      ],
       packages: {
         title: "Pacchetti Coaching",
         subtitle: "Scegli il pacchetto perfetto per il tuo percorso di trasformazione",
@@ -255,6 +362,92 @@ const Services = ({ language }) => {
         subtitle: "Transformer Din Virksomhet med AI-Drevne Løsninger",
         description: "Omfattende coaching- og konsulenttjenester designet for å låse opp ditt potensial og akselerere din suksess på tvers av flere domener."
       },
+      services: [
+        {
+          title: "Eiendomsforvaltningskonsultasjon",
+          icon: "🏠",
+          description: "Strategisk konsultasjon for å maksimere leieinntekter, optimalisere drift og transformere eiendomsporteføljer ved hjelp av datadrevne innsikter og AI-teknologier.",
+          features: [
+            "Inntektsoptimaliseringsstrategier",
+            "Forbedringer av operasjonell effektivitet",
+            "AI-drevet analyse og innsikt",
+            "Markedsanalyse og posisjonering",
+            "Forbedring av gjesteopplevelse",
+            "Automatisert bookingstyring"
+          ],
+          benefits: [
+            "Øk leieinntekter med 40-60%",
+            "Reduser driftskostnader med 30%",
+            "Oppnå høyere gjestetilfredshetsscore",
+            "Effektiviser eiendomsforvaltningsprosesser"
+          ],
+          pricing: "Tilpasset prising basert på porteføljestrørrelse",
+          duration: "3-6 måneders engasjement"
+        },
+        {
+          title: "Digitale Markedsføringsløsninger",
+          icon: "🚀",
+          description: "Omfattende digitale markedsføringsstrategier inkludert WordPress nettstedsutvikling, SEO-optimalisering og AI-drevne markedsføringsløsninger for bedrifter.",
+          features: [
+            "WordPress nettstedsutvikling",
+            "SEO-optimalisering og strategi",
+            "AI-drevet innholdsproduksjon",
+            "Markedsføring på sosiale medier",
+            "Analyse og ytelsesmåling",
+            "Konverteringsrateoptimalisering"
+          ],
+          benefits: [
+            "Øk online synlighet med 200%+",
+            "Generer flere kvalifiserte leads",
+            "Forbedre søkemotorrangeringer",
+            "Bygg sterk digital tilstedeværelse"
+          ],
+          pricing: "Fra €2.500",
+          duration: "2-4 måneders prosjekttidslinje"
+        },
+        {
+          title: "Flerspåklig Coaching",
+          icon: "🗣️",
+          description: "Personlig coaching på italiensk, engelsk, norsk og fransk. Hjelper bedrifter og enkeltpersoner med å låse opp sitt potensial gjennom skreddersydd veiledning og kulturelle innsikter.",
+          features: [
+            "Tverrkulturell kommunikasjonstrening",
+            "Språklæringsakselerasjon",
+            "Internasjonal forretningsetikette",
+            "Kulturelle tilpasningsstrategier",
+            "Profesjonelle presentasjonsferdigheter",
+            "Globale nettverksteknikker"
+          ],
+          benefits: [
+            "Ekspander til internasjonale markeder",
+            "Forbedre tverrkulturell kommunikasjon",
+            "Bygg globale profesjonelle nettverk",
+            "Øk kulturell kompetanse"
+          ],
+          pricing: "€150-300 per økt",
+          duration: "Fleksibel planlegging"
+        },
+        {
+          title: "Pedagogiske Tjenester og Undervisning",
+          icon: "📚",
+          description: "Flerspåklig undervisning og pedagogisk støtte for barnehager, barneskoler, ungdomsskoler og videregående skoler. Spesialisert i språkundervisning og elevengasjement.",
+          features: [
+            "Flerspåklig undervisning (italiensk, engelsk, norsk, fransk)",
+            "Barnehage og grunnskoleutdanning",
+            "Ungdomsskole og videregående undervisning",
+            "Spesialbehovsstøtte og tilpasning",
+            "Hjelp med læreplansutvikling",
+            "Elevengasjementsstrategier"
+          ],
+          benefits: [
+            "Forbedre elevenes læringsresultater",
+            "Tilby flerspåklig undervisning",
+            "Støtte ulike læringsbehov",
+            "Bring internasjonalt perspektiv til klasserommet"
+          ],
+          pricing: "Konkurransedyktige timepriser",
+          duration: "Fleksible kontrakter og vikariater"
+        }
+      ],
       packages: {
         title: "Coaching Pakker",
         subtitle: "Velg den perfekte pakken for din transformasjonsreise",

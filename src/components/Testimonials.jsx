@@ -397,7 +397,7 @@ const Testimonials = ({ language }) => {
                 </div>
               </div>
               <p className="text-lg italic">
-                "Every setback is a setup for a comeback. Let me help you write your success story."
+                "Every challenge is an opportunity for growth. Let me help you write your success story."
               </p>
             </div>
           </motion.div>

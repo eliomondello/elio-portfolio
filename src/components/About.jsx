@@ -19,7 +19,7 @@ const About = ({ language }) => {
       hero: {
         title: "ELIO'S STORY",
         subtitle: "From Abbiategrasso to the World",
-        description: "A journey of resilience, innovation, and transformation across three countries and multiple industries."
+        description: "A journey of resilience, innovation, and transformation across six countries and multiple industries."
       },
       timeline: [
         {
@@ -71,7 +71,7 @@ const About = ({ language }) => {
           image: airbnbPhoto
         },
         {
-          year: "2022-Present",
+          year: "Since 2022",
           title: "AI-Powered Coaching",
           location: "Global",
           description: "Launched Mondosol coaching business, integrating 12 AI virtual assistants to provide personalized coaching in 4 languages across multiple industries.",
@@ -79,7 +79,7 @@ const About = ({ language }) => {
           image: aiCoachingPhoto
         },
         {
-          year: "2023-Present",
+          year: "Since 2023",
           title: "Life in Norway",
           location: "Hønefoss, Norway",
           description: "Working as Kindergarten Teacher and Substitute Teacher while expanding coaching business internationally, bridging education and entrepreneurship.",
@@ -111,7 +111,7 @@ const About = ({ language }) => {
           },
           {
             title: "Multicultural Advantage",
-            description: "Speaking 4 languages and living in 3 countries has taught me that diversity of perspective is the key to innovative solutions and global success.",
+            description: "Speaking 4 languages and living in 6 countries has taught me that diversity of perspective is the key to innovative solutions and global success.",
             icon: "🌐"
           },
           {
@@ -191,15 +191,15 @@ const About = ({ language }) => {
           image: airbnbPhoto
         },
         {
-          year: "2022-Presente",
-          title: "Coaching Potenziato da IA",
+          year: "Dal 2022",
+          title: "Coaching con l'Intelligenza Artificiale",
           location: "Globale",
           description: "Ha lanciato il business di coaching Mondosol, integrando 12 assistenti virtuali IA per fornire coaching personalizzato in 4 lingue attraverso molteplici settori.",
           icon: "🤖",
           image: aiCoachingPhoto
         },
         {
-          year: "2023-Presente",
+          year: "Dal 2023",
           title: "Vita in Norvegia",
           location: "Hønefoss, Norvegia",
           description: "Lavora come insegnante di scuola materna e supplente mentre espande il business di coaching a livello internazionale, collegando educazione e imprenditorialità.",
@@ -311,7 +311,7 @@ const About = ({ language }) => {
           image: airbnbPhoto
         },
         {
-          year: "2022-Nåtid",
+          year: "Fra 2022",
           title: "AI-Drevet Coaching",
           location: "Global",
           description: "Lanserte Mondosol coaching-virksomhet, integrerte 12 AI virtuelle assistenter for å gi personlig coaching på 4 språk på tvers av flere bransjer.",
@@ -319,7 +319,7 @@ const About = ({ language }) => {
           image: aiCoachingPhoto
         },
         {
-          year: "2023-Nåtid",
+          year: "Fra 2023",
           title: "Liv i Norge",
           location: "Hønefoss, Norge",
           description: "Jobber som barnehagelærer og vikar mens han utvider coaching-virksomheten internasjonalt, brobygger mellom utdanning og entreprenørskap.",
@@ -351,7 +351,7 @@ const About = ({ language }) => {
           },
           {
             title: "Multikulturell Fordel",
-            description: "Å snakke 4 språk og bo i 3 land har lært meg at mangfold av perspektiv er nøkkelen til innovative løsninger og global suksess.",
+            description: "Å snakke 4 språk og bo i 6 land har lært meg at mangfold av perspektiv er nøkkelen til innovative løsninger og global suksess.",
             icon: "🌐"
           },
           {

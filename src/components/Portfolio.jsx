@@ -8,22 +8,60 @@ const Portfolio = ({ language }) => {
       hero: {
         title: "PORTFOLIO",
         subtitle: "Proven Results Across Multiple Industries",
-        description: "From property management to digital transformation, explore the projects that showcase my expertise and the tangible results achieved for clients."
+        description: "From digital marketing to education, explore the projects that showcase my expertise and the tangible results achieved for clients."
       },
       projects: [
         {
-          title: "Airbnb Management Empire",
-          category: "Property Management",
-          description: "Built and managed 250+ short-term rental listings across Italy, achieving Top 3 national ranking on Airbnb platform.",
+          title: "Digital Marketing & Content Creation",
+          category: "Marketing & SEO",
+          description: "Developed comprehensive digital strategies for 50+ businesses across multiple industries, focusing on content creation, SEO optimization, and WordPress development.",
+          results: [
+            "50+ businesses transformed digitally",
+            "Content strategy and copywriting services",
+            "SEO rankings improved dramatically",
+            "Custom WordPress solutions delivered"
+          ],
+          metrics: {
+            clients: "50+",
+            industries: "10+",
+            growth: "200%+",
+            satisfaction: "98%"
+          },
+          image: "digital",
+          technologies: ["Copywriting", "SEO/GEO", "WordPress", "Content Strategy", "Multilingual Content"]
+        },
+        {
+          title: "Educational Leadership & Teaching",
+          category: "Education & Training",
+          description: "Extensive teaching experience across kindergartens, elementary schools, middle schools, and high schools in Italy and Norway. Specialized in multilingual education and AI integration.",
+          results: [
+            "15+ educational institutions served",
+            "300+ students taught across all levels",
+            "Multilingual teaching (Italian, English, Norwegian, French)",
+            "AI integration in educational settings"
+          ],
+          metrics: {
+            institutions: "15+",
+            students: "300+",
+            countries: "3",
+            years: "14+"
+          },
+          image: "education",
+          technologies: ["Multilingual Teaching", "AI Integration", "Curriculum Development", "Student Engagement"]
+        },
+        {
+          title: "Property Management Success",
+          category: "Business Management",
+          description: "Built and managed 200+ short-term rental properties across Italy, achieving Top 3 national ranking on Airbnb platform according to Confederalberghi analysis.",
           results: [
             "€150k+ annual revenue generated",
-            "Top 3 national ranking in Italy",
-            "250+ properties successfully managed",
-            "Industry recognition as top influencer"
+            "Top 3 national ranking in Italy (Confederalberghi)",
+            "200+ properties successfully managed",
+            "Industry recognition as leading manager"
           ],
           metrics: {
             revenue: "€150k+",
-            properties: "250+",
+            properties: "200+",
             ranking: "Top 3",
             years: "10+"
           },
@@ -31,162 +69,61 @@ const Portfolio = ({ language }) => {
           technologies: ["Data Analytics", "Revenue Optimization", "Customer Service", "Market Analysis"]
         },
         {
-          title: "Digital Marketing Transformation",
-          category: "Digital Solutions",
-          description: "Developed comprehensive digital strategies for 50+ businesses across multiple industries, focusing on WordPress development and SEO optimization.",
+          title: "Web Development & Digital Solutions",
+          category: "Technical Development",
+          description: "Created modern, responsive websites for local businesses and healthcare practices, delivering measurable growth in bookings and patient acquisition.",
           results: [
-            "50+ businesses transformed digitally",
-            "Significant increase in online presence",
-            "Custom WordPress solutions delivered",
-            "SEO rankings improved dramatically"
+            "Pet sitting service: 200% increase in bookings",
+            "Physiotherapy clinic: 40% increase in new patients",
+            "Bilingual/multilingual website solutions",
+            "AI-powered booking and appointment systems"
           ],
           metrics: {
-            clients: "50+",
-            industries: "10+",
-            growth: "200%+",
-            satisfaction: "98%"
+            projects: "10+",
+            languages: "4",
+            avgGrowth: "+170%",
+            satisfaction: "100%"
           },
-          image: "digital",
-          technologies: ["WordPress", "SEO", "Digital Marketing", "AI Integration"]
-        },
-        {
-          title: "Educational Leadership Consulting",
-          category: "Education & Training",
-          description: "Consulted and transformed educational institutions through AI integration and strategic coaching across Italy and Norway.",
-          results: [
-            "15+ educational institutions served",
-            "AI integration successfully implemented",
-            "Teacher training programs developed",
-            "International education standards achieved"
-          ],
-          metrics: {
-            institutions: "15+",
-            teachers: "300+",
-            countries: "3",
-            years: "14+"
-          },
-          image: "education",
-          technologies: ["AI Integration", "Curriculum Development", "Teacher Training", "Strategic Planning"]
-        },
-        {
-          title: "Pet Sitter Website Development",
-          category: "Local Business Growth",
-          description: "Modern website upgrade for Eugenio's pet sitting service in Milan, resulting in significant business growth and online visibility.",
-          results: [
-            "200% increase in bookings",
-            "Modern bilingual website (Italian/English)",
-            "Enhanced online presence",
-            "Streamlined booking process"
-          ],
-          metrics: {
-            bookings: "+200%",
-            languages: "2",
-            visibility: "+150%",
-            conversion: "+180%"
-          },
-          image: "petsitter",
-          technologies: ["WordPress", "Multilingual SEO", "Booking System", "Local Marketing"]
-        },
-        {
-          title: "Physiotherapy Clinic Digital Makeover",
-          category: "Healthcare Digital Transformation",
-          description: "Complete digital transformation for healthcare practice using AI and digital solutions to improve patient experience and operational efficiency.",
-          results: [
-            "40% increase in new patients",
-            "65% reduction in no-shows",
-            "AI-powered appointment system",
-            "Enhanced patient communication"
-          ],
-          metrics: {
-            patients: "+40%",
-            efficiency: "+65%",
-            satisfaction: "95%",
-            automation: "80%"
-          },
-          image: "healthcare",
-          technologies: ["AI Automation", "Patient Management", "Digital Health", "Communication Systems"]
+          image: "webdev",
+          technologies: ["WordPress", "Multilingual SEO", "Booking Systems", "AI Integration"]
         },
         {
           title: "Mondosol Coaching Platform",
-          category: "AI-Powered Coaching",
-          description: "Built comprehensive coaching platform integrating 12 AI virtual assistants to provide personalized coaching in 4 languages.",
+          category: "AI Innovation",
+          description: "Founded and developed Mondosol, an AI-powered multilingual coaching platform with 12 specialized virtual assistants serving clients in 4 languages.",
           results: [
-            "12 AI assistants successfully integrated",
-            "Multilingual coaching in 4 languages",
-            "Personalized transformation programs",
-            "Global client base established"
+            "12 AI virtual assistants created",
+            "4 languages supported (EN, IT, NO, FR)",
+            "Global client base established",
+            "Innovative AI coaching methodology"
           ],
           metrics: {
             assistants: "12",
             languages: "4",
-            clients: "100+",
-            success: "92%"
+            clients: "50+",
+            countries: "25+"
           },
-          image: "coaching",
-          technologies: ["AI Integration", "Machine Learning", "Multilingual NLP", "Coaching Methodologies"]
+          image: "mondosol",
+          technologies: ["AI Development", "Multilingual NLP", "Coaching Methodology", "Platform Development"]
         }
-      ],
-      skills: {
-        title: "Core Competencies",
-        categories: [
-          {
-            name: "Property Management",
-            skills: ["Revenue Optimization", "Market Analysis", "Customer Service", "Operations Management"],
-            level: 95
-          },
-          {
-            name: "Digital Marketing",
-            skills: ["WordPress Development", "SEO Optimization", "Content Strategy", "Analytics"],
-            level: 90
-          },
-          {
-            name: "AI Integration",
-            skills: ["Machine Learning", "Automation", "Data Analysis", "Process Optimization"],
-            level: 88
-          },
-          {
-            name: "Multilingual Coaching",
-            skills: ["Cross-cultural Communication", "Language Training", "Personal Development", "Business Coaching"],
-            level: 92
-          }
-        ]
-      }
+      ]
     },
     it: {
       hero: {
         title: "PORTFOLIO",
         subtitle: "Risultati Comprovati in Molteplici Settori",
-        description: "Dalla gestione immobiliare alla trasformazione digitale, esplora i progetti che dimostrano la mia competenza e i risultati tangibili ottenuti per i clienti."
+        description: "Dal marketing digitale all'educazione, esplora i progetti che mostrano la mia esperienza e i risultati tangibili ottenuti per i clienti."
       },
       projects: [
         {
-          title: "Impero Gestione Airbnb",
-          category: "Gestione Immobiliare",
-          description: "Costruito e gestito 250+ annunci di affitti brevi in tutta Italia, raggiungendo il Top 3 della classifica nazionale su Airbnb.",
-          results: [
-            "€150k+ di fatturato annuale generato",
-            "Top 3 classifica nazionale in Italia",
-            "250+ proprietà gestite con successo",
-            "Riconoscimento come top influencer del settore"
-          ],
-          metrics: {
-            revenue: "€150k+",
-            properties: "250+",
-            ranking: "Top 3",
-            years: "10+"
-          },
-          image: "property",
-          technologies: ["Analisi Dati", "Ottimizzazione Ricavi", "Servizio Clienti", "Analisi di Mercato"]
-        },
-        {
-          title: "Trasformazione Marketing Digitale",
-          category: "Soluzioni Digitali",
-          description: "Sviluppato strategie digitali complete per 50+ aziende in molteplici settori, concentrandosi su sviluppo WordPress e ottimizzazione SEO.",
+          title: "Marketing Digitale e Creazione Contenuti",
+          category: "Marketing e SEO",
+          description: "Sviluppato strategie digitali complete per oltre 50 aziende in molteplici settori, concentrandosi su creazione contenuti, ottimizzazione SEO e sviluppo WordPress.",
           results: [
             "50+ aziende trasformate digitalmente",
-            "Significativo aumento della presenza online",
-            "Soluzioni WordPress personalizzate consegnate",
-            "Ranking SEO migliorati drasticamente"
+            "Strategia contenuti e servizi di copywriting",
+            "Posizionamento SEO migliorato drasticamente",
+            "Soluzioni WordPress personalizzate consegnate"
           ],
           metrics: {
             clients: "50+",
@@ -195,431 +132,290 @@ const Portfolio = ({ language }) => {
             satisfaction: "98%"
           },
           image: "digital",
-          technologies: ["WordPress", "SEO", "Marketing Digitale", "Integrazione IA"]
+          technologies: ["Copywriting", "SEO/GEO", "WordPress", "Strategia Contenuti", "Contenuti Multilingue"]
         },
         {
-          title: "Consulenza Leadership Educativa",
+          title: "Leadership Educativa e Insegnamento",
           category: "Educazione e Formazione",
-          description: "Consulenza e trasformazione di istituzioni educative attraverso l'integrazione dell'IA e coaching strategico in Italia e Norvegia.",
+          description: "Vasta esperienza di insegnamento in asili, scuole elementari, medie e superiori in Italia e Norvegia. Specializzato in educazione multilingue e integrazione AI.",
           results: [
             "15+ istituzioni educative servite",
-            "Integrazione IA implementata con successo",
-            "Programmi di formazione insegnanti sviluppati",
-            "Standard educativi internazionali raggiunti"
+            "300+ studenti insegnati a tutti i livelli",
+            "Insegnamento multilingue (italiano, inglese, norvegese, francese)",
+            "Integrazione AI in contesti educativi"
           ],
           metrics: {
             institutions: "15+",
-            teachers: "300+",
+            students: "300+",
             countries: "3",
             years: "14+"
           },
           image: "education",
-          technologies: ["Integrazione IA", "Sviluppo Curriculum", "Formazione Insegnanti", "Pianificazione Strategica"]
+          technologies: ["Insegnamento Multilingue", "Integrazione AI", "Sviluppo Curriculum", "Coinvolgimento Studenti"]
         },
         {
-          title: "Sviluppo Sito Web Pet Sitter",
-          category: "Crescita Business Locale",
-          description: "Aggiornamento sito web moderno per il servizio di pet sitting di Eugenio a Milano, con significativa crescita del business e visibilità online.",
+          title: "Successo nella Gestione Immobiliare",
+          category: "Gestione Aziendale",
+          description: "Costruito e gestito oltre 200 proprietà in affitto breve in Italia, raggiungendo il Top 3 nazionale sulla piattaforma Airbnb secondo l'analisi di Confederalberghi.",
           results: [
-            "200% aumento prenotazioni",
-            "Sito web bilingue moderno (Italiano/Inglese)",
-            "Presenza online migliorata",
-            "Processo di prenotazione semplificato"
+            "€150k+ fatturato annuale generato",
+            "Top 3 classifica nazionale in Italia (Confederalberghi)",
+            "200+ proprietà gestite con successo",
+            "Riconoscimento del settore come manager leader"
           ],
           metrics: {
-            bookings: "+200%",
-            languages: "2",
-            visibility: "+150%",
-            conversion: "+180%"
+            revenue: "€150k+",
+            properties: "200+",
+            ranking: "Top 3",
+            years: "10+"
           },
-          image: "petsitter",
-          technologies: ["WordPress", "SEO Multilingue", "Sistema Prenotazioni", "Marketing Locale"]
+          image: "property",
+          technologies: ["Analisi Dati", "Ottimizzazione Ricavi", "Servizio Clienti", "Analisi Mercato"]
         },
         {
-          title: "Rinnovamento Digitale Clinica Fisioterapia",
-          category: "Trasformazione Digitale Sanitaria",
-          description: "Trasformazione digitale completa per studio sanitario utilizzando IA e soluzioni digitali per migliorare l'esperienza del paziente e l'efficienza operativa.",
+          title: "Sviluppo Web e Soluzioni Digitali",
+          category: "Sviluppo Tecnico",
+          description: "Creato siti web moderni e responsive per aziende locali e studi sanitari, fornendo crescita misurabile in prenotazioni e acquisizione pazienti.",
           results: [
-            "40% aumento nuovi pazienti",
-            "65% riduzione mancate presentazioni",
-            "Sistema appuntamenti con IA",
-            "Comunicazione pazienti migliorata"
+            "Servizio pet sitting: aumento del 200% nelle prenotazioni",
+            "Clinica fisioterapia: aumento del 40% nuovi pazienti",
+            "Soluzioni siti web bilingue/multilingue",
+            "Sistemi di prenotazione e appuntamenti con AI"
           ],
           metrics: {
-            patients: "+40%",
-            efficiency: "+65%",
-            satisfaction: "95%",
-            automation: "80%"
+            projects: "10+",
+            languages: "4",
+            avgGrowth: "+170%",
+            satisfaction: "100%"
           },
-          image: "healthcare",
-          technologies: ["Automazione IA", "Gestione Pazienti", "Salute Digitale", "Sistemi Comunicazione"]
+          image: "webdev",
+          technologies: ["WordPress", "SEO Multilingue", "Sistemi Prenotazione", "Integrazione AI"]
         },
         {
-          title: "Piattaforma Coaching Mondosol",
-          category: "Coaching Potenziato da IA",
-          description: "Costruita piattaforma di coaching completa integrando 12 assistenti virtuali IA per fornire coaching personalizzato in 4 lingue.",
+          title: "Piattaforma di Coaching Mondosol",
+          category: "Innovazione AI",
+          description: "Fondato e sviluppato Mondosol, una piattaforma di coaching multilingue potenziata dall'AI con 12 assistenti virtuali specializzati che servono clienti in 4 lingue.",
           results: [
-            "12 assistenti IA integrati con successo",
-            "Coaching multilingue in 4 lingue",
-            "Programmi di trasformazione personalizzati",
-            "Base clienti globale stabilita"
+            "12 assistenti virtuali AI creati",
+            "4 lingue supportate (EN, IT, NO, FR)",
+            "Base clienti globale stabilita",
+            "Metodologia di coaching AI innovativa"
           ],
           metrics: {
             assistants: "12",
             languages: "4",
-            clients: "100+",
-            success: "92%"
+            clients: "50+",
+            countries: "25+"
           },
-          image: "coaching",
-          technologies: ["Integrazione IA", "Machine Learning", "NLP Multilingue", "Metodologie Coaching"]
+          image: "mondosol",
+          technologies: ["Sviluppo AI", "NLP Multilingue", "Metodologia Coaching", "Sviluppo Piattaforma"]
         }
-      ],
-      skills: {
-        title: "Competenze Principali",
-        categories: [
-          {
-            name: "Gestione Immobiliare",
-            skills: ["Ottimizzazione Ricavi", "Analisi di Mercato", "Servizio Clienti", "Gestione Operazioni"],
-            level: 95
-          },
-          {
-            name: "Marketing Digitale",
-            skills: ["Sviluppo WordPress", "Ottimizzazione SEO", "Strategia Contenuti", "Analytics"],
-            level: 90
-          },
-          {
-            name: "Integrazione IA",
-            skills: ["Machine Learning", "Automazione", "Analisi Dati", "Ottimizzazione Processi"],
-            level: 88
-          },
-          {
-            name: "Coaching Multilingue",
-            skills: ["Comunicazione Interculturale", "Formazione Linguistica", "Sviluppo Personale", "Business Coaching"],
-            level: 92
-          }
-        ]
-      }
+      ]
     },
     no: {
       hero: {
-        title: "PORTFOLIO",
+        title: "PORTEFØLJE",
         subtitle: "Dokumenterte Resultater På Tvers av Flere Bransjer",
-        description: "Fra eiendomsforvaltning til digital transformasjon, utforsk prosjektene som viser min ekspertise og de konkrete resultatene oppnådd for klienter."
+        description: "Fra digital markedsføring til utdanning, utforsk prosjektene som viser min ekspertise og de håndgripelige resultatene oppnådd for klienter."
       },
       projects: [
         {
-          title: "Airbnb Forvaltningsimperium",
-          category: "Eiendomsforvaltning",
-          description: "Bygget og forvaltet 250+ korttidsutleie annonser over hele Italia, oppnådde Top 3 nasjonal rangering på Airbnb-plattformen.",
+          title: "Digital Markedsføring og Innholdsproduksjon",
+          category: "Markedsføring og SEO",
+          description: "Utviklet omfattende digitale strategier for over 50 bedrifter på tvers av flere bransjer, med fokus på innholdsproduksjon, SEO-optimalisering og WordPress-utvikling.",
+          results: [
+            "50+ bedrifter digitalt transformert",
+            "Innholdsstrategi og copywriting-tjenester",
+            "SEO-rangeringer dramatisk forbedret",
+            "Tilpassede WordPress-løsninger levert"
+          ],
+          metrics: {
+            clients: "50+",
+            industries: "10+",
+            growth: "200%+",
+            satisfaction: "98%"
+          },
+          image: "digital",
+          technologies: ["Copywriting", "SEO/GEO", "WordPress", "Innholdsstrategi", "Flerspråklig Innhold"]
+        },
+        {
+          title: "Pedagogisk Ledelse og Undervisning",
+          category: "Utdanning og Opplæring",
+          description: "Omfattende undervisningserfaring på tvers av barnehager, barneskoler, ungdomsskoler og videregående skoler i Italia og Norge. Spesialisert i flerspråklig utdanning og AI-integrasjon.",
+          results: [
+            "15+ utdanningsinstitusjoner betjent",
+            "300+ elever undervist på alle nivåer",
+            "Flerspråklig undervisning (italiensk, engelsk, norsk, fransk)",
+            "AI-integrasjon i utdanningsmiljøer"
+          ],
+          metrics: {
+            institutions: "15+",
+            students: "300+",
+            countries: "3",
+            years: "14+"
+          },
+          image: "education",
+          technologies: ["Flerspråklig Undervisning", "AI-integrasjon", "Læreplansutvikling", "Elevengasjement"]
+        },
+        {
+          title: "Eiendomsforvaltningssuksess",
+          category: "Forretningsledelse",
+          description: "Bygget og forvaltet over 200 korttidsutleieeiendommer i Italia, oppnådde Top 3 nasjonal rangering på Airbnb-plattformen ifølge Confederalberghi-analyse.",
           results: [
             "€150k+ årlig inntekt generert",
-            "Top 3 nasjonal rangering i Italia",
-            "250+ eiendommer vellykket forvaltet",
-            "Bransjeanerkjennelse som topp influencer"
+            "Top 3 nasjonal rangering i Italia (Confederalberghi)",
+            "200+ eiendommer vellykket forvaltet",
+            "Bransjeanerkjennelse som ledende forvalter"
           ],
           metrics: {
             revenue: "€150k+",
-            properties: "250+",
-            ranking: "Topp 3",
+            properties: "200+",
+            ranking: "Top 3",
             years: "10+"
           },
           image: "property",
           technologies: ["Dataanalyse", "Inntektsoptimalisering", "Kundeservice", "Markedsanalyse"]
         },
         {
-          title: "Digital Markedsføringstransformasjon",
-          category: "Digitale Løsninger",
-          description: "Utviklet omfattende digitale strategier for 50+ bedrifter på tvers av flere bransjer, med fokus på WordPress-utvikling og SEO-optimalisering.",
+          title: "Webutvikling og Digitale Løsninger",
+          category: "Teknisk Utvikling",
+          description: "Skapte moderne, responsive nettsteder for lokale bedrifter og helsepraksis, leverte målbar vekst i bookinger og pasientanskaffelse.",
           results: [
-            "50+ bedrifter digitalt transformert",
-            "Betydelig økning i online tilstedeværelse",
-            "Tilpassede WordPress-løsninger levert",
-            "SEO-rangeringer dramatisk forbedret"
+            "Dyrepassertjeneste: 200% økning i bookinger",
+            "Fysioterapiklinikk: 40% økning i nye pasienter",
+            "Tospråklige/flerspråklige nettstedsløsninger",
+            "AI-drevne booking- og avtalesystemer"
           ],
           metrics: {
-            clients: "50+",
-            industries: "10+",
-            growth: "200%+",
-            satisfaction: "98%"
+            projects: "10+",
+            languages: "4",
+            avgGrowth: "+170%",
+            satisfaction: "100%"
           },
-          image: "digital",
-          technologies: ["WordPress", "SEO", "Digital Markedsføring", "AI Integrasjon"]
-        },
-        {
-          title: "Pedagogisk Ledelseskonsulentvirksomhet",
-          category: "Utdanning og Opplæring",
-          description: "Konsulterte og transformerte utdanningsinstitusjoner gjennom AI-integrasjon og strategisk coaching i Italia og Norge.",
-          results: [
-            "15+ utdanningsinstitusjoner betjent",
-            "AI-integrasjon vellykket implementert",
-            "Læreropplæringsprogrammer utviklet",
-            "Internasjonale utdanningsstandarder oppnådd"
-          ],
-          metrics: {
-            institutions: "15+",
-            teachers: "300+",
-            countries: "3",
-            years: "14+"
-          },
-          image: "education",
-          technologies: ["AI Integrasjon", "Læreplanutvikl ing", "Læreropplæring", "Strategisk Planlegging"]
-        },
-        {
-          title: "Nettstedsutvikling for Dyrepass",
-          category: "Lokal Forretningsvekst",
-          description: "Moderne nettstedsoppgradering for Eugenios dyrepassservice i Milano, resulterte i betydelig forretningsvekst og online synlighet.",
-          results: [
-            "200% økning i bookinger",
-            "Moderne tospråklig nettsted (Italiensk/Engelsk)",
-            "Forbedret online tilstedeværelse",
-            "Strømlinjeformet bookingprosess"
-          ],
-          metrics: {
-            bookings: "+200%",
-            languages: "2",
-            visibility: "+150%",
-            conversion: "+180%"
-          },
-          image: "petsitter",
-          technologies: ["WordPress", "Flerspråklig SEO", "Bookingsystem", "Lokal Markedsføring"]
-        },
-        {
-          title: "Digital Oppussing av Fysioterapiklinikk",
-          category: "Digital Transformasjon i Helsevesenet",
-          description: "Komplett digital transformasjon for helsepraksis ved bruk av AI og digitale løsninger for å forbedre pasientopplevelse og operasjonell effektivitet.",
-          results: [
-            "40% økning i nye pasienter",
-            "65% reduksjon i ikke-oppmøte",
-            "AI-drevet timeavtalesystem",
-            "Forbedret pasientkommunikasjon"
-          ],
-          metrics: {
-            patients: "+40%",
-            efficiency: "+65%",
-            satisfaction: "95%",
-            automation: "80%"
-          },
-          image: "healthcare",
-          technologies: ["AI Automatisering", "Pasienthåndtering", "Digital Helse", "Kommunikasjonssystemer"]
+          image: "webdev",
+          technologies: ["WordPress", "Flerspråklig SEO", "Bookingsystemer", "AI-integrasjon"]
         },
         {
           title: "Mondosol Coachingplattform",
-          category: "AI-Drevet Coaching",
-          description: "Bygget omfattende coachingplattform som integrerer 12 AI virtuelle assistenter for å gi personlig coaching på 4 språk.",
+          category: "AI-innovasjon",
+          description: "Grunnla og utviklet Mondosol, en AI-drevet flerspråklig coachingplattform med 12 spesialiserte virtuelle assistenter som betjener klienter på 4 språk.",
           results: [
-            "12 AI-assistenter vellykket integrert",
-            "Flerspråklig coaching på 4 språk",
-            "Personlige transformasjonsprogrammer",
-            "Global kundebase etablert"
+            "12 AI virtuelle assistenter opprettet",
+            "4 språk støttet (EN, IT, NO, FR)",
+            "Global kundebase etablert",
+            "Innovativ AI-coachingmetodikk"
           ],
           metrics: {
             assistants: "12",
             languages: "4",
-            clients: "100+",
-            success: "92%"
+            clients: "50+",
+            countries: "25+"
           },
-          image: "coaching",
-          technologies: ["AI Integrasjon", "Maskinlæring", "Flerspråklig NLP", "Coachingmetodikker"]
+          image: "mondosol",
+          technologies: ["AI-utvikling", "Flerspråklig NLP", "Coachingmetodikk", "Plattformutvikling"]
         }
-      ],
-      skills: {
-        title: "Kjernekompetanser",
-        categories: [
-          {
-            name: "Eiendomsforvaltning",
-            skills: ["Inntektsoptimalisering", "Markedsanalyse", "Kundeservice", "Driftsledelse"],
-            level: 95
-          },
-          {
-            name: "Digital Markedsføring",
-            skills: ["WordPress Utvikling", "SEO Optimalisering", "Innholdsstrategi", "Analyse"],
-            level: 90
-          },
-          {
-            name: "AI Integrasjon",
-            skills: ["Maskinlæring", "Automatisering", "Dataanalyse", "Prosessoptimalisering"],
-            level: 88
-          },
-          {
-            name: "Flerspråklig Coaching",
-            skills: ["Tverrkulturell Kommunikasjon", "Språktrening", "Personlig Utvikling", "Business Coaching"],
-            level: 92
-          }
-        ]
-      }
+      ]
     }
   }
 
   const currentContent = content[language]
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black">
+      <section className="py-20 bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-5xl md:text-6xl font-bold text-yellow-400 mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               {currentContent.hero.title}
             </h1>
             <h2 className="text-2xl md:text-3xl text-white mb-6">
               {currentContent.hero.subtitle}
             </h2>
-            <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               {currentContent.hero.description}
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section className="py-20 bg-black">
+      {/* Projects Grid */}
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-20">
+          <div className="space-y-16">
             {currentContent.projects.map((project, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.2 }}
-                className={`grid lg:grid-cols-2 gap-12 items-center ${
-                  index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
-                }`}
+                className="bg-gray-50 rounded-2xl p-8 md:p-12 hover:shadow-2xl transition-all duration-300"
               >
-                {/* Content */}
-                <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
-                  <div className="mb-4">
-                    <span className="text-yellow-400 text-sm font-semibold uppercase tracking-wide">
-                      {project.category}
-                    </span>
-                  </div>
-                  
-                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                    {project.title}
-                  </h3>
-                  
-                  <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-                    {project.description}
-                  </p>
-
-                  {/* Metrics */}
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                    {Object.entries(project.metrics).map(([key, value]) => (
-                      <div key={key} className="text-center p-4 bg-gray-900 rounded-lg">
-                        <div className="text-2xl font-bold text-yellow-400 mb-1">
-                          {value}
-                        </div>
-                        <div className="text-xs text-gray-400 capitalize">
-                          {key.replace(/([A-Z])/g, ' $1').trim()}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Results */}
-                  <div className="mb-8">
-                    <h4 className="text-xl font-semibold text-white mb-4">Key Results</h4>
-                    <ul className="space-y-2">
-                      {project.results.map((result, resultIndex) => (
-                        <li key={resultIndex} className="flex items-center text-gray-300">
-                          <Award className="w-4 h-4 text-yellow-400 mr-3 flex-shrink-0" />
-                          {result}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Technologies */}
-                  <div>
-                    <h4 className="text-xl font-semibold text-white mb-4">Technologies & Methods</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {project.technologies.map((tech, techIndex) => (
-                        <span
-                          key={techIndex}
-                          className="px-3 py-1 bg-yellow-400/10 text-yellow-400 rounded-full text-sm border border-yellow-400/20"
-                        >
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Image Placeholder */}
-                <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
-                  <div className="relative">
-                    <div className="aspect-square bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center border border-gray-700">
-                      <div className="text-center">
-                        <div className="text-6xl mb-4">
-                          {project.category.includes('Property') ? '🏠' :
-                           project.category.includes('Digital') ? '🚀' :
-                           project.category.includes('Education') ? '📚' :
-                           project.category.includes('Pet') ? '🐕' :
-                           project.category.includes('Healthcare') ? '🏥' : '🤖'}
-                        </div>
-                        <p className="text-gray-400 text-lg font-medium">
-                          {project.category}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="absolute inset-0 bg-yellow-400/5 rounded-2xl blur-xl"></div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Skills Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {currentContent.skills.title}
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {currentContent.skills.categories.map((category, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-gray-800 p-8 rounded-xl"
-              >
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-2xl font-bold text-white">{category.name}</h3>
-                  <span className="text-yellow-400 font-bold text-xl">{category.level}%</span>
-                </div>
-                
+                {/* Category Badge */}
                 <div className="mb-6">
-                  <div className="w-full bg-gray-700 rounded-full h-3">
-                    <motion.div
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${category.level}%` }}
-                      transition={{ duration: 1, delay: index * 0.2 }}
-                      className="bg-gradient-to-r from-yellow-400 to-yellow-500 h-3 rounded-full"
-                    ></motion.div>
-                  </div>
+                  <span className="bg-yellow-400 text-black px-4 py-2 rounded-full text-base md:text-lg font-semibold uppercase tracking-wide">
+                    {project.category}
+                  </span>
                 </div>
 
-                <div className="space-y-2">
-                  {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="flex items-center text-gray-300">
-                      <div className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div>
-                      {skill}
+                {/* Title */}
+                <h3 className="text-4xl md:text-5xl font-bold text-black mb-6">
+                  {project.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-2xl md:text-3xl text-gray-700 mb-8 leading-relaxed">
+                  {project.description}
+                </p>
+
+                {/* Metrics Grid */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                  {Object.entries(project.metrics).map(([key, value]) => (
+                    <div key={key} className="text-center">
+                      <div className="text-3xl md:text-4xl font-bold text-yellow-400 mb-2">
+                        {value}
+                      </div>
+                      <div className="text-lg md:text-xl text-gray-600 uppercase tracking-wide">
+                        {key}
+                      </div>
                     </div>
                   ))}
+                </div>
+
+                {/* Results */}
+                <div className="mb-8">
+                  <h4 className="text-2xl md:text-3xl font-bold text-black mb-4">
+                    {language === 'en' ? 'Key Results' : language === 'it' ? 'Risultati Chiave' : 'Nøkkelresultater'}
+                  </h4>
+                  <ul className="space-y-3">
+                    {project.results.map((result, i) => (
+                      <li key={i} className="flex items-start">
+                        <Award className="w-6 h-6 text-yellow-400 mr-3 flex-shrink-0 mt-1" />
+                        <span className="text-xl md:text-2xl text-gray-700">{result}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Technologies */}
+                <div>
+                  <h4 className="text-2xl md:text-3xl font-bold text-black mb-4">
+                    {language === 'en' ? 'Technologies & Skills' : language === 'it' ? 'Tecnologie e Competenze' : 'Teknologier og Ferdigheter'}
+                  </h4>
+                  <div className="flex flex-wrap gap-3">
+                    {project.technologies.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="bg-black text-yellow-400 px-4 py-2 rounded-lg text-base md:text-lg font-semibold"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -628,40 +424,32 @@ const Portfolio = ({ language }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-black">
+      <section className="py-20 bg-gradient-to-r from-yellow-400 to-yellow-500">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            className="space-y-8"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Ready to Achieve Similar Results?
+            <h2 className="text-4xl md:text-5xl font-bold text-black">
+              {language === 'en' ? 'Ready to Work Together?' : language === 'it' ? 'Pronto a Lavorare Insieme?' : 'Klar for å Jobbe Sammen?'}
             </h2>
-            <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-              Let's discuss how my proven methodologies and expertise can help transform your business and achieve breakthrough results.
+            <p className="text-2xl md:text-3xl text-black">
+              {language === 'en' 
+                ? "Let's discuss how I can help your organization achieve similar results." 
+                : language === 'it'
+                ? "Discutiamo di come posso aiutare la tua organizzazione a ottenere risultati simili."
+                : "La oss diskutere hvordan jeg kan hjelpe organisasjonen din med å oppnå lignende resultater."}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                asChild
-                size="lg"
-                className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold text-lg px-8 py-6"
-              >
-                <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                  Start Your Project
-                </a>
-              </Button>
-              
-              <Button 
-                asChild
-                variant="outline"
-                size="lg"
-                className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-black font-semibold text-lg px-8 py-6"
-              >
-                <a href="/contact">
-                  Discuss Your Needs
-                </a>
-              </Button>
-            </div>
+            <Button
+              asChild
+              size="lg"
+              className="bg-black text-yellow-400 hover:bg-gray-900 font-semibold text-xl md:text-2xl px-12 py-8"
+            >
+              <a href="/contact">
+                {language === 'en' ? 'Get in Touch' : language === 'it' ? 'Contattami' : 'Ta Kontakt'}
+              </a>
+            </Button>
           </motion.div>
         </div>
       </section>
@@ -670,3 +458,4 @@ const Portfolio = ({ language }) => {
 }
 
 export default Portfolio
+
