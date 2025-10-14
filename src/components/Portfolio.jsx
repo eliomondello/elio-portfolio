@@ -196,6 +196,82 @@ const Portfolio = ({ language }) => {
           },
           image: "digital",
           technologies: ["WordPress", "SEO", "Marketing Digitale", "Integrazione IA"]
+        },
+        {
+          title: "Consulenza Leadership Educativa",
+          category: "Educazione e Formazione",
+          description: "Consulenza e trasformazione di istituzioni educative attraverso l'integrazione dell'IA e coaching strategico in Italia e Norvegia.",
+          results: [
+            "15+ istituzioni educative servite",
+            "Integrazione IA implementata con successo",
+            "Programmi di formazione insegnanti sviluppati",
+            "Standard educativi internazionali raggiunti"
+          ],
+          metrics: {
+            institutions: "15+",
+            teachers: "300+",
+            countries: "3",
+            years: "14+"
+          },
+          image: "education",
+          technologies: ["Integrazione IA", "Sviluppo Curriculum", "Formazione Insegnanti", "Pianificazione Strategica"]
+        },
+        {
+          title: "Sviluppo Sito Web Pet Sitter",
+          category: "Crescita Business Locale",
+          description: "Aggiornamento sito web moderno per il servizio di pet sitting di Eugenio a Milano, con significativa crescita del business e visibilità online.",
+          results: [
+            "200% aumento prenotazioni",
+            "Sito web bilingue moderno (Italiano/Inglese)",
+            "Presenza online migliorata",
+            "Processo di prenotazione semplificato"
+          ],
+          metrics: {
+            bookings: "+200%",
+            languages: "2",
+            visibility: "+150%",
+            conversion: "+180%"
+          },
+          image: "petsitter",
+          technologies: ["WordPress", "SEO Multilingue", "Sistema Prenotazioni", "Marketing Locale"]
+        },
+        {
+          title: "Rinnovamento Digitale Clinica Fisioterapia",
+          category: "Trasformazione Digitale Sanitaria",
+          description: "Trasformazione digitale completa per studio sanitario utilizzando IA e soluzioni digitali per migliorare l'esperienza del paziente e l'efficienza operativa.",
+          results: [
+            "40% aumento nuovi pazienti",
+            "65% riduzione mancate presentazioni",
+            "Sistema appuntamenti con IA",
+            "Comunicazione pazienti migliorata"
+          ],
+          metrics: {
+            patients: "+40%",
+            efficiency: "+65%",
+            satisfaction: "95%",
+            automation: "80%"
+          },
+          image: "healthcare",
+          technologies: ["Automazione IA", "Gestione Pazienti", "Salute Digitale", "Sistemi Comunicazione"]
+        },
+        {
+          title: "Piattaforma Coaching Mondosol",
+          category: "Coaching Potenziato da IA",
+          description: "Costruita piattaforma di coaching completa integrando 12 assistenti virtuali IA per fornire coaching personalizzato in 4 lingue.",
+          results: [
+            "12 assistenti IA integrati con successo",
+            "Coaching multilingue in 4 lingue",
+            "Programmi di trasformazione personalizzati",
+            "Base clienti globale stabilita"
+          ],
+          metrics: {
+            assistants: "12",
+            languages: "4",
+            clients: "100+",
+            success: "92%"
+          },
+          image: "coaching",
+          technologies: ["Integrazione IA", "Machine Learning", "NLP Multilingue", "Metodologie Coaching"]
         }
       ],
       skills: {
@@ -249,6 +325,101 @@ const Portfolio = ({ language }) => {
           },
           image: "property",
           technologies: ["Dataanalyse", "Inntektsoptimalisering", "Kundeservice", "Markedsanalyse"]
+        },
+        {
+          title: "Digital Markedsføringstransformasjon",
+          category: "Digitale Løsninger",
+          description: "Utviklet omfattende digitale strategier for 50+ bedrifter på tvers av flere bransjer, med fokus på WordPress-utvikling og SEO-optimalisering.",
+          results: [
+            "50+ bedrifter digitalt transformert",
+            "Betydelig økning i online tilstedeværelse",
+            "Tilpassede WordPress-løsninger levert",
+            "SEO-rangeringer dramatisk forbedret"
+          ],
+          metrics: {
+            clients: "50+",
+            industries: "10+",
+            growth: "200%+",
+            satisfaction: "98%"
+          },
+          image: "digital",
+          technologies: ["WordPress", "SEO", "Digital Markedsføring", "AI Integrasjon"]
+        },
+        {
+          title: "Pedagogisk Ledelseskonsulentvirksomhet",
+          category: "Utdanning og Opplæring",
+          description: "Konsulterte og transformerte utdanningsinstitusjoner gjennom AI-integrasjon og strategisk coaching i Italia og Norge.",
+          results: [
+            "15+ utdanningsinstitusjoner betjent",
+            "AI-integrasjon vellykket implementert",
+            "Læreropplæringsprogrammer utviklet",
+            "Internasjonale utdanningsstandarder oppnådd"
+          ],
+          metrics: {
+            institutions: "15+",
+            teachers: "300+",
+            countries: "3",
+            years: "14+"
+          },
+          image: "education",
+          technologies: ["AI Integrasjon", "Læreplanutvikl ing", "Læreropplæring", "Strategisk Planlegging"]
+        },
+        {
+          title: "Nettstedsutvikling for Dyrepass",
+          category: "Lokal Forretningsvekst",
+          description: "Moderne nettstedsoppgradering for Eugenios dyrepassservice i Milano, resulterte i betydelig forretningsvekst og online synlighet.",
+          results: [
+            "200% økning i bookinger",
+            "Moderne tospråklig nettsted (Italiensk/Engelsk)",
+            "Forbedret online tilstedeværelse",
+            "Strømlinjeformet bookingprosess"
+          ],
+          metrics: {
+            bookings: "+200%",
+            languages: "2",
+            visibility: "+150%",
+            conversion: "+180%"
+          },
+          image: "petsitter",
+          technologies: ["WordPress", "Flerspråklig SEO", "Bookingsystem", "Lokal Markedsføring"]
+        },
+        {
+          title: "Digital Oppussing av Fysioterapiklinikk",
+          category: "Digital Transformasjon i Helsevesenet",
+          description: "Komplett digital transformasjon for helsepraksis ved bruk av AI og digitale løsninger for å forbedre pasientopplevelse og operasjonell effektivitet.",
+          results: [
+            "40% økning i nye pasienter",
+            "65% reduksjon i ikke-oppmøte",
+            "AI-drevet timeavtalesystem",
+            "Forbedret pasientkommunikasjon"
+          ],
+          metrics: {
+            patients: "+40%",
+            efficiency: "+65%",
+            satisfaction: "95%",
+            automation: "80%"
+          },
+          image: "healthcare",
+          technologies: ["AI Automatisering", "Pasienthåndtering", "Digital Helse", "Kommunikasjonssystemer"]
+        },
+        {
+          title: "Mondosol Coachingplattform",
+          category: "AI-Drevet Coaching",
+          description: "Bygget omfattende coachingplattform som integrerer 12 AI virtuelle assistenter for å gi personlig coaching på 4 språk.",
+          results: [
+            "12 AI-assistenter vellykket integrert",
+            "Flerspråklig coaching på 4 språk",
+            "Personlige transformasjonsprogrammer",
+            "Global kundebase etablert"
+          ],
+          metrics: {
+            assistants: "12",
+            languages: "4",
+            clients: "100+",
+            success: "92%"
+          },
+          image: "coaching",
+          technologies: ["AI Integrasjon", "Maskinlæring", "Flerspråklig NLP", "Coachingmetodikker"]
         }
       ],
       skills: {
