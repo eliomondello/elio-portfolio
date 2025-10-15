@@ -11,7 +11,7 @@ import teachingPhoto from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import airbnbPhoto from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
 import norwayPhoto from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
 import aiCoachingPhoto from '../assets/IMG_20250709_132004267_HDR_PORTRAIT.jpg'
-import currentPhoto from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
+import currentPhoto from '../assets/IMG_20250710_110800777_HDR_PORTRAIT.jpg'
 
 const About = ({ language }) => {
   const content = {
@@ -63,10 +63,10 @@ const About = ({ language }) => {
           image: teachingPhoto
         },
         {
-          year: "2010-2023",
-          title: "Property Management Empire",
+          year: "2013-2023",
+          title: "Property Management Success",
           location: "Italy",
-          description: "Built and managed 250+ short-term rental listings, achieving Top 3 ranking nationally on Airbnb platform with €150k+ annual revenue.",
+          description: "Built and managed 200+ short-term rental listings, achieving Top 3 ranking nationally (Confederalberghi) on Airbnb platform with significant revenue growth.",
           icon: "🏠",
           image: airbnbPhoto
         },
@@ -83,7 +83,7 @@ const About = ({ language }) => {
           title: "Life in Norway",
           location: "Hønefoss, Norway",
           description: "Working as Kindergarten Teacher and Substitute Teacher while expanding coaching business internationally, bridging education and entrepreneurship.",
-          icon: "🇳🇴",
+          icon: "🎿",
           image: norwayPhoto
         },
         {
@@ -131,7 +131,7 @@ const About = ({ language }) => {
           { label: "AI Assistants", value: "12 Active", icon: "🤖" },
           { label: "Years Experience", value: "20+ International", icon: "📅" },
           { label: "Industries Served", value: "10+ Different", icon: "🏢" },
-          { label: "Countries Lived", value: "3 (Italy, France, Norway)", icon: "🌍" }
+          { label: "Countries Lived", value: "6 (Italy, England, Ireland, USA, France, Norway)", icon: "🌍" }
         ]
       }
     },
@@ -203,7 +203,7 @@ const About = ({ language }) => {
           title: "Vita in Norvegia",
           location: "Hønefoss, Norvegia",
           description: "Lavora come insegnante di scuola materna e supplente mentre espande il business di coaching a livello internazionale, collegando educazione e imprenditorialità.",
-          icon: "🇳🇴",
+          icon: "🎿",
           image: norwayPhoto
         },
         {
@@ -323,7 +323,7 @@ const About = ({ language }) => {
           title: "Liv i Norge",
           location: "Hønefoss, Norge",
           description: "Jobber som barnehagelærer og vikar mens han utvider coaching-virksomheten internasjonalt, brobygger mellom utdanning og entreprenørskap.",
-          icon: "🇳🇴",
+          icon: "🎿",
           image: norwayPhoto
         },
         {

@@ -180,6 +180,126 @@ const Testimonials = ({ language }) => {
             "Finanziamento Serie A ottenuto con successo"
           ],
           category: "Trasformazione Aziendale"
+        },
+        {
+          name: "Elena R.",
+          role: "Consulente Freelance",
+          company: "Agenzia di Marketing Digitale",
+          location: "Roma, Italia",
+          image: "elena",
+          rating: 5,
+          quote: "Le intuizioni strategiche e l'approccio personalizzato mi hanno aiutato a ridefinire la mia traiettoria professionale. L'esperienza multilingue di Elio ha aperto nuovi mercati per i miei servizi.",
+          results: [
+            "Base clienti espansa internazionalmente",
+            "Fatturato mensile raddoppiato",
+            "Presenza stabilita in 3 nuovi paesi"
+          ],
+          category: "Sviluppo Professionale"
+        },
+        {
+          name: "Yuki Tanaka",
+          role: "Fondatrice",
+          company: "Casa di Moda Sostenibile",
+          location: "Tokyo, Giappone",
+          image: "yuki",
+          rating: 5,
+          quote: "Ho superato le barriere linguistiche attraverso i corsi di lingua personalizzati di Mondosol. In otto mesi, sono diventata abbastanza fluente da espandermi internazionalmente.",
+          results: [
+            "Raggiunta fluenza inglese a livello business",
+            "Espansione nei mercati europei",
+            "Vendite internazionali aumentate del 250%"
+          ],
+          category: "Lingua & Comunicazione"
+        },
+        {
+          name: "Carlos Mendoza",
+          role: "Imprenditore Educativo",
+          company: "Piattaforma di Apprendimento Online",
+          location: "Bogotá, Colombia",
+          image: "carlos",
+          rating: 5,
+          quote: "Ho padroneggiato l'inglese attraverso la piattaforma di apprendimento linguistico di Mondosol. In un anno, ho avanzato significativamente la mia carriera ed espanso la portata del mio business.",
+          results: [
+            "Lanciati corsi in lingua inglese",
+            "Iscrizioni studenti aumentate del 400%",
+            "Stabilite partnership in Nord America"
+          ],
+          category: "Educazione & Crescita"
+        },
+        {
+          name: "Maria Andersen-Romano",
+          role: "CEO",
+          company: "Nordic-Mediterranean Consulting",
+          location: "Oslo, Norvegia",
+          image: "maria",
+          rating: 5,
+          quote: "Attribuisco a Mondosol la trasformazione del mio patrimonio culturale in un business di consulenza di successo. Il programma mi ha fornito strumenti essenziali per il successo internazionale.",
+          results: [
+            "Costruita pratica di consulenza di successo",
+            "Sfruttato background multiculturale",
+            "Raggiunto fatturato annuale a sei cifre"
+          ],
+          category: "Integrazione Culturale"
+        },
+        {
+          name: "Dr. Ahmed Al-Rashid",
+          role: "Medico",
+          company: "Centro Medico Internazionale",
+          location: "Dubai, EAU",
+          image: "ahmed",
+          rating: 5,
+          quote: "La formazione sulla comunicazione di Mondosol è stata essenziale per lavorare con pazienti internazionali. L'approccio multilingue ha migliorato significativamente l'assistenza ai pazienti.",
+          results: [
+            "Migliorata comunicazione con i pazienti",
+            "Ridotti malintesi dell'80%",
+            "Migliorati punteggi di soddisfazione dei pazienti"
+          ],
+          category: "Comunicazione Sanitaria"
+        },
+        {
+          name: "Sofia Petrova",
+          role: "CEO",
+          company: "EcoVerde Solutions",
+          location: "Sofia, Bulgaria",
+          image: "sofia",
+          rating: 5,
+          quote: "Il Business English Coaching di Mondosol mi ha aiutato a comunicare efficacemente con investitori internazionali. In sei mesi, ho ottenuto importanti round di finanziamento.",
+          results: [
+            "Ottenuti €2M in finanziamento Serie A",
+            "Stabilite relazioni con investitori",
+            "Espansione in 5 mercati europei"
+          ],
+          category: "Investimenti & Finanziamenti"
+        },
+        {
+          name: "Ruggero Vasari",
+          role: "Proprietario Fattoria",
+          company: "Agriturismo Sicilia",
+          location: "Messina, Italia",
+          image: "ruggero",
+          rating: 5,
+          quote: "Abbiamo trasformato il nostro agriturismo vicino a Messina con l'aiuto di Mondosol, raggiungendo il tutto esaurito e diventando una delle migliori destinazioni agrituristiche d'Italia.",
+          results: [
+            "Raggiunto tasso di occupazione del 100%",
+            "Classificato tra i migliori agriturismi in Italia",
+            "Fatturato aumentato del 400%"
+          ],
+          category: "Turismo & Ospitalità"
+        },
+        {
+          name: "Lucia Bianchini",
+          role: "Imprenditrice",
+          company: "Attività Affitti Vacanze",
+          location: "Firenze, Italia",
+          image: "lucia",
+          rating: 5,
+          quote: "Mondosol ha semplificato le prenotazioni della mia attività di affitti vacanze, centralizzato il mio calendario e ottimizzato le operazioni per la massima efficienza.",
+          results: [
+            "Semplificato processo di prenotazione",
+            "Efficienza prenotazioni aumentata del 200%",
+            "Ridotti costi operativi del 40%"
+          ],
+          category: "Ottimizzazione Operazioni"
         }
       ],
       stats: {
@@ -215,6 +335,126 @@ const Testimonials = ({ language }) => {
             "Vellykket sikret Serie A finansiering"
           ],
           category: "Virksomhetstransformasjon"
+        },
+        {
+          name: "Elena R.",
+          role: "Frilans Konsulent",
+          company: "Digital Markedsføringsbyrå",
+          location: "Roma, Italia",
+          image: "elena",
+          rating: 5,
+          quote: "De strategiske innsiktene og personlige tilnærmingen hjalp meg å omdefinere min profesjonelle bane. Elios flerspåklige ekspertise åpnet nye markeder for mine tjenester.",
+          results: [
+            "Klientbase utvidet internasjonalt",
+            "Månedlig inntekt doblet",
+            "Etablert tilstedeværelse i 3 nye land"
+          ],
+          category: "Profesjonell Utvikling"
+        },
+        {
+          name: "Yuki Tanaka",
+          role: "Grunnlegger",
+          company: "Bærekraftig Motehus",
+          location: "Tokyo, Japan",
+          image: "yuki",
+          rating: 5,
+          quote: "Overvant språkbarrierer gjennom Mondosols personlige språkkurs. Innen åtte måneder ble jeg flytende nok til å ekspandere internasjonalt.",
+          results: [
+            "Oppnådde forretningsnivå engelsk flytenhet",
+            "Ekspanderte til europeiske markeder",
+            "Internasjonalt salg økte med 250%"
+          ],
+          category: "Språk & Kommunikasjon"
+        },
+        {
+          name: "Carlos Mendoza",
+          role: "Pedagogisk Entreprenør",
+          company: "Online Læringsplattform",
+          location: "Bogotá, Colombia",
+          image: "carlos",
+          rating: 5,
+          quote: "Mestret engelsk gjennom Mondosols språklæringsplattform. På ett år avanserte jeg karrieren min betydelig og utvidet min virksomhetsrekkevidde.",
+          results: [
+            "Lanserte engelskspåklige kurs",
+            "Studentpåmelding økte 400%",
+            "Etablerte partnerskap i Nord-Amerika"
+          ],
+          category: "Utdanning & Vekst"
+        },
+        {
+          name: "Maria Andersen-Romano",
+          role: "CEO",
+          company: "Nordic-Mediterranean Consulting",
+          location: "Oslo, Norge",
+          image: "maria",
+          rating: 5,
+          quote: "Krediterer Mondosol for å transformere min kulturelle arv til en vellykket konsulentvirksomhet. Programmet utstyrte meg med essensielle verktøy for internasjonal suksess.",
+          results: [
+            "Bygde vellykket konsulentpraksis",
+            "Utnyttet flerkulturell bakgrunn",
+            "Oppnådde 6-sifret årlig inntekt"
+          ],
+          category: "Kulturell Integrasjon"
+        },
+        {
+          name: "Dr. Ahmed Al-Rashid",
+          role: "Medisinsk Utøver",
+          company: "Internasjonalt Medisinsk Senter",
+          location: "Dubai, UAE",
+          image: "ahmed",
+          rating: 5,
+          quote: "Mondosols kommunikasjonstrening var essensiell for å jobbe med internasjonale pasienter. Den flerspåklige tilnærmingen forbedret pasientbehandlingen betydelig.",
+          results: [
+            "Forbedret pasientkommunikasjon",
+            "Reduserte misforståelser med 80%",
+            "Forbedret pasienttilfredshetsscore"
+          ],
+          category: "Helsekommunikasjon"
+        },
+        {
+          name: "Sofia Petrova",
+          role: "CEO",
+          company: "EcoVerde Solutions",
+          location: "Sofia, Bulgaria",
+          image: "sofia",
+          rating: 5,
+          quote: "Mondosols Business English Coaching hjalp meg å kommunisere effektivt med internasjonale investorer. På seks måneder sikret jeg store finansieringsrunder.",
+          results: [
+            "Sikret €2M i Serie A finansiering",
+            "Etablerte investorrelasjoner",
+            "Ekspanderte til 5 europeiske markeder"
+          ],
+          category: "Investering & Finansiering"
+        },
+        {
+          name: "Ruggero Vasari",
+          role: "Gårdseier",
+          company: "Agriturismo Sicilia",
+          location: "Messina, Italia",
+          image: "ruggero",
+          rating: 5,
+          quote: "Transformerte gårdshotellet vårt nær Messina med Mondosols hjelp, oppnådde full belegg og ble en av Italias topp agriturisme-destinasjoner.",
+          results: [
+            "Oppnådde 100% beleggsprosent",
+            "Rangert blant topp agriturisme i Italia",
+            "Inntekt økte med 400%"
+          ],
+          category: "Turisme & Gjestfrihet"
+        },
+        {
+          name: "Lucia Bianchini",
+          role: "Entreprenør",
+          company: "Ferieutleievirksomhet",
+          location: "Firenze, Italia",
+          image: "lucia",
+          rating: 5,
+          quote: "Mondosol effektiviserte ferieutleievirksomhetens reservasjoner, sentraliserte kalenderen min og optimaliserte driften for maksimal effektivitet.",
+          results: [
+            "Effektiviserte bookingprosess",
+            "Bookingeffektivitet økte med 200%",
+            "Reduserte driftskostnader med 40%"
+          ],
+          category: "Driftsoptimalisering"
         }
       ],
       stats: {

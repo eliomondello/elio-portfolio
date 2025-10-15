@@ -22,7 +22,7 @@ const Home = ({ language }) => {
       hero: {
         firstName: "ELIO",
         lastName: "MONDELLO ANZÀ",
-        title: "CONTENT SPECIALIST",
+        title: "EDUCATION SPECIALIST",
         scroll: "SCROLL"
       },
       cta: {
@@ -41,7 +41,7 @@ const Home = ({ language }) => {
       hero: {
         firstName: "ELIO",
         lastName: "MONDELLO ANZÀ",
-        title: "SPECIALISTA CONTENUTI",
+        title: "SPECIALISTA EDUCAZIONE",
         scroll: "SCORRI"
       },
       cta: {
@@ -60,7 +60,7 @@ const Home = ({ language }) => {
       hero: {
         firstName: "ELIO",
         lastName: "MONDELLO ANZÀ",
-        title: "INNHOLDSSPESIALIST",
+        title: "UTDANNINGSSPESIALIST",
         scroll: "RULL"
       },
       cta: {
