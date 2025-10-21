@@ -35,7 +35,26 @@ const Home = ({ language }) => {
         { number: "TOP 3", label: "AIRBNB" },
         { number: "15+", label: "YEARS" },
         { number: "4", label: "LANGUAGES" }
-      ]
+      ],
+      services: {
+        copywriting: {
+          title: "COPYWRITING",
+          cta: "SEE WORK"
+        },
+        seo: {
+          title: "SEO & GEO",
+          cta: "LEARN MORE"
+        },
+        multilingual: {
+          title: "MULTILINGUAL",
+          cta: "WORK WITH ME"
+        }
+      },
+      finalCta: {
+        line1: "LET'S WORK",
+        line2: "TOGETHER",
+        button: "GET IN TOUCH"
+      }
     },
     it: {
       hero: {
@@ -54,7 +73,26 @@ const Home = ({ language }) => {
         { number: "TOP 3", label: "AIRBNB" },
         { number: "15+", label: "ANNI" },
         { number: "4", label: "LINGUE" }
-      ]
+      ],
+      services: {
+        copywriting: {
+          title: "COPYWRITING",
+          cta: "VEDI LAVORO"
+        },
+        seo: {
+          title: "SEO & GEO",
+          cta: "SCOPRI DI PIÙ"
+        },
+        multilingual: {
+          title: "MULTILINGUE",
+          cta: "LAVORA CON ME"
+        }
+      },
+      finalCta: {
+        line1: "LAVORIAMO",
+        line2: "INSIEME",
+        button: "CONTATTAMI"
+      }
     },
     no: {
       hero: {
@@ -73,7 +111,26 @@ const Home = ({ language }) => {
         { number: "TOP 3", label: "AIRBNB" },
         { number: "15+", label: "ÅR" },
         { number: "4", label: "SPRÅK" }
-      ]
+      ],
+      services: {
+        copywriting: {
+          title: "TEKSTFORFATTER",
+          cta: "SE ARBEID"
+        },
+        seo: {
+          title: "SEO & GEO",
+          cta: "LÆR MER"
+        },
+        multilingual: {
+          title: "FLERSPRÅKLIG",
+          cta: "JOBB MED MEG"
+        }
+      },
+      finalCta: {
+        line1: "LA OSS JOBBE",
+        line2: "SAMMEN",
+        button: "TA KONTAKT"
+      }
     }
   }
 
@@ -215,7 +272,14 @@ const Home = ({ language }) => {
               className="p-12 lg:p-20"
             >
               <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-8 leading-none">
-                COPY<br/>WRITING
+                {currentContent.services.copywriting.title.split('').length > 11 ? (
+                  currentContent.services.copywriting.title
+                ) : (
+                  <>
+                    {currentContent.services.copywriting.title.substring(0, 4)}<br/>
+                    {currentContent.services.copywriting.title.substring(4)}
+                  </>
+                )}
               </h2>
               <Button 
                 asChild
@@ -223,7 +287,7 @@ const Home = ({ language }) => {
                 className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-xl px-10 py-6"
               >
                 <Link to="/portfolio">
-                  SEE WORK
+                  {currentContent.services.copywriting.cta}
                 </Link>
               </Button>
             </motion.div>
@@ -277,7 +341,7 @@ const Home = ({ language }) => {
                 className="bg-white text-black hover:bg-gray-200 font-bold text-xl px-10 py-6"
               >
                 <Link to="/services">
-                  LEARN MORE
+                  {currentContent.services.seo.cta}
                 </Link>
               </Button>
             </motion.div>
@@ -297,7 +361,14 @@ const Home = ({ language }) => {
               className="p-12 lg:p-20"
             >
               <h2 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-8 leading-none">
-                MULTI<br/>LINGUAL
+                {currentContent.services.multilingual.title.split('').length > 11 ? (
+                  currentContent.services.multilingual.title
+                ) : (
+                  <>
+                    {currentContent.services.multilingual.title.substring(0, 5)}<br/>
+                    {currentContent.services.multilingual.title.substring(5)}
+                  </>
+                )}
               </h2>
               <Button 
                 asChild
@@ -305,7 +376,7 @@ const Home = ({ language }) => {
                 className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-xl px-10 py-6"
               >
                 <Link to="/contact">
-                  WORK WITH ME
+                  {currentContent.services.multilingual.cta}
                 </Link>
               </Button>
             </motion.div>
@@ -342,8 +413,8 @@ const Home = ({ language }) => {
             viewport={{ once: true }}
             className="text-7xl md:text-8xl lg:text-9xl font-bold text-white mb-12 leading-none"
           >
-            LET'S WORK<br/>
-            <span className="text-yellow-400">TOGETHER</span>
+            {currentContent.finalCta.line1}<br/>
+            <span className="text-yellow-400">{currentContent.finalCta.line2}</span>
           </motion.h2>
           
           <motion.div
@@ -358,7 +429,7 @@ const Home = ({ language }) => {
               className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-3xl px-16 py-10"
             >
               <Link to="/contact">
-                GET IN TOUCH
+                {currentContent.finalCta.button}
               </Link>
             </Button>
           </motion.div>

@@ -87,6 +87,32 @@ const Contact = ({ language }) => {
           { code: "no", name: "Norsk", flag: "🇳🇴" },
           { code: "fr", name: "Français", flag: "🇫🇷" }
         ]
+      },
+      faq: {
+        title: "Frequently Asked Questions",
+        subtitle: "Common questions about my services and approach",
+        items: [
+          {
+            question: "What makes your coaching approach unique?",
+            answer: "I combine traditional coaching methodologies with AI-powered insights and tools. Having lived in 6 countries and speaking 4 languages, I bring a unique multicultural perspective to help clients navigate global challenges and opportunities."
+          },
+          {
+            question: "How quickly can I expect to see results?",
+            answer: "Most clients start seeing initial improvements within 2-4 weeks. Significant transformations typically occur within 3-6 months, depending on the complexity of goals and commitment level."
+          },
+          {
+            question: "Do you work with clients internationally?",
+            answer: "Yes! I work with clients globally through video conferencing. My multilingual abilities allow me to provide coaching in English, Italian, Norwegian, and French."
+          },
+          {
+            question: "What is your coaching process?",
+            answer: "We start with a comprehensive assessment, set clear goals, create an action plan, and have regular check-ins. I provide ongoing support and adjust strategies based on your progress and feedback."
+          },
+          {
+            question: "How do you integrate AI into your coaching?",
+            answer: "I use 12 specialized AI assistants to provide personalized insights, track progress, and optimize strategies. This allows for more precise and data-driven coaching approaches."
+          }
+        ]
       }
     },
     it: {
@@ -160,6 +186,32 @@ const Contact = ({ language }) => {
           { code: "no", name: "Norsk", flag: "🇳🇴" },
           { code: "fr", name: "Français", flag: "🇫🇷" }
         ]
+      },
+      faq: {
+        title: "Domande Frequenti",
+        subtitle: "Domande comuni sui miei servizi e approccio",
+        items: [
+          {
+            question: "Cosa rende unico il tuo approccio di coaching?",
+            answer: "Combino metodologie di coaching tradizionali con strumenti e insights potenziati dall'IA. Avendo vissuto in 6 paesi e parlando 4 lingue, porto una prospettiva multiculturale unica per aiutare i clienti a navigare sfide e opportunità globali."
+          },
+          {
+            question: "Quanto velocemente posso aspettarmi di vedere risultati?",
+            answer: "La maggior parte dei clienti inizia a vedere miglioramenti iniziali entro 2-4 settimane. Trasformazioni significative si verificano tipicamente entro 3-6 mesi, a seconda della complessità degli obiettivi e del livello di impegno."
+          },
+          {
+            question: "Lavori con clienti internazionali?",
+            answer: "Sì! Lavoro con clienti in tutto il mondo tramite videoconferenza. Le mie capacità multilingue mi permettono di fornire coaching in inglese, italiano, norvegese e francese."
+          },
+          {
+            question: "Qual è il tuo processo di coaching?",
+            answer: "Iniziamo con una valutazione completa, stabiliamo obiettivi chiari, creiamo un piano d'azione e facciamo controlli regolari. Fornisco supporto continuo e adatto le strategie in base ai tuoi progressi e feedback."
+          },
+          {
+            question: "Come integri l'IA nel tuo coaching?",
+            answer: "Utilizzo 12 assistenti IA specializzati per fornire insights personalizzati, monitorare i progressi e ottimizzare le strategie. Questo permette approcci di coaching più precisi e basati sui dati."
+          }
+        ]
       }
     },
     no: {
@@ -232,6 +284,32 @@ const Contact = ({ language }) => {
           { code: "it", name: "Italiano", flag: "🇮🇹" },
           { code: "no", name: "Norsk", flag: "🇳🇴" },
           { code: "fr", name: "Français", flag: "🇫🇷" }
+        ]
+      },
+      faq: {
+        title: "Ofte Stilte Spørsmål",
+        subtitle: "Vanlige spørsmål om mine tjenester og tilnærming",
+        items: [
+          {
+            question: "Hva gjør din coaching-tilnærming unik?",
+            answer: "Jeg kombinerer tradisjonelle coaching-metodikker med AI-drevne innsikter og verktøy. Etter å ha bodd i 6 land og snakket 4 språk, bringer jeg et unikt multikulturelt perspektiv for å hjelpe klienter med å navigere globale utfordringer og muligheter."
+          },
+          {
+            question: "Hvor raskt kan jeg forvente å se resultater?",
+            answer: "De fleste klienter begynner å se innledende forbedringer innen 2-4 uker. Betydelige transformasjoner skjer vanligvis innen 3-6 måneder, avhengig av kompleksiteten til målene og engasjementsnivået."
+          },
+          {
+            question: "Jobber du med klienter internasjonalt?",
+            answer: "Ja! Jeg jobber med klienter globalt gjennom videokonferanser. Mine flerspråklige evner lar meg tilby coaching på engelsk, italiensk, norsk og fransk."
+          },
+          {
+            question: "Hva er din coaching-prosess?",
+            answer: "Vi starter med en omfattende vurdering, setter klare mål, lager en handlingsplan og har regelmessige sjekk-inn. Jeg gir kontinuerlig støtte og justerer strategier basert på dine fremskritt og tilbakemeldinger."
+          },
+          {
+            question: "Hvordan integrerer du AI i din coaching?",
+            answer: "Jeg bruker 12 spesialiserte AI-assistenter for å gi personlige innsikter, spore fremgang og optimalisere strategier. Dette gir mer presise og datadrevne coaching-tilnærminger."
+          }
         ]
       }
     }
@@ -504,36 +582,15 @@ const Contact = ({ language }) => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Frequently Asked Questions
+              {currentContent.faq.title}
             </h2>
             <p className="text-xl md:text-2xl text-gray-300">
-              Common questions about my services and approach
+              {currentContent.faq.subtitle}
             </p>
           </motion.div>
 
           <div className="space-y-6">
-            {[
-              {
-                question: "What makes your coaching approach unique?",
-                answer: "I combine traditional coaching methodologies with AI-powered insights and tools. Having lived in 3 countries and speaking 4 languages, I bring a unique multicultural perspective to help clients navigate global challenges and opportunities."
-              },
-              {
-                question: "How quickly can I expect to see results?",
-                answer: "Most clients start seeing initial improvements within 2-4 weeks. Significant transformations typically occur within 3-6 months, depending on the complexity of goals and commitment level."
-              },
-              {
-                question: "Do you work with clients internationally?",
-                answer: "Yes! I work with clients globally through video conferencing. My multilingual abilities allow me to provide coaching in English, Italian, Norwegian, and French."
-              },
-              {
-                question: "What industries do you specialize in?",
-                answer: "I have extensive experience in property management, education, digital marketing, and AI integration. However, my coaching methodologies are applicable across all industries."
-              },
-              {
-                question: "How do you integrate AI into your coaching?",
-                answer: "I use 12 specialized AI assistants to provide personalized insights, track progress, and optimize strategies. This allows for more precise and data-driven coaching approaches."
-              }
-            ].map((faq, index) => (
+            {currentContent.faq.items.map((faq, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}

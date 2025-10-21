@@ -40,6 +40,23 @@ const Navigation = ({ language, setLanguage }) => {
     { code: 'no', label: 'Norsk' }
   ]
 
+  const content = {
+    en: {
+      bookSession: "Book Session",
+      languageLabel: "Language"
+    },
+    it: {
+      bookSession: "Prenota Sessione",
+      languageLabel: "Lingua"
+    },
+    no: {
+      bookSession: "Bestill Økt",
+      languageLabel: "Språk"
+    }
+  }
+
+  const currentContent = content[language]
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-yellow-400/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -88,7 +105,7 @@ const Navigation = ({ language, setLanguage }) => {
               className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold"
             >
               <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                Book Session
+                {currentContent.bookSession}
               </a>
             </Button>
           </div>
@@ -125,7 +142,7 @@ const Navigation = ({ language, setLanguage }) => {
               
               {/* Mobile Language Selector */}
               <div className="px-3 py-2">
-                <div className="text-sm text-gray-400 mb-2">Language</div>
+                <div className="text-sm text-gray-400 mb-2">{currentContent.languageLabel}</div>
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -149,7 +166,7 @@ const Navigation = ({ language, setLanguage }) => {
                   className="w-full bg-yellow-400 text-black hover:bg-yellow-300 font-semibold"
                 >
                   <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                    Book Session
+                    {currentContent.bookSession}
                   </a>
                 </Button>
               </div>
