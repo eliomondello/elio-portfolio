@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio'
 import Testimonials from './components/Testimonials'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-black text-white">
+      <div className="min-h-screen bg-black text-white overflow-x-hidden max-w-[100vw]">
         <Navigation language={language} setLanguage={setLanguage} />
         <Routes>
           <Route path="/" element={<Home language={language} />} />
@@ -24,6 +25,7 @@ function App() {
           <Route path="/services" element={<Services language={language} />} />
           <Route path="/contact" element={<Contact language={language} />} />
         </Routes>
+        <Footer language={language} />
       </div>
     </Router>
   )

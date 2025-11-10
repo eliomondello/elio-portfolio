@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 // Import professional work images
 import img1 from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
-import img2 from '../assets/IMG_20250709_132004267_HDR_PORTRAIT.jpg'
-import img3 from '../assets/IMG_20250710_113431773_HDR_PORTRAIT.jpg'
+import img2 from '../assets/IMG_20250706_154203787_HDR_PORTRAIT.jpg'
+import img3 from '../assets/IMG_20250706_154257593_HDR_PORTRAIT.jpg'
 import img4 from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
-import img5 from '../assets/IMG_20250610_104440397_HDR_PORTRAIT.jpg'
+import img5 from '../assets/IMG_20250708_120457485_HDR_PORTRAIT.jpg'
 import img6 from '../assets/IMG_20250707_150302221_HDR_PORTRAIT.jpg'
 
 const Home = ({ language }) => {
@@ -145,10 +145,10 @@ const Home = ({ language }) => {
   }, [heroImages.length])
 
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen bg-black overflow-x-hidden max-w-[100vw]">
       
       {/* HERO SECTION - HUGE IMAGE, MINIMAL TEXT */}
-      <section className="relative h-screen flex items-center overflow-hidden">
+      <section className="relative h-screen flex items-center overflow-hidden max-w-full">
         
         {/* Text Side - Left 40% */}
         <div className="relative z-10 w-full lg:w-2/5 px-6 lg:px-12 xl:px-16">
@@ -236,7 +236,7 @@ const Home = ({ language }) => {
       </section>
 
       {/* STATS - Minimal */}
-      <section className="py-16 bg-black border-t border-yellow-400/20">
+      <section className="py-16 bg-black border-t border-yellow-400/20 overflow-x-hidden max-w-full">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             {currentContent.stats.map((stat, index) => (
@@ -261,7 +261,7 @@ const Home = ({ language }) => {
       </section>
 
       {/* VISUAL SECTION 1 - COPYWRITING */}
-      <section className="min-h-screen flex items-center bg-black">
+      <section className="min-h-screen flex items-center bg-black overflow-x-hidden max-w-full">
         <div className="w-full">
           <div className="grid lg:grid-cols-2 gap-0 items-center">
             <motion.div
@@ -309,7 +309,7 @@ const Home = ({ language }) => {
       </section>
 
       {/* VISUAL SECTION 2 - SEO */}
-      <section className="min-h-screen flex items-center bg-black">
+      <section className="min-h-screen flex items-center bg-black overflow-x-hidden max-w-full">
         <div className="w-full">
           <div className="grid lg:grid-cols-2 gap-0 items-center">
             <motion.div
@@ -350,7 +350,7 @@ const Home = ({ language }) => {
       </section>
 
       {/* VISUAL SECTION 3 - MULTILINGUAL */}
-      <section className="min-h-screen flex items-center bg-black">
+      <section className="min-h-screen flex items-center bg-black overflow-x-hidden max-w-full">
         <div className="w-full">
           <div className="grid lg:grid-cols-2 gap-0 items-center">
             <motion.div
@@ -398,7 +398,7 @@ const Home = ({ language }) => {
       </section>
 
       {/* FINAL CTA */}
-      <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden">
+      <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden max-w-full">
         <div className="absolute inset-0 opacity-20">
           <img 
             src={img5} 

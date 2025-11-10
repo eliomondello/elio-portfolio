@@ -62,7 +62,7 @@ const Navigation = ({ language, setLanguage }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors">
+          <Link to="/" className="text-lg sm:text-xl lg:text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors flex-shrink truncate">
             ELIO MONDELLO ANZÀ
           </Link>
 
