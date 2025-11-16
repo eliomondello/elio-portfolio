@@ -173,8 +173,7 @@ const Home = ({ language }) => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 asChild
-                size="lg"
-                className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-lg px-8 py-6"
+                className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-base md:text-lg px-6 py-3 md:px-8 md:py-4"
               >
                 <Link to="/portfolio">
                   {currentContent.cta.primary}
@@ -183,8 +182,7 @@ const Home = ({ language }) => {
               
               <Button 
                 asChild
-                size="lg"
-                className="bg-white text-black hover:bg-gray-200 font-bold text-lg px-8 py-6"
+                className="bg-white text-black hover:bg-gray-200 font-bold text-base md:text-lg px-6 py-3 md:px-8 md:py-4"
               >
                 <Link to="/contact">
                   {currentContent.cta.secondary}
