@@ -9,13 +9,12 @@ import img1 from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import img2 from '../assets/IMG_20250706_154203787_HDR_PORTRAIT.jpg'
 import img3 from '../assets/IMG_20250706_154257593_HDR_PORTRAIT.jpg'
 import img4 from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
-import img5 from '../assets/IMG_20250708_120457485_HDR_PORTRAIT.jpg'
-import img6 from '../assets/IMG_20250707_150302221_HDR_PORTRAIT.jpg'
+import img5 from '../assets/IMG_20250707_150302221_HDR_PORTRAIT.jpg'
 
 const Home = ({ language }) => {
   const [currentImage, setCurrentImage] = useState(0)
   
-  const heroImages = [img1, img2, img3, img4, img5, img6]
+  const heroImages = [img1, img2, img3, img4, img5]
 
   const content = {
     en: {
