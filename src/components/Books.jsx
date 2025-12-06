@@ -2,7 +2,8 @@ import { motion } from 'framer-motion'
 import { ExternalLink, BookOpen, Bell } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useState } from 'react'
-import imagineYourDream from '../assets/imagine-your-dream.jpg'
+import imagineYourDream from '../assets/online-media-and-video.jpeg'
+import liveYourDream from '../assets/imagine-your-dream-live-your-dream.jpeg'
 
 const Books = ({ language }) => {
   const [email, setEmail] = useState('')
@@ -20,19 +21,19 @@ const Books = ({ language }) => {
         books: [
           {
             title: 'Imagine Your Dream',
-            subtitle: 'Live Your Dream - Personal Development',
-            description: 'A comprehensive guide to achieving your dreams through goal setting, positive affirmations, and strategic planning. Transform your life with proven methods.',
+            subtitle: 'Live Your Dream "Agenda Standard"',
+            description: 'A comprehensive personal agenda for achieving your dreams through goal setting, positive affirmations, and strategic planning. Transform your life with proven methods. Includes bonus access to Mondosol accommodations.',
             category: 'Personal Development',
-            link: 'https://www.amazon.com/Imagine-Your-Dream-Agenda-Standard/dp/1519429495',
-            image: imagineYourDream
+            link: 'https://www.amazon.com/dp/1519429495',
+            image: liveYourDream
           },
           {
             title: 'Online Media and Video',
-            subtitle: 'How to Reach The Top on The Internet',
-            description: 'Master the art of video marketing and online media to dominate your niche. Practical strategies for creating compelling content that ranks and converts.',
+            subtitle: 'How to Reach The Top on The Internet Using Social Media, Video and Mobile Marketing',
+            description: 'Master the art of video marketing and online media to dominate your niche. Practical strategies for creating compelling content that ranks and converts. Includes 12 comprehensive chapters on digital marketing.',
             category: 'Digital Marketing',
-            link: 'https://www.amazon.com/Online-Media-Video-Reach-Internet/dp/1540315371',
-            image: null
+            link: 'https://www.amazon.com/dp/B0D4NZ18Y7',
+            image: imagineYourDream
           }
         ]
       },
@@ -75,19 +76,19 @@ const Books = ({ language }) => {
         books: [
           {
             title: 'Imagine Your Dream',
-            subtitle: 'Live Your Dream - Sviluppo Personale',
-            description: 'Una guida completa per realizzare i tuoi sogni attraverso la definizione degli obiettivi, affermazioni positive e pianificazione strategica. Trasforma la tua vita con metodi comprovati.',
+            subtitle: 'Live Your Dream "Agenda Standard"',
+            description: 'Un\'agenda personale completa per realizzare i tuoi sogni attraverso la definizione degli obiettivi, affermazioni positive e pianificazione strategica. Trasforma la tua vita con metodi comprovati. Include bonus per accesso agli alloggi Mondosol.',
             category: 'Sviluppo Personale',
-            link: 'https://www.amazon.com/Imagine-Your-Dream-Agenda-Standard/dp/1519429495',
-            image: imagineYourDream
+            link: 'https://www.amazon.com/dp/1519429495',
+            image: liveYourDream
           },
           {
             title: 'Online Media and Video',
-            subtitle: 'Come Raggiungere il Top su Internet',
-            description: 'Padroneggia l\'arte del video marketing e media online per dominare la tua nicchia. Strategie pratiche per creare contenuti coinvolgenti che si posizionano e convertono.',
+            subtitle: 'Come Raggiungere il Top su Internet Usando Social Media, Video e Mobile Marketing',
+            description: 'Padroneggia l\'arte del video marketing e media online per dominare la tua nicchia. Strategie pratiche per creare contenuti coinvolgenti che si posizionano e convertono. Include 12 capitoli completi sul marketing digitale.',
             category: 'Marketing Digitale',
-            link: 'https://www.amazon.com/Online-Media-Video-Reach-Internet/dp/1540315371',
-            image: null
+            link: 'https://www.amazon.com/dp/B0D4NZ18Y7',
+            image: imagineYourDream
           }
         ]
       },
@@ -130,19 +131,19 @@ const Books = ({ language }) => {
         books: [
           {
             title: 'Imagine Your Dream',
-            subtitle: 'Live Your Dream - Personlig Utvikling',
-            description: 'En omfattende guide til å oppnå drømmene dine gjennom målsetting, positive bekreftelser og strategisk planlegging. Transformer livet ditt med dokumenterte metoder.',
+            subtitle: 'Live Your Dream "Agenda Standard"',
+            description: 'En omfattende personlig agenda for å oppnå drømmene dine gjennom målsetting, positive bekreftelser og strategisk planlegging. Transformer livet ditt med dokumenterte metoder. Inkluderer bonus tilgang til Mondosol overnattinger.',
             category: 'Personlig Utvikling',
-            link: 'https://www.amazon.com/Imagine-Your-Dream-Agenda-Standard/dp/1519429495',
-            image: imagineYourDream
+            link: 'https://www.amazon.com/dp/1519429495',
+            image: liveYourDream
           },
           {
             title: 'Online Media and Video',
-            subtitle: 'Hvordan Nå Toppen på Internett',
-            description: 'Mestre kunsten av videomarkedsføring og online media for å dominere din nisje. Praktiske strategier for å skape engasjerende innhold som rangerer og konverterer.',
+            subtitle: 'Hvordan Nå Toppen på Internett Ved Bruk av Sosiale Medier, Video og Mobil Markedsføring',
+            description: 'Mestre kunsten av videomarkedsføring og online media for å dominere din nisje. Praktiske strategier for å skape engasjerende innhold som rangerer og konverterer. Inkluderer 12 omfattende kapitler om digital markedsføring.',
             category: 'Digital Markedsføring',
-            link: 'https://www.amazon.com/Online-Media-Video-Reach-Internet/dp/1540315371',
-            image: null
+            link: 'https://www.amazon.com/dp/B0D4NZ18Y7',
+            image: imagineYourDream
           }
         ]
       },
