@@ -20,22 +20,22 @@ const Home = ({ language = 'en' }) => {
         name: 'ELIO',
         subtitle: 'MONDELLO ANZÀ',
         roles: ['ENTREPRENEUR', 'SPEAKER', 'EDUCATOR', 'AUTHOR'],
-        description: 'Education Specialist, Property Management Expert, and Multilingual Coach helping businesses scale across Europe.',
+        description: 'Helping businesses scale across Europe.',
         cta: 'DISCOVER MY WORK',
         scroll: 'SCROLL'
       },
       about: {
         title: 'TRANSFORMING BUSINESSES THROUGH',
         highlight: 'EDUCATION & INNOVATION',
-        description: 'With over 15 years of experience across 6 countries, I help entrepreneurs and businesses achieve extraordinary results through strategic education, multilingual marketing, and property management expertise.',
+        description: 'Over 15 years of experience across 6 countries, helping entrepreneurs achieve extraordinary results.',
         cta: 'LEARN MORE'
       },
       services: {
         title: 'WHAT I DO',
         items: [
-          { title: 'EDUCATION & COACHING', desc: 'Empowering individuals and teams with transformative learning experiences in 4 languages.' },
-          { title: 'PROPERTY MANAGEMENT', desc: 'Managing 250+ properties with €150K+ revenue. Top 3 Airbnb host expertise.' },
-          { title: 'MULTILINGUAL MARKETING', desc: 'SEO, copywriting, and digital strategies across European markets.' }
+          { title: 'EDUCATION & COACHING', desc: 'Transformative learning in 4 languages.' },
+          { title: 'PROPERTY MANAGEMENT', desc: '250+ properties, €150K+ revenue, Top 3 Airbnb host.' },
+          { title: 'MULTILINGUAL MARKETING', desc: 'SEO and digital strategies across Europe.' }
         ]
       },
       portfolio: {
@@ -50,10 +50,10 @@ const Home = ({ language = 'en' }) => {
       timeline: {
         title: 'FROM HUMBLE BEGINNINGS',
         items: [
-          { year: '1992', title: 'BORN', location: 'Sicily, Italy', desc: 'Born to a multicultural family.', image: timelineImg1 },
-          { year: '2010', title: 'EDUCATION', location: 'Europe', desc: 'Studied across multiple countries.', image: timelineImg2 },
-          { year: '2015', title: 'FIRST BUSINESS', location: 'Norway', desc: 'Launched property management company.', image: timelineImg3 },
-          { year: '2025', title: 'AUTHOR & SPEAKER', location: 'International', desc: 'Published books and speaking globally.' }
+          { year: '1978', title: 'BORN', location: 'Abbiategrasso, Italy', desc: 'Born to a multicultural family.', image: timelineImg1 },
+          { year: '2011', title: 'FIRST BUSINESS', location: 'Italy', desc: 'Started first entrepreneurial venture.', image: timelineImg2 },
+          { year: '2014', title: 'PROPERTY MANAGEMENT', location: 'Italy & Norway', desc: 'Launched property management company.', image: timelineImg3 },
+          { year: '2019', title: 'SPEAKER', location: 'London', desc: 'First speaking engagement in London.' }
         ]
       },
       news: {
@@ -132,7 +132,7 @@ const Home = ({ language = 'en' }) => {
             className="relative"
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden">
-              <img src={heroImage} alt="Elio Mondello Anzà" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
+              <img src={heroImage} alt="Elio Mondello Anzà" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>
