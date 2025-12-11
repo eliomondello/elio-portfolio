@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 import { ChevronDown, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
@@ -14,6 +15,17 @@ import timelineImg2 from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
 import timelineImg3 from '../assets/IMG_20240611_162138568_HDR.jpg'
 
 const Home = ({ language = 'en' }) => {
+  // Cycling name animation: ELIO -> MONDELLO -> ANZÀ
+  const names = ['ELIO', 'MONDELLO', 'ANZÀ']
+  const [currentNameIndex, setCurrentNameIndex] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentNameIndex((prev) => (prev + 1) % names.length)
+    }, 2500) // Change every 2.5 seconds
+    return () => clearInterval(interval)
+  }, [])
+
   const content = {
     en: {
       hero: {
@@ -229,16 +241,16 @@ const Home = ({ language = 'en' }) => {
         {/* Center: Large Name Overlay with Animation */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <motion.h2
-            initial={{ opacity: 0, scale: 0.9 }}
+            key={currentNameIndex}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ 
               opacity: 1, 
-              scale: 1,
-              y: [0, -10, 0]
+              y: 0
             }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ 
-              opacity: { duration: 1, delay: 0.3 },
-              scale: { duration: 1, delay: 0.3 },
-              y: { duration: 3, repeat: Infinity, ease: "easeInOut" }
+              duration: 0.8,
+              ease: "easeInOut"
             }}
             className="text-[15vw] md:text-[20vw] font-black text-yellow-400 leading-none opacity-90"
             style={{ 
@@ -246,7 +258,7 @@ const Home = ({ language = 'en' }) => {
               letterSpacing: '0.1em'
             }}
           >
-            {t.hero.name}
+            {names[currentNameIndex]}
           </motion.h2>
         </div>
 

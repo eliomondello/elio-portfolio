@@ -9,31 +9,22 @@ const Navigation = ({ language, setLanguage }) => {
 
   const navItems = {
     en: [
-      { path: '/', label: 'Home' },
-      { path: '/about', label: 'About' },
-      { path: '/portfolio', label: 'Portfolio' },
-      { path: '/testimonials', label: 'Testimonials' },
-      { path: '/services', label: 'Services' },
-      { path: '/books', label: 'Books' },
-      { path: '/contact', label: 'Contact' }
+      { path: '/', label: 'HOME' },
+      { path: '/about', label: 'ABOUT' },
+      { path: '/books', label: 'BOOKS' },
+      { path: '/contact', label: 'CONTACT' }
     ],
     it: [
-      { path: '/', label: 'Home' },
-      { path: '/about', label: 'Chi Sono' },
-      { path: '/portfolio', label: 'Portfolio' },
-      { path: '/testimonials', label: 'Testimonianze' },
-      { path: '/services', label: 'Servizi' },
-      { path: '/books', label: 'Libri' },
-      { path: '/contact', label: 'Contatti' }
+      { path: '/', label: 'HOME' },
+      { path: '/about', label: 'CHI SONO' },
+      { path: '/books', label: 'LIBRI' },
+      { path: '/contact', label: 'CONTATTI' }
     ],
     no: [
-      { path: '/', label: 'Hjem' },
-      { path: '/about', label: 'Om Meg' },
-      { path: '/portfolio', label: 'Portfolio' },
-      { path: '/testimonials', label: 'Anbefalinger' },
-      { path: '/services', label: 'Tjenester' },
-      { path: '/books', label: 'Bøker' },
-      { path: '/contact', label: 'Kontakt' }
+      { path: '/', label: 'HJEM' },
+      { path: '/about', label: 'OM MEG' },
+      { path: '/books', label: 'BØKER' },
+      { path: '/contact', label: 'KONTAKT' }
     ]
   }
 
@@ -61,91 +52,54 @@ const Navigation = ({ language, setLanguage }) => {
   const currentContent = content[language]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-yellow-400/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="text-lg sm:text-xl lg:text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors flex-shrink truncate">
-            ELIO MONDELLO ANZÀ
-          </Link>
+    <>
+      {/* Fixed Top Bar */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex justify-between items-center h-20">
+            {/* Logo */}
+            <Link to="/" className="text-xl lg:text-2xl font-bold text-white hover:text-yellow-400 transition-colors">
+              ELIO MONDELLO ANZÀ
+            </Link>
 
-          {/* Desktop Navigation */}
-          <div className="flex items-center space-x-4 lg:space-x-8">
-            {navItems[language].map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className="text-white hover:text-yellow-400 transition-colors font-semibold text-xs sm:text-sm lg:text-lg"
-              >
-                {item.label}
-              </Link>
-            ))}
-            
-            {/* Language Selector */}
-            <div className="relative group">
-              <Button variant="ghost" size="sm" className="text-white hover:text-yellow-400">
-                <Globe className="w-4 h-4 mr-2" />
-                {languages.find(lang => lang.code === language)?.label}
-              </Button>
-              <div className="absolute right-0 mt-2 w-32 bg-black border border-yellow-400/20 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                {languages.map((lang) => (
-                  <button
-                    key={lang.code}
-                    onClick={() => setLanguage(lang.code)}
-                    className={`block w-full text-left px-4 py-2 text-sm hover:bg-yellow-400/10 ${
-                      language === lang.code ? 'text-yellow-400' : 'text-white'
-                    }`}
-                  >
-                    {lang.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* CTA Button */}
-            <Button 
-              asChild
-              className="bg-yellow-400 text-black hover:bg-yellow-300 font-semibold"
-            >
-              <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                {currentContent.bookSession}
-              </a>
-            </Button>
-          </div>
-
-          {/* Mobile menu button */}
-          <div className="hidden">
-            <Button
-              variant="ghost"
-              size="sm"
+            {/* Hamburger Menu Button */}
+            <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-white hover:text-yellow-400"
+              className="w-12 h-12 flex items-center justify-center bg-yellow-400 hover:bg-yellow-300 transition-colors rounded-full"
+              aria-label="Toggle menu"
             >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </Button>
+              {isOpen ? (
+                <X className="w-6 h-6 text-black" />
+              ) : (
+                <Menu className="w-6 h-6 text-black" />
+              )}
+            </button>
           </div>
         </div>
+      </nav>
 
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-black/95 border-t border-yellow-400/20">
-              {navItems[language].map((item) => (
+      {/* Full Screen Yellow Overlay Menu */}
+      {isOpen && (
+        <div className="fixed inset-0 z-40 bg-yellow-400 flex items-center justify-center">
+          <div className="w-full max-w-4xl px-8">
+            {/* Menu Items */}
+            <nav className="space-y-2 mb-12">
+              {navItems[language].map((item, index) => (
                 <Link
-                  key={item.path}
+                  key={index}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-3 py-2 text-lg font-semibold transition-colors hover:text-yellow-400 ${
-                    location.pathname === item.path ? 'text-yellow-400' : 'text-white'
-                  }`}
+                  className="block text-4xl lg:text-6xl font-black text-black hover:text-white transition-colors py-2"
                 >
                   {item.label}
                 </Link>
               ))}
-              
-              {/* Mobile Language Selector */}
-              <div className="px-3 py-2">
-                <div className="text-sm text-gray-400 mb-2">{currentContent.languageLabel}</div>
+            </nav>
+
+            {/* Language Selector */}
+            <div className="border-t-2 border-black pt-8">
+              <div className="text-sm font-bold text-black mb-4">{currentContent.languageLabel}</div>
+              <div className="flex gap-4">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -153,31 +107,21 @@ const Navigation = ({ language, setLanguage }) => {
                       setLanguage(lang.code)
                       setIsOpen(false)
                     }}
-                    className={`block w-full text-left py-1 text-sm ${
-                      language === lang.code ? 'text-yellow-400' : 'text-white'
+                    className={`px-6 py-3 font-bold text-lg rounded-full transition-colors ${
+                      language === lang.code
+                        ? 'bg-black text-yellow-400'
+                        : 'bg-white text-black hover:bg-black hover:text-white'
                     }`}
                   >
                     {lang.label}
                   </button>
                 ))}
               </div>
-
-              {/* Mobile CTA Button */}
-              <div className="px-3 py-2">
-                <Button 
-                  asChild
-                  className="w-full bg-yellow-400 text-black hover:bg-yellow-300 font-semibold"
-                >
-                  <a href="https://mondosol.com/coaching" target="_blank" rel="noopener noreferrer">
-                    {currentContent.bookSession}
-                  </a>
-                </Button>
-              </div>
             </div>
           </div>
-        )}
-      </div>
-    </nav>
+        </div>
+      )}
+    </>
   )
 }
 
