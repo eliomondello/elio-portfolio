@@ -78,6 +78,134 @@ const Home = ({ language = 'en' }) => {
         title: "LET'S CREATE SOMETHING EXTRAORDINARY",
         button: 'GET IN TOUCH'
       }
+    },
+    it: {
+      hero: {
+        name: 'ELIO',
+        subtitle: 'MONDELLO ANZÀ',
+        roles: ['IMPRENDITORE', 'SPEAKER', 'EDUCATORE', 'AUTORE'],
+        description: 'Aiuto le aziende a crescere in Europa.',
+        cta: 'SCOPRI IL MIO LAVORO',
+        scroll: 'SCORRI'
+      },
+      about: {
+        title: 'TRASFORMARE LE AZIENDE ATTRAVERSO',
+        highlight: 'EDUCAZIONE & INNOVAZIONE',
+        description: 'Oltre 15 anni di esperienza in 6 paesi, aiutando imprenditori a raggiungere risultati straordinari.',
+        cta: 'SCOPRI DI PIÙ'
+      },
+      services: {
+        title: 'COSA FACCIO',
+        items: [
+          { title: 'EDUCAZIONE & COACHING', desc: 'Apprendimento trasformativo in 4 lingue.' },
+          { title: 'GESTIONE IMMOBILIARE', desc: '250+ proprietà, €150K+ fatturato, Top 3 host Airbnb.' },
+          { title: 'MARKETING MULTILINGUE', desc: 'SEO e strategie digitali in Europa.' }
+        ]
+      },
+      portfolio: {
+        title: 'PROGETTI & RISULTATI',
+        items: [
+          { title: 'PORTFOLIO IMMOBILIARE', image: portfolioImg1 },
+          { title: 'PROGRAMMI EDUCATIVI', image: portfolioImg2 },
+          { title: 'CAMPAGNE MARKETING', image: portfolioImg3 },
+          { title: 'CONFERENZE', image: portfolioImg4 }
+        ]
+      },
+      timeline: {
+        title: 'DALLE UMILI ORIGINI',
+        items: [
+          { year: '1978', title: 'NATO', location: 'Abbiategrasso, Italia', desc: 'Nato in una famiglia multiculturale.', image: timelineImg1 },
+          { year: '2011', title: 'PRIMA ATTIVITÀ', location: 'Italia', desc: 'Avviata prima impresa imprenditoriale.', image: timelineImg2 },
+          { year: '2014', title: 'GESTIONE IMMOBILIARE', location: 'Italia & Norvegia', desc: 'Lanciata azienda di gestione immobiliare.', image: timelineImg3 },
+          { year: '2019', title: 'SPEAKER', location: 'Londra', desc: 'Primo intervento pubblico a Londra.' }
+        ]
+      },
+      news: {
+        title: 'NEWS & STORIE',
+        items: [
+          { title: 'Scalare la Gestione Immobiliare in Europa', category: 'BUSINESS', date: '2025', desc: 'Come ho costruito un portfolio di €150K+ gestendo 250+ proprietà.', image: portfolioImg1 },
+          { title: 'Il Potere del Marketing Multilingue', category: 'MARKETING', date: '2024', desc: 'Strategie per raggiungere i mercati europei nelle loro lingue native.', image: portfolioImg2 },
+          { title: "L'Educazione come Strumento di Crescita Aziendale", category: 'EDUCAZIONE', date: '2024', desc: 'Perché investire nell\'educazione del team porta risultati straordinari.', image: portfolioImg3 }
+        ]
+      },
+      books: {
+        title: 'LIBRI',
+        subtitle: 'Condividere conoscenza attraverso la scrittura',
+        items: [
+          { title: 'Imagine Your Dream: How to Reach The Top on The Internet', desc: 'Una guida completa al marketing online e al successo digitale.', status: 'DISPONIBILE ORA' },
+          { title: 'Imagine Your Dream: Live Your Dream', desc: 'Strategie di sviluppo personale e definizione degli obiettivi per il successo.', status: 'DISPONIBILE ORA' },
+          { title: 'Sei Paesi, Una Storia', desc: 'Un memoir multiculturale che esplora identità, eredità familiare e appartenenza attraverso sei paesi.', status: 'IN ARRIVO' }
+        ],
+        cta: 'VEDI TUTTI I LIBRI'
+      },
+      cta: {
+        title: 'CREIAMO QUALCOSA DI STRAORDINARIO',
+        button: 'CONTATTAMI'
+      }
+    },
+    no: {
+      hero: {
+        name: 'ELIO',
+        subtitle: 'MONDELLO ANZÀ',
+        roles: ['ENTREPRENØR', 'FOREDRAGSHOLDER', 'UTDANNER', 'FORFATTER'],
+        description: 'Hjelper bedrifter å vokse i Europa.',
+        cta: 'OPPDAG MITT ARBEID',
+        scroll: 'RULL'
+      },
+      about: {
+        title: 'TRANSFORMERE BEDRIFTER GJENNOM',
+        highlight: 'UTDANNING & INNOVASJON',
+        description: 'Over 15 års erfaring på tvers av 6 land, hjelper entreprenører å oppnå ekstraordinære resultater.',
+        cta: 'LÆR MER'
+      },
+      services: {
+        title: 'HVA JEG GJØR',
+        items: [
+          { title: 'UTDANNING & COACHING', desc: 'Transformativ læring på 4 språk.' },
+          { title: 'EIENDOMSFORVALTNING', desc: '250+ eiendommer, €150K+ inntekt, Topp 3 Airbnb vert.' },
+          { title: 'FLERSPRÅKLIG MARKEDSFØRING', desc: 'SEO og digitale strategier i Europa.' }
+        ]
+      },
+      portfolio: {
+        title: 'PROSJEKTER & RESULTATER',
+        items: [
+          { title: 'EIENDOMSPORTEFOLIO', image: portfolioImg1 },
+          { title: 'UTDANNINGSPROGRAMMER', image: portfolioImg2 },
+          { title: 'MARKEDSFØRINGSKAMPANJER', image: portfolioImg3 },
+          { title: 'FOREDRAG', image: portfolioImg4 }
+        ]
+      },
+      timeline: {
+        title: 'FRA ØDMYKE BEGYNNELSER',
+        items: [
+          { year: '1978', title: 'FØDT', location: 'Abbiategrasso, Italia', desc: 'Født i en multikulturell familie.', image: timelineImg1 },
+          { year: '2011', title: 'FØRSTE VIRKSOMHET', location: 'Italia', desc: 'Startet første entreprenørielle satsing.', image: timelineImg2 },
+          { year: '2014', title: 'EIENDOMSFORVALTNING', location: 'Italia & Norge', desc: 'Lanserte eiendomsforvaltningsselskap.', image: timelineImg3 },
+          { year: '2019', title: 'FOREDRAGSHOLDER', location: 'London', desc: 'Første foredrag i London.' }
+        ]
+      },
+      news: {
+        title: 'NYHETER & HISTORIER',
+        items: [
+          { title: 'Skalere Eiendomsforvaltning På Tvers av Europa', category: 'VIRKSOMHET', date: '2025', desc: 'Hvordan jeg bygde en €150K+ eiendomsportefolio som forvalter 250+ eiendommer.', image: portfolioImg1 },
+          { title: 'Kraften i Flerspråklig Markedsføring', category: 'MARKEDSFØRING', date: '2024', desc: 'Strategier for å nå europeiske markeder på deres mordsmål.', image: portfolioImg2 },
+          { title: 'Utdanning som Verktøy for Bedriftsvekst', category: 'UTDANNING', date: '2024', desc: 'Hvorfor investering i teamutdanning gir ekstraordinære resultater.', image: portfolioImg3 }
+        ]
+      },
+      books: {
+        title: 'BØKER',
+        subtitle: 'Dele kunnskap gjennom skriving',
+        items: [
+          { title: 'Imagine Your Dream: How to Reach The Top on The Internet', desc: 'En omfattende guide til online markedsføring og digital suksess.', status: 'TILGJENGELIG NÅ' },
+          { title: 'Imagine Your Dream: Live Your Dream', desc: 'Personlig utvikling og målsettingsstrategier for suksess.', status: 'TILGJENGELIG NÅ' },
+          { title: 'Sei Paesi, Una Storia', desc: 'En hjertelig multikulturell memoir som utforsker identitet, familiearv og tilhørighet på tvers av seks land.', status: 'KOMMER SNART' }
+        ],
+        cta: 'SE ALLE BØKER'
+      },
+      cta: {
+        title: 'LA OSS SKAPE NOE EKSTRAORDINÆRT',
+        button: 'KONTAKT MEG'
+      }
     }
   }
 
