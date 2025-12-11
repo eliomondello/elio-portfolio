@@ -213,62 +213,55 @@ const Home = ({ language = 'en' }) => {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* 1. HERO SECTION */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+      {/* 1. HERO SECTION - Full Screen Minimal */}
+      <section className="relative h-screen w-full overflow-hidden">
+        {/* Full Screen Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src={heroImage} 
+            alt="Elio Mondello Anzà" 
+            className="w-full h-full object-cover"
+          />
+          {/* Dark overlay for better text visibility */}
+          <div className="absolute inset-0 bg-black/30"></div>
+        </div>
+
+        {/* Top Left: Name */}
+        <div className="absolute top-20 left-4 md:left-8 z-20">
           <motion.h1
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-            className="text-[20vw] md:text-[25vw] font-black text-yellow-400 leading-none tracking-tighter"
-            style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="text-2xl md:text-3xl font-bold text-white"
           >
-            {t.hero.name}
+            {t.hero.name} {t.hero.subtitle}
           </motion.h1>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center mt-20">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
+        {/* Center: Large Name Overlay */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <motion.h2
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.3 }}
+            className="text-[15vw] md:text-[20vw] font-black text-yellow-400 leading-none tracking-tighter opacity-90"
+            style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}
           >
-            <h2 className="text-4xl md:text-6xl font-bold mb-6">
-              {t.hero.name} {t.hero.subtitle};{' '}
-              {t.hero.roles.map((role, index) => (
-                <span key={index}>
-                  {index > 0 && ', '}
-                  <span className="text-yellow-400">{role}</span>
-                </span>
-              ))}
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-              {t.hero.description}
-            </p>
-            <Link to="/about">
-              <Button size="lg" className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold text-lg px-8 py-6 group">
-                {t.hero.cta}
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="relative"
-          >
-            <div className="aspect-[3/4] rounded-2xl overflow-hidden">
-              <img src={heroImage} alt="Elio Mondello Anzà" className="w-full h-full object-cover" />
-            </div>
-          </motion.div>
+            {t.hero.name}
+          </motion.h2>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 z-20">
-          <span className="text-sm tracking-widest text-yellow-400">{t.hero.scroll}</span>
+        {/* Bottom Center: Scroll Indicator */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 z-20">
+          <span className="text-sm tracking-widest text-white">{t.hero.scroll}</span>
           <ChevronDown className="animate-bounce text-yellow-400" />
-        </div>
+        </motion.div>
+
+
       </section>
 
       {/* 2. ABOUT SECTION */}
