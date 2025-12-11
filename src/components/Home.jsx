@@ -410,14 +410,20 @@ const Home = ({ language = 'en' }) => {
 
           <div className="grid md:grid-cols-3 gap-8">
             {t.news.items.map((article, index) => (
-              <motion.div
+              <a 
                 key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="group cursor-pointer"
+                href={article.link || 'https://mondosol.com'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
               >
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="group cursor-pointer"
+                >
                 <div className="aspect-[4/5] rounded-lg overflow-hidden mb-6">
                   <img
                     src={article.image}
@@ -434,6 +440,7 @@ const Home = ({ language = 'en' }) => {
                   <p className="text-gray-400 leading-relaxed">{article.desc}</p>
                 </div>
               </motion.div>
+              </a>
             ))}
           </div>
         </div>

@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import { ExternalLink, BookOpen, Bell } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useState } from 'react'
-import imagineYourDream from '../assets/online-media-and-video.jpeg'
-import onlineMediaVideo from '../assets/imagine-your-dream-live-your-dream.jpeg'
+import imagineYourDream from '../assets/imagine-your-dream.jpeg'
+import onlineMediaVideo from '../assets/online-media-video.jpeg'
 
 const Books = ({ language }) => {
   const [email, setEmail] = useState('')
@@ -40,8 +40,8 @@ const Books = ({ language }) => {
       coming: {
         title: 'COMING SOON',
         book: {
-          title: 'Sei Paesi, Una Storia',
-          subtitle: 'Six Countries, One Story',
+          title: 'Six Countries, One Story',
+          subtitle: 'A Multicultural Memoir',
           description: 'A powerful multicultural memoir exploring identity, family legacy, and belonging across six countries. A journey through generational patterns, immigration, and the search for home.',
           themes: [
             'Multicultural Identity',
