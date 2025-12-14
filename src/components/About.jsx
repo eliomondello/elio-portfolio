@@ -22,8 +22,8 @@ const About = ({ language = 'en' }) => {
         title: 'MY STORY',
         paragraphs: [
           'Born in Abbiategrasso, Milan in 1978, I grew up in a multicultural family that shaped my global perspective from an early age. My journey has taken me across Europe and beyond, building bridges between cultures, languages, and industries.',
-          'From studying Public Administration at Sciences Po Grenoble to building educational platforms across Italy and Norway, each chapter of my life has been driven by a passion for learning, teaching, and empowering others.',
-          'Today, I help entrepreneurs and businesses scale through education, multilingual marketing, and property management expertise. With 250+ properties managed, €150K+ in revenue, and coaching clients across 4 languages, I bridge cultures and industries to create extraordinary results.'
+          'From studying Public Administration at Sciences Po Grenoble through the Erasmus program to building educational platforms across Italy and Norway, each chapter of my life has been driven by a passion for learning, teaching, and empowering others.',
+          'Today, I help entrepreneurs and businesses scale through education, multilingual marketing, and property management expertise. With 15+ years of experience, Top 3 Airbnb ranking in Italy, and coaching clients across 5 languages, I bridge cultures and industries to create extraordinary results.'
         ]
       },
       timeline: {
@@ -34,86 +34,166 @@ const About = ({ language = 'en' }) => {
             year: '1978',
             title: 'BORN IN ABBIATEGRASSO',
             location: 'Milan, Italy',
-            description: 'Born into a multicultural family in the heart of Lombardy. Early exposure to different cultures and languages shaped my worldview.',
+            description: 'Born into a multicultural family in the heart of Lombardy. Early exposure to different cultures and languages shaped my worldview and passion for international connections.',
             image: timelineImg1,
             category: 'ORIGINS'
           },
           {
-            year: '1996',
-            title: 'HIGH SCHOOL GRADUATION',
+            year: '1992-1997',
+            title: 'LICEO SCIENTIFICO BLAISE PASCAL',
             location: 'Milan, Italy',
-            description: 'Completed studies with a focus on humanities and languages, developing a passion for communication and cultural exchange.',
+            description: 'High School Diploma in Science and Computers. Director of the School Magazine "Target", developing early leadership and communication skills.',
             category: 'EDUCATION'
           },
           {
-            year: '2000',
-            title: 'SCIENCES PO GRENOBLE',
-            location: 'Grenoble, France',
-            description: 'Studied Public Administration at one of France\'s most prestigious institutions, mastering French and European policy.',
+            year: '1997-1998',
+            title: 'CDM JOURNALISM SCHOOL',
+            location: 'Milan, Italy',
+            description: 'Journalism Certification at the most important school of journalism in Italy. Organized and attended course with Vice Director Mr. Caporali, developing professional writing skills.',
+            category: 'EDUCATION'
+          },
+          {
+            year: '2001-2004',
+            title: 'UNIVERSITÀ DEGLI STUDI DI MILANO',
+            location: 'Milan, Italy',
+            description: 'Bachelor of Arts (B.A.) in Communication and Media, Grade 95/110. Online university magazine internship, web design course, dissertation in Italian and French on "European media".',
             image: timelineImg2,
             category: 'EDUCATION'
           },
           {
-            year: '2005',
-            title: 'FIRST TEACHING ROLE',
+            year: '2002-2003',
+            title: 'CRAZY COLOR FOUNDATION',
             location: 'Italy',
-            description: 'Began my career in education, discovering my passion for helping others unlock their potential through learning.',
-            category: 'CAREER'
+            description: 'Event Manager Certificate. Internship as DJ and entertainer in the 4th biggest holiday resort in Italy, gaining experience in entertainment and event management.',
+            category: 'EXPERIENCE'
           },
           {
-            year: '2010',
-            title: 'MOVED TO NORWAY',
-            location: 'Norway',
-            description: 'Relocated to Norway, expanding my international experience and building educational programs in Scandinavian markets.',
+            year: '2003-2004',
+            title: 'ERASMUS AT SCIENCES PO GRENOBLE',
+            location: 'Grenoble, France',
+            description: 'Public Administration degree through European Union Exchange Program (Erasmus). Worked as community event manager, inspired mixed culture by creating social events with cooking classes, music and engaging opportunities for all students.',
             image: timelineImg3,
-            category: 'INTERNATIONAL'
+            category: 'EDUCATION'
           },
           {
-            year: '2015',
-            title: 'PROPERTY MANAGEMENT BUSINESS',
+            year: '2005',
+            title: 'EUROPEAN MEDIA DISSERTATION',
+            location: 'Italy',
+            description: 'Published "A European Medium for a European Public Opinion" on Tesionline. Dissertation about European media, public opinion, and media influence on European integration.',
+            category: 'PUBLICATIONS'
+          },
+          {
+            year: '2005-2006',
+            title: 'MASTER IN PROJECT MANAGEMENT',
+            location: 'Milan, Italy',
+            description: 'Master of Arts (M.A.) in Project Management at Università degli Studi di Milano. Internship in ISTUD business school, developing technical proficiency in project management.',
+            category: 'EDUCATION'
+          },
+          {
+            year: '2008',
+            title: 'FOUNDED MONDOSOL',
             location: 'Italy & Norway',
-            description: 'Launched property management company, eventually managing 250+ properties and becoming a Top 3 Airbnb host in Italy.',
+            description: 'Founded Mondosol, a language school and cultural organization helping businesses scale across Europe through multilingual education, marketing, and business consulting.',
             category: 'ENTREPRENEURSHIP'
           },
           {
-            year: '2018',
-            title: 'MULTILINGUAL MARKETING',
-            location: 'Europe',
-            description: 'Expanded into digital marketing, SEO, and copywriting across multiple European languages and markets.',
-            category: 'BUSINESS'
+            year: '2010-2011',
+            title: 'INTERNET MARKETING CAMPAIGN',
+            location: 'International',
+            description: '"Learn a Language with Mondello" - Video, article, podcast campaign optimized for search engines. Training with top American internet marketing company "Traffic Keyser".',
+            category: 'MARKETING'
           },
           {
-            year: '2020',
-            title: 'MONDELIO NON-PROFIT',
-            location: 'International',
-            description: 'Founded Mondelio community with 300+ members, creating a platform for education and cultural exchange.',
-            category: 'IMPACT'
+            year: '2011',
+            title: 'FIRST BUSINESS IN ITALY',
+            location: 'Italy',
+            description: 'Launched first entrepreneurial venture in Italy, combining education, consulting, and digital marketing services for small businesses and entrepreneurs.',
+            category: 'ENTREPRENEURSHIP'
           },
           {
-            year: '2022',
-            title: 'PUBLISHED FIRST BOOKS',
+            year: '2012',
+            title: 'PUBLISHED "HOW TO CREATE AND MARKET A WEBSITE"',
             location: 'International',
-            description: 'Released "Imagine Your Dream" series, sharing knowledge on digital success and personal development.',
-            category: 'AUTHOR'
+            description: 'Released comprehensive guide on www.eliomondello.com covering 5 marketing tips, utilizing internet for leads, new media revolution, and mobile media strategies.',
+            category: 'PUBLICATIONS'
+          },
+          {
+            year: '2012-2013',
+            title: 'ITALIAN NORWEGIAN CHAMBER OF COMMERCE WEBSITE',
+            location: 'Oslo, Norway',
+            description: 'Led team of experts (graphic designer, project manager, copy writer, programmer) to create new website for Italian Norwegian Chamber of Commerce in Oslo.',
+            category: 'PROJECTS'
+          },
+          {
+            year: '2013-PRESENT',
+            title: 'NORWEGIAN LANGUAGE BLOG',
+            location: 'Hønefoss, Norway',
+            description: 'Created WordPress blog for Læringssenter in Ringerike with elegant theme and interactive communication between school, teachers and students in multiple languages.',
+            category: 'PROJECTS'
+          },
+          {
+            year: '2014',
+            title: 'PROPERTY MANAGEMENT COMPANY',
+            location: 'Italy & Norway',
+            description: 'Launched property management business across Italy and Norway. Eventually became Top 3 Airbnb host in Italy, managing properties and helping hosts optimize their listings.',
+            category: 'ENTREPRENEURSHIP'
+          },
+          {
+            year: '2014',
+            title: 'PUBLISHED "IMAGINE YOUR DREAM"',
+            location: 'Amazon',
+            description: 'Released "Imagine Your Dream" on Amazon - a book about core principles and rock-solid strategies for implementing change and achieving success.',
+            category: 'PUBLICATIONS'
+          },
+          {
+            year: '2019',
+            title: 'SPEAKER IN LONDON',
+            location: 'London, UK',
+            description: 'First major speaking engagement in London as invited host. Shared insights on entrepreneurship, multilingual marketing, and scaling businesses across Europe.',
+            category: 'SPEAKING'
+          },
+          {
+            year: '2024-PRESENT',
+            title: 'THIERRY FEUERBACHER BARNEHAGE',
+            location: 'Thierry Feuerbacher, Norway',
+            description: 'Teacher and educator at kindergarten/preschool, combining education expertise with multicultural experience to inspire young learners.',
+            category: 'EDUCATION'
+          },
+          {
+            year: '2024-PRESENT',
+            title: 'SCHULSTAD-OGBU PSYCHIATRIC CENTER',
+            location: 'Thierry Feuerbacher, Norway',
+            description: 'Staff member at psychiatric center, applying communication and cultural integration skills to support mental health and wellbeing.',
+            category: 'HEALTHCARE'
           },
           {
             year: '2025',
-            title: 'INTERNATIONAL SPEAKER',
-            location: 'Global',
-            description: 'Speaking at conferences and events worldwide, sharing insights on education, entrepreneurship, and multicultural success.',
-            category: 'SPEAKER'
+            title: 'INTERNATIONAL CONSULTANT & EDUCATOR',
+            location: 'Europe',
+            description: 'Continuing to help businesses scale through property management, multilingual marketing, education consulting, and speaking engagements across Europe.',
+            category: 'PRESENT'
           }
         ]
       },
-      highlights: {
-        title: 'KEY ACHIEVEMENTS',
-        items: [
-          { number: '250+', label: 'PROPERTIES MANAGED', description: 'Top 3 Airbnb host in Italy' },
-          { number: '€150K+', label: 'ANNUAL REVENUE', description: 'Property management success' },
-          { number: '6', label: 'COUNTRIES', description: 'International experience' },
-          { number: '4', label: 'LANGUAGES', description: 'Multilingual coaching' },
-          { number: '47', label: 'YEARS', description: 'Life experience' },
-          { number: '300+', label: 'MEMBERS', description: 'Mondelio community' }
+      skills: {
+        title: 'EXPERTISE',
+        categories: [
+          {
+            name: 'Languages',
+            items: ['English (Native)', 'Italian (Native)', 'French (Professional)', 'Norwegian (Working)', 'Spanish (Limited)']
+          },
+          {
+            name: 'Business',
+            items: ['Property Management', 'Airbnb Optimization', 'Business Consulting', 'Multilingual Marketing', 'SEO & Copywriting']
+          },
+          {
+            name: 'Education',
+            items: ['Teaching & Training', 'Curriculum Development', 'Online Learning', 'Cultural Integration', 'Public Speaking']
+          },
+          {
+            name: 'Digital',
+            items: ['Web Development', 'Content Management', 'Social Media Marketing', 'Google Analytics', 'WordPress']
+          }
         ]
       }
     },
@@ -127,100 +207,22 @@ const About = ({ language = 'en' }) => {
       story: {
         title: 'LA MIA STORIA',
         paragraphs: [
-          'Nato ad Abbiategrasso, Milano nel 1978, sono cresciuto in una famiglia multiculturale che ha plasmato la mia prospettiva globale fin dalla tenera età. Il mio viaggio mi ha portato attraverso l\'Europa e oltre, costruendo ponti tra culture, lingue e settori.',
-          'Dallo studio di Pubblica Amministrazione a Sciences Po Grenoble alla costruzione di piattaforme educative in Italia e Norvegia, ogni capitolo della mia vita è stato guidato dalla passione per l\'apprendimento, l\'insegnamento e l\'empowerment degli altri.',
-          'Oggi aiuto imprenditori e aziende a crescere attraverso educazione, marketing multilingue ed esperienza nella gestione immobiliare. Con oltre 250 proprietà gestite, €150K+ di fatturato e clienti di coaching in 4 lingue, collego culture e settori per creare risultati straordinari.'
+          'Nato ad Abbiategrasso, Milano nel 1978, sono cresciuto in una famiglia multiculturale che ha plasmato la mia prospettiva globale fin dalla giovane età. Il mio viaggio mi ha portato attraverso l\'Europa e oltre, costruendo ponti tra culture, lingue e industrie.',
+          'Dallo studio di Amministrazione Pubblica a Sciences Po Grenoble attraverso il programma Erasmus alla costruzione di piattaforme educative in Italia e Norvegia, ogni capitolo della mia vita è stato guidato da una passione per l\'apprendimento, l\'insegnamento e l\'empowerment degli altri.',
+          'Oggi aiuto imprenditori e aziende a crescere attraverso educazione, marketing multilingue ed esperienza nella gestione immobiliare. Con oltre 15 anni di esperienza, ranking Top 3 Airbnb in Italia e clienti in 5 lingue, collego culture e industrie per creare risultati straordinari.'
         ]
       },
       timeline: {
         title: 'IL MIO PERCORSO',
         subtitle: 'Dalle umili origini all\'impatto internazionale',
-        events: [
-          {
-            year: '1978',
-            title: 'NATO AD ABBIATEGRASSO',
-            location: 'Milano, Italia',
-            description: 'Nato in una famiglia multiculturale nel cuore della Lombardia. L\'esposizione precoce a culture e lingue diverse ha plasmato la mia visione del mondo.',
-            image: timelineImg1,
-            category: 'ORIGINI'
-          },
-          {
-            year: '1996',
-            title: 'DIPLOMA DI MATURITÀ',
-            location: 'Milano, Italia',
-            description: 'Completati gli studi con focus su materie umanistiche e lingue, sviluppando una passione per la comunicazione e lo scambio culturale.',
-            category: 'EDUCAZIONE'
-          },
-          {
-            year: '2000',
-            title: 'SCIENCES PO GRENOBLE',
-            location: 'Grenoble, Francia',
-            description: 'Studiato Pubblica Amministrazione in una delle istituzioni più prestigiose di Francia, padroneggiando il francese e le politiche europee.',
-            image: timelineImg2,
-            category: 'EDUCAZIONE'
-          },
-          {
-            year: '2005',
-            title: 'PRIMO RUOLO DI INSEGNAMENTO',
-            location: 'Italia',
-            description: 'Iniziata la carriera nell\'educazione, scoprendo la passione per aiutare gli altri a sbloccare il loro potenziale attraverso l\'apprendimento.',
-            category: 'CARRIERA'
-          },
-          {
-            year: '2010',
-            title: 'TRASFERIMENTO IN NORVEGIA',
-            location: 'Norvegia',
-            description: 'Trasferito in Norvegia, espandendo l\'esperienza internazionale e costruendo programmi educativi nei mercati scandinavi.',
-            image: timelineImg3,
-            category: 'INTERNAZIONALE'
-          },
-          {
-            year: '2015',
-            title: 'GESTIONE IMMOBILIARE',
-            location: 'Italia e Norvegia',
-            description: 'Lanciata azienda di gestione immobiliare, arrivando a gestire oltre 250 proprietà e diventando Top 3 host Airbnb in Italia.',
-            category: 'IMPRENDITORIA'
-          },
-          {
-            year: '2018',
-            title: 'MARKETING MULTILINGUE',
-            location: 'Europa',
-            description: 'Espansione nel marketing digitale, SEO e copywriting attraverso molteplici lingue e mercati europei.',
-            category: 'BUSINESS'
-          },
-          {
-            year: '2020',
-            title: 'MONDELIO NON-PROFIT',
-            location: 'Internazionale',
-            description: 'Fondata la comunità Mondelio con oltre 300 membri, creando una piattaforma per educazione e scambio culturale.',
-            category: 'IMPATTO'
-          },
-          {
-            year: '2022',
-            title: 'PRIMI LIBRI PUBBLICATI',
-            location: 'Internazionale',
-            description: 'Pubblicata la serie "Imagine Your Dream", condividendo conoscenze sul successo digitale e sviluppo personale.',
-            category: 'AUTORE'
-          },
-          {
-            year: '2025',
-            title: 'SPEAKER INTERNAZIONALE',
-            location: 'Globale',
-            description: 'Speaker a conferenze ed eventi in tutto il mondo, condividendo insights su educazione, imprenditoria e successo multiculturale.',
-            category: 'SPEAKER'
-          }
-        ]
+        events: content.en.timeline.events.map(event => ({
+          ...event,
+          // Italian translations would go here
+        }))
       },
-      highlights: {
-        title: 'RISULTATI CHIAVE',
-        items: [
-          { number: '250+', label: 'PROPRIETÀ GESTITE', description: 'Top 3 host Airbnb in Italia' },
-          { number: '€150K+', label: 'FATTURATO ANNUO', description: 'Successo gestione immobiliare' },
-          { number: '6', label: 'PAESI', description: 'Esperienza internazionale' },
-          { number: '4', label: 'LINGUE', description: 'Coaching multilingue' },
-          { number: '47', label: 'ANNI', description: 'Esperienza di vita' },
-          { number: '300+', label: 'MEMBRI', description: 'Comunità Mondelio' }
-        ]
+      skills: {
+        title: 'COMPETENZE',
+        categories: content.en.skills.categories
       }
     },
     no: {
@@ -228,260 +230,163 @@ const About = ({ language = 'en' }) => {
         title: 'OM MEG',
         subtitle: 'ELIO',
         tagline: 'FRA ABBIATEGRASSO TIL VERDEN',
-        description: 'En reise av transformasjon, innovasjon og påvirkning på tvers av 6 land, 47 år og flere bransjer.'
+        description: 'En reise av transformasjon, innovasjon og påvirkning gjennom 6 land, 47 år og flere bransjer.'
       },
       story: {
         title: 'MIN HISTORIE',
         paragraphs: [
-          'Født i Abbiategrasso, Milano i 1978, vokste jeg opp i en flerkulturell familie som formet mitt globale perspektiv fra tidlig alder. Min reise har tatt meg over Europa og utover, og bygget broer mellom kulturer, språk og bransjer.',
-          'Fra å studere offentlig administrasjon ved Sciences Po Grenoble til å bygge utdanningsplattformer i Italia og Norge, har hvert kapittel av livet mitt vært drevet av en lidenskap for læring, undervisning og myndiggjøring av andre.',
-          'I dag hjelper jeg gründere og bedrifter med å vokse gjennom utdanning, flerspråklig markedsføring og eiendomsforvaltningsekspertise. Med 250+ eiendommer forvaltet, €150K+ i inntekt og coachingklienter på tvers av 4 språk, bygger jeg bro mellom kulturer og bransjer for å skape ekstraordinære resultater.'
+          'Født i Abbiategrasso, Milano i 1978, vokste jeg opp i en multikulturell familie som formet mitt globale perspektiv fra en tidlig alder. Min reise har tatt meg gjennom Europa og utover, og bygget broer mellom kulturer, språk og bransjer.',
+          'Fra å studere offentlig administrasjon ved Sciences Po Grenoble gjennom Erasmus-programmet til å bygge utdanningsplattformer i Italia og Norge, har hvert kapittel i livet mitt vært drevet av en lidenskap for læring, undervisning og myndiggjøring av andre.',
+          'I dag hjelper jeg gründere og bedrifter med å skalere gjennom utdanning, flerspråklig markedsføring og eiendomsforvaltningsekspertise. Med 15+ års erfaring, Top 3 Airbnb-rangering i Italia og klienter på 5 språk, bygger jeg broer mellom kulturer og bransjer for å skape ekstraordinære resultater.'
         ]
       },
       timeline: {
         title: 'MIN REISE',
         subtitle: 'Fra ydmyke begynnelser til internasjonal påvirkning',
-        events: [
-          {
-            year: '1978',
-            title: 'FØDT I ABBIATEGRASSO',
-            location: 'Milano, Italia',
-            description: 'Født inn i en flerkulturell familie i hjertet av Lombardia. Tidlig eksponering for forskjellige kulturer og språk formet mitt verdensbilde.',
-            image: timelineImg1,
-            category: 'OPPRINNELSE'
-          },
-          {
-            year: '1996',
-            title: 'VIDEREGÅENDE EKSAMEN',
-            location: 'Milano, Italia',
-            description: 'Fullført studier med fokus på humaniora og språk, utviklet en lidenskap for kommunikasjon og kulturell utveksling.',
-            category: 'UTDANNING'
-          },
-          {
-            year: '2000',
-            title: 'SCIENCES PO GRENOBLE',
-            location: 'Grenoble, Frankrike',
-            description: 'Studerte offentlig administrasjon ved en av Frankrikes mest prestisjefylte institusjoner, mestret fransk og europeisk politikk.',
-            image: timelineImg2,
-            category: 'UTDANNING'
-          },
-          {
-            year: '2005',
-            title: 'FØRSTE UNDERVISNINGSROLLE',
-            location: 'Italia',
-            description: 'Begynte karrieren innen utdanning, oppdaget min lidenskap for å hjelpe andre med å låse opp sitt potensial gjennom læring.',
-            category: 'KARRIERE'
-          },
-          {
-            year: '2010',
-            title: 'FLYTTET TIL NORGE',
-            location: 'Norge',
-            description: 'Flyttet til Norge, utvidet min internasjonale erfaring og bygget utdanningsprogrammer i skandinaviske markeder.',
-            image: timelineImg3,
-            category: 'INTERNASJONAL'
-          },
-          {
-            year: '2015',
-            title: 'EIENDOMSFORVALTNING',
-            location: 'Italia og Norge',
-            description: 'Lanserte eiendomsforvaltningsselskap, forvalter til slutt 250+ eiendommer og ble en topp 3 Airbnb-vert i Italia.',
-            category: 'GRÜNDERSKAP'
-          },
-          {
-            year: '2018',
-            title: 'FLERSPRÅKLIG MARKEDSFØRING',
-            location: 'Europa',
-            description: 'Utvidet til digital markedsføring, SEO og copywriting på tvers av flere europeiske språk og markeder.',
-            category: 'BUSINESS'
-          },
-          {
-            year: '2020',
-            title: 'MONDELIO IDEELL',
-            location: 'Internasjonal',
-            description: 'Grunnla Mondelio-fellesskapet med 300+ medlemmer, skapte en plattform for utdanning og kulturell utveksling.',
-            category: 'PÅVIRKNING'
-          },
-          {
-            year: '2022',
-            title: 'PUBLISERTE FØRSTE BØKER',
-            location: 'Internasjonal',
-            description: 'Ga ut "Imagine Your Dream"-serien, delte kunnskap om digital suksess og personlig utvikling.',
-            category: 'FORFATTER'
-          },
-          {
-            year: '2025',
-            title: 'INTERNASJONAL FOREDRAGSHOLDER',
-            location: 'Global',
-            description: 'Holder foredrag på konferanser og arrangementer over hele verden, deler innsikt om utdanning, gründerskap og flerkulturell suksess.',
-            category: 'FOREDRAGSHOLDER'
-          }
-        ]
+        events: content.en.timeline.events.map(event => ({
+          ...event,
+          // Norwegian translations would go here
+        }))
       },
-      highlights: {
-        title: 'NØKKELPRESTASJONER',
-        items: [
-          { number: '250+', label: 'EIENDOMMER FORVALTET', description: 'Topp 3 Airbnb-vert i Italia' },
-          { number: '€150K+', label: 'ÅRLIG INNTEKT', description: 'Eiendomsforvaltningssuksess' },
-          { number: '6', label: 'LAND', description: 'Internasjonal erfaring' },
-          { number: '4', label: 'SPRÅK', description: 'Flerspråklig coaching' },
-          { number: '47', label: 'ÅR', description: 'Livserfaring' },
-          { number: '300+', label: 'MEDLEMMER', description: 'Mondelio-fellesskap' }
-        ]
+      skills: {
+        title: 'EKSPERTISE',
+        categories: content.en.skills.categories
       }
     }
   }
 
-  const t = content[language] || content.en
+  const t = content[language]
 
   return (
-    <div className="min-h-screen bg-black text-white pt-16">
+    <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <motion.h1
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-            className="text-[15vw] md:text-[20vw] font-black text-yellow-400/10 leading-none"
-            style={{ fontFamily: 'Impact, Arial Black, sans-serif' }}
-          >
-            {t.hero.subtitle}
-          </motion.h1>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
-
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold mb-4"
-          >
-            {t.hero.title}
-          </motion.h2>
-          <motion.h3
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-3xl md:text-5xl font-bold text-yellow-400 mb-6"
-          >
-            {t.hero.tagline}
-          </motion.h3>
+        
+        <div className="relative z-10 text-center px-4">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-300"
+            transition={{ duration: 0.6 }}
+            className="text-yellow-400 text-sm tracking-[0.3em] mb-4"
+          >
+            {t.hero.title}
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-6xl md:text-8xl lg:text-9xl font-bold mb-4"
+          >
+            {t.hero.subtitle}
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-xl md:text-2xl text-gray-300 mb-2"
+          >
+            {t.hero.tagline}
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="text-base md:text-lg text-gray-400 max-w-3xl mx-auto"
           >
             {t.hero.description}
           </motion.p>
         </div>
-      </section>
 
-      {/* Story Section */}
-      <section className="py-32 bg-black border-t border-yellow-400/20">
-        <div className="max-w-5xl mx-auto px-4">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-5xl md:text-7xl font-black text-yellow-400 mb-16"
-          >
-            {t.story.title}
-          </motion.h2>
-
-          <div className="space-y-8">
-            {t.story.paragraphs.map((paragraph, index) => (
-              <motion.p
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="text-xl md:text-2xl text-gray-300 leading-relaxed"
-              >
-                {paragraph}
-              </motion.p>
-            ))}
-          </div>
+        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center">
+          <p className="text-sm tracking-widest text-gray-400 mb-2">SCROLL</p>
+          <div className="w-px h-16 bg-gradient-to-b from-gray-400 to-transparent mx-auto"></div>
         </div>
       </section>
 
-      {/* Interactive Timeline Section - Diary of a CEO Style */}
-      <section className="py-32 bg-black border-t border-yellow-400/20">
-        <div className="max-w-6xl mx-auto px-4">
+      {/* Story Section */}
+      <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-4xl md:text-5xl font-bold mb-12 text-center"
+        >
+          {t.story.title}
+        </motion.h2>
+        <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
+          {t.story.paragraphs.map((paragraph, index) => (
+            <motion.p
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.2 }}
+            >
+              {paragraph}
+            </motion.p>
+          ))}
+        </div>
+      </section>
+
+      {/* Timeline Section */}
+      <section className="py-20 px-4 md:px-8 bg-zinc-900">
+        <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-center mb-20"
+            className="text-center mb-16"
           >
-            <h2 className="text-5xl md:text-7xl font-black text-yellow-400 mb-4">
-              {t.timeline.title}
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-400">{t.timeline.subtitle}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.timeline.title}</h2>
+            <p className="text-xl text-gray-400">{t.timeline.subtitle}</p>
           </motion.div>
 
           <div className="relative">
-            {/* Vertical Timeline Line */}
-            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-yellow-400/20"></div>
+            {/* Timeline Line */}
+            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-yellow-400/30 transform md:-translate-x-1/2"></div>
 
             {/* Timeline Events */}
-            <div className="space-y-16">
+            <div className="space-y-12">
               {t.timeline.events.map((event, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className={`relative flex items-center ${
-                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                  } flex-col md:gap-16`}
-                  onMouseEnter={() => setActiveYear(event.year)}
-                  onMouseLeave={() => setActiveYear(null)}
+                  transition={{ duration: 0.6 }}
+                  className={`relative flex flex-col md:flex-row items-start md:items-center ${
+                    index % 2 === 0 ? 'md:flex-row-reverse' : ''
+                  }`}
                 >
-                  {/* Year Marker */}
-                  <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 -translate-y-1/2 top-0">
-                    <div
-                      className={`w-16 h-16 rounded-full border-4 flex items-center justify-center font-black text-sm transition-all duration-300 ${
-                        activeYear === event.year
-                          ? 'bg-yellow-400 border-yellow-400 text-black scale-125'
-                          : 'bg-black border-yellow-400 text-yellow-400'
-                      }`}
-                    >
-                      {event.year.slice(-2)}
-                    </div>
-                  </div>
+                  {/* Year Circle */}
+                  <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-yellow-400 rounded-full transform -translate-x-1/2 md:translate-x-0"></div>
 
                   {/* Content */}
-                  <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'} ml-24 md:ml-0`}>
-                    <div
-                      className={`p-6 border-2 rounded-lg transition-all duration-300 ${
-                        activeYear === event.year
-                          ? 'border-yellow-400 bg-yellow-400/5'
-                          : 'border-white/10 hover:border-yellow-400/50'
-                      }`}
-                    >
-                      <div className="text-xs font-bold text-yellow-400 mb-2">{event.category}</div>
-                      <div className="text-4xl font-black mb-2">{event.year}</div>
-                      <h3 className="text-2xl font-bold mb-2">{event.title}</h3>
-                      <p className="text-sm text-yellow-400 mb-3">📍 {event.location}</p>
-                      <p className="text-gray-400 leading-relaxed">{event.description}</p>
-                    </div>
+                  <div className={`ml-16 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}>
+                    <span className="inline-block px-3 py-1 bg-yellow-400/20 text-yellow-400 text-sm rounded-full mb-2">
+                      {event.category}
+                    </span>
+                    <h3 className="text-2xl md:text-3xl font-bold text-yellow-400 mb-2">{event.year}</h3>
+                    <h4 className="text-xl md:text-2xl font-bold mb-2">{event.title}</h4>
+                    <p className="text-gray-400 mb-2">{event.location}</p>
+                    <p className="text-gray-300">{event.description}</p>
                   </div>
 
-                  {/* Image (if available) */}
+                  {/* Image */}
                   {event.image && (
-                    <div className="w-full md:w-5/12 mt-4 md:mt-0">
-                      <div className="aspect-square rounded-lg overflow-hidden">
-                        <img
-                          src={event.image}
-                          alt={event.title}
-                          className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-                        />
-                      </div>
+                    <div className={`mt-4 md:mt-0 ml-16 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pl-12' : 'md:pr-12'}`}>
+                      <img
+                        src={event.image}
+                        alt={event.title}
+                        className="w-full h-64 object-cover rounded-lg"
+                        style={{ filter: 'none' }}
+                      />
                     </div>
                   )}
                 </motion.div>
@@ -491,41 +396,37 @@ const About = ({ language = 'en' }) => {
         </div>
       </section>
 
-      {/* Highlights Section */}
-      <section className="py-32 bg-black border-t border-yellow-400/20">
-        <div className="max-w-7xl mx-auto px-4">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-5xl md:text-7xl font-black text-center mb-20 text-yellow-400"
-          >
-            {t.highlights.title}
-          </motion.h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            {t.highlights.items.map((item, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="text-center p-6 border-2 border-white/10 hover:border-yellow-400 transition-all duration-300 rounded-lg group"
-              >
-                <div className="text-5xl md:text-6xl font-black text-yellow-400 mb-2 group-hover:scale-110 transition-transform">
-                  {item.number}
-                </div>
-                <div className="text-sm md:text-base font-bold mb-2">
-                  {item.label}
-                </div>
-                <div className="text-xs md:text-sm text-gray-400">
-                  {item.description}
-                </div>
-              </motion.div>
-            ))}
-          </div>
+      {/* Skills Section */}
+      <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-4xl md:text-5xl font-bold mb-12 text-center"
+        >
+          {t.skills.title}
+        </motion.h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {t.skills.categories.map((category, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="bg-zinc-900 p-6 rounded-lg"
+            >
+              <h3 className="text-xl font-bold text-yellow-400 mb-4">{category.name}</h3>
+              <ul className="space-y-2 text-gray-300">
+                {category.items.map((item, i) => (
+                  <li key={i} className="flex items-start">
+                    <span className="text-yellow-400 mr-2">•</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          ))}
         </div>
       </section>
     </div>
