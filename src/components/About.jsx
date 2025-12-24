@@ -6,9 +6,11 @@ import timelineImg1 from '../assets/IMG_20220610_125357490_HDR_PORTRAIT.jpg'
 import timelineImg2 from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
 import timelineImg3 from '../assets/IMG_20240611_162138568_HDR.jpg'
 import heroImage from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
-import childhoodImg from '../assets/childhood_church.JPG'
+import childhoodImg from '../assets/childhood_bw.jpg'
 import highschoolImg from '../assets/highschool_beach.jpg'
-import universityImg from '../assets/university_milano.jpg'
+import journalismImg from '../assets/journalism_photo.jpg'
+import universityImg from '../assets/university_photo.JPG'
+import masterImg from '../assets/master_photo.JPG'
 import erasmusImg from '../assets/erasmus_party.jpg'
 import bookCover1 from '../assets/imagine-your-dream.jpeg'
 import bookCover2 from '../assets/online-media-video.jpeg'
@@ -53,17 +55,11 @@ const About = ({ language = 'en' }) => {
             category: 'EDUCATION'
           },
           {
-            year: '1992-1997',
-            title: 'LICEO SCIENTIFICO BLAISE PASCAL',
-            location: 'Milan, Italy',
-            description: 'High School Diploma in Science and Computers. Director of the School Magazine "Target", developing early leadership and communication skills.',
-            category: 'EDUCATION'
-          },
-          {
             year: '1997-1998',
             title: 'CDM JOURNALISM SCHOOL',
             location: 'Milan, Italy',
             description: 'Journalism Certification at the most important school of journalism in Italy. Organized and attended course with Vice Director Mr. Caporali, developing professional writing skills.',
+            image: journalismImg,
             category: 'EDUCATION'
           },
           {
@@ -101,7 +97,7 @@ const About = ({ language = 'en' }) => {
             title: 'MASTER IN PROJECT MANAGEMENT',
             location: 'Milan, Italy',
             description: 'Master of Arts (M.A.) in Project Management at Università degli Studi di Milano. Internship in ISTUD business school, developing technical proficiency in project management.',
-            image: universityImg,
+            image: masterImg,
             category: 'EDUCATION'
           },
           {
