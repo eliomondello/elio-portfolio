@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ExternalLink, BookOpen, Bell } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import imagineYourDream from '../assets/imagine-your-dream.jpeg'
 import onlineMediaVideo from '../assets/online-media-video.jpeg'
