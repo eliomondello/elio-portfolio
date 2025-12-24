@@ -7,7 +7,7 @@ import timelineImg2 from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
 import timelineImg3 from '../assets/IMG_20240611_162138568_HDR.jpg'
 import heroImage from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import childhoodImg from '../assets/childhood_bw.jpg'
-import highschoolImg from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
+import highschoolImg from '../assets/highschool_beach_group.jpg'
 import journalismImg from '../assets/journalism_photo.jpg'
 import crazyColorImg from '../assets/crazy_color_beach.jpg'
 import universityImg from '../assets/university_photo.JPG'
@@ -22,7 +22,12 @@ import internetMarketingImg from '../assets/internet_marketing_campaign.jpg'
 import chamberCommerceImg from '../assets/chamber_commerce_website.jpg'
 import londonSpeakerImg from '../assets/speaker_london_elio.jpg'
 import kirkemoenImg from '../assets/kirkemoen_work.jpg'
-import tyrifjordSolstadImg from '../assets/tyrifjord_solstad.jpg'
+import tyrifjordSchoolImg from '../assets/tyrifjord_school_accurate.jpg'
+import solstadCareImg from '../assets/solstad_care_accurate.jpg'
+import erasmusDissertationImg from '../assets/erasmus_dissertation_cover.jpg'
+import norwegianBlogImg from '../assets/norwegian_blog_website.jpg'
+import propertyManagementImg from '../assets/property_management_business.jpg'
+import websiteMarketingImg from '../assets/website_marketing_guide.jpg'
 
 const About = ({ language = 'en' }) => {
   const [activeYear, setActiveYear] = useState(null)
@@ -100,6 +105,7 @@ const About = ({ language = 'en' }) => {
             title: 'EUROPEAN MEDIA DISSERTATION',
             location: 'Italy',
             description: 'Published "A European Medium for a European Public Opinion" on Tesionline. Dissertation about European media, public opinion, and media influence on European integration.',
+            image: erasmusDissertationImg,
             category: 'PUBLICATIONS'
           },
           {
@@ -147,6 +153,7 @@ const About = ({ language = 'en' }) => {
             title: 'PUBLISHED "HOW TO CREATE AND MARKET A WEBSITE"',
             location: 'International',
             description: 'Released comprehensive guide on www.eliomondello.com covering 5 marketing tips, utilizing internet for leads, new media revolution, and mobile media strategies.',
+            image: websiteMarketingImg,
             category: 'PUBLICATIONS'
           },
           {
@@ -161,14 +168,16 @@ const About = ({ language = 'en' }) => {
             year: '2013-PRESENT',
             title: 'NORWEGIAN LANGUAGE BLOG',
             location: 'Hønefoss, Norway',
-            description: 'Created WordPress blog for Læringssenter in Ringerike with elegant theme and interactive communication between school, teachers and students in multiple languages.',
+            description: 'Manage and write for Norwegian language learning blog at Aring Center, providing resources and guidance for Norwegian language learners.',
+            image: norwegianBlogImg,
             category: 'PROJECTS'
           },
           {
-            year: '2014',
+            year: '2015-PRESENT',
             title: 'PROPERTY MANAGEMENT COMPANY',
-            location: 'Italy & Norway',
-            description: 'Launched property management business across Italy and Norway. Eventually became Top 3 Airbnb host in Italy, managing properties and helping hosts optimize their listings.',
+            location: 'Norway',
+            description: 'Established and manage property portfolio in Norway, overseeing rental properties and real estate investments.',
+            image: propertyManagementImg,
             category: 'ENTREPRENEURSHIP'
           },
           {
@@ -200,7 +209,7 @@ const About = ({ language = 'en' }) => {
             title: 'TYRIFJORD BARNE- OG UNGDOMSSKOLE',
             location: 'Tyrifjord, Vik - Norway',
             description: 'Currently working at Tyrifjord barne- og ungdomsskole, an Adventist church primary and secondary school near Vik, providing educational support and cultural integration services.',
-            image: tyrifjordSolstadImg,
+            image: tyrifjordSchoolImg,
             category: 'EXPERIENCE'
           },
           {
@@ -208,7 +217,7 @@ const About = ({ language = 'en' }) => {
             title: 'SOLSTAD OG BU',
             location: 'Near Tyrifjord - Norway',
             description: 'Currently working at Solstad og Bu, a residential care facility for people with mental health challenges and substance abuse issues, providing support and community development services.',
-            image: tyrifjordSolstadImg,
+            image: solstadCareImg,
             category: 'EXPERIENCE'
           }
         ]
