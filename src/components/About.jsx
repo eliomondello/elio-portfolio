@@ -7,7 +7,7 @@ import timelineImg2 from '../assets/IMG_20230917_191400957_HDR-EDIT.jpg'
 import timelineImg3 from '../assets/IMG_20240611_162138568_HDR.jpg'
 import heroImage from '../assets/IMG_20250706_154109459_HDR_PORTRAIT.jpg'
 import childhoodImg from '../assets/childhood_bw.jpg'
-import highschoolImg from '../assets/highschool_beach_group.jpg'
+import highschoolImg from '../assets/IMG_20250803_112156728_HDR_PORTRAIT.jpg'
 import journalismImg from '../assets/journalism_photo.jpg'
 import crazyColorImg from '../assets/crazy_color_beach.jpg'
 import universityImg from '../assets/university_photo.JPG'
@@ -15,11 +15,14 @@ import masterImg from '../assets/master_photo.JPG'
 import erasmusImg from '../assets/erasmus_party.jpg'
 import bookCover1 from '../assets/imagine-your-dream.jpeg'
 import bookCover2 from '../assets/online-media-video.jpeg'
-import mondelioImg from '../assets/mondelio_business.jpg'
-import mondosolImg from '../assets/mondosol_school.jpg'
+import mondelioImg from '../assets/mondelio_business_elio.jpg'
+import mondosolImg from '../assets/mondosol_school_elio.jpg'
 import nurseryImg from '../assets/nursery_norway.jpg'
-import bookWebsiteImg from '../assets/book_website_marketing.jpg'
-import londonSpeakerImg from '../assets/london_speaker.jpg'
+import internetMarketingImg from '../assets/internet_marketing_campaign.jpg'
+import chamberCommerceImg from '../assets/chamber_commerce_website.jpg'
+import londonSpeakerImg from '../assets/speaker_london_elio.jpg'
+import kirkemoenImg from '../assets/kirkemoen_work.jpg'
+import tyrifjordSolstadImg from '../assets/tyrifjord_solstad.jpg'
 
 const About = ({ language = 'en' }) => {
   const [activeYear, setActiveYear] = useState(null)
@@ -120,6 +123,7 @@ const About = ({ language = 'en' }) => {
             title: 'INTERNET MARKETING CAMPAIGN',
             location: 'International',
             description: '"Learn a Language with Mondello" - Video, article, podcast campaign optimized for search engines. Training with top American internet marketing company "Traffic Keyser".',
+            image: internetMarketingImg,
             category: 'MARKETING'
           },
           {
@@ -143,7 +147,6 @@ const About = ({ language = 'en' }) => {
             title: 'PUBLISHED "HOW TO CREATE AND MARKET A WEBSITE"',
             location: 'International',
             description: 'Released comprehensive guide on www.eliomondello.com covering 5 marketing tips, utilizing internet for leads, new media revolution, and mobile media strategies.',
-            image: bookWebsiteImg,
             category: 'PUBLICATIONS'
           },
           {
@@ -151,6 +154,7 @@ const About = ({ language = 'en' }) => {
             title: 'ITALIAN NORWEGIAN CHAMBER OF COMMERCE WEBSITE',
             location: 'Oslo, Norway',
             description: 'Led team of experts (graphic designer, project manager, copy writer, programmer) to create new website for Italian Norwegian Chamber of Commerce in Oslo.',
+            image: chamberCommerceImg,
             category: 'PROJECTS'
           },
           {
@@ -188,6 +192,7 @@ const About = ({ language = 'en' }) => {
             title: 'KIRKEMOEN',
             location: 'Norway',
             description: 'Working at Kirkemoen, contributing expertise in education and cultural integration.',
+            image: kirkemoenImg,
             category: 'EXPERIENCE'
           },
           {
@@ -195,6 +200,7 @@ const About = ({ language = 'en' }) => {
             title: 'TYRIFJORD BARNE- OG UNGDOMSSKOLE',
             location: 'Tyrifjord, Vik - Norway',
             description: 'Currently working at Tyrifjord barne- og ungdomsskole, an Adventist church primary and secondary school near Vik, providing educational support and cultural integration services.',
+            image: tyrifjordSolstadImg,
             category: 'EXPERIENCE'
           },
           {
@@ -202,6 +208,7 @@ const About = ({ language = 'en' }) => {
             title: 'SOLSTAD OG BU',
             location: 'Near Tyrifjord - Norway',
             description: 'Currently working at Solstad og Bu, a residential care facility for people with mental health challenges and substance abuse issues, providing support and community development services.',
+            image: tyrifjordSolstadImg,
             category: 'EXPERIENCE'
           }
         ]
