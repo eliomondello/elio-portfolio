@@ -262,11 +262,197 @@ const About = ({ language = 'en' }) => {
       timeline: {
         title: 'IL MIO PERCORSO',
         subtitle: 'Dalle umili origini all\'impatto internazionale',
-        events: [] // Will be filled from en version
+        events: [
+          {
+            year: '1978',
+            title: 'NATO AD ABBIATEGRASSO',
+            location: 'Milano, Italia',
+            description: 'Nato ad Abbiategrasso, una piccola città vicino a Milano, in una famiglia multiculturale che ha plasmato la mia prospettiva globale fin dalla giovane età.',
+            image: childhoodImg,
+            category: 'VITA'
+          },
+          {
+            year: '1992-1997',
+            title: 'SCUOLA SUPERIORE',
+            location: 'Milano, Italia',
+            description: 'Anni di scuola superiore pieni di amicizie, prime esperienze e scoperta della mia passione per la comunicazione e il contatto con le persone.',
+            image: highschoolImg,
+            category: 'ISTRUZIONE'
+          },
+          {
+            year: '1997-1998',
+            title: 'SCUOLA DI GIORNALISMO CDM',
+            location: 'Milano, Italia',
+            description: 'Certificazione in Giornalismo presso la più importante scuola di giornalismo in Italia. Organizzato e frequentato corso con il Vice Direttore Sig. Caporali, sviluppando competenze di scrittura professionale.',
+            image: journalismImg,
+            category: 'ISTRUZIONE'
+          },
+          {
+            year: '2001-2004',
+            title: 'UNIVERSITÀ DEGLI STUDI DI MILANO',
+            location: 'Milano, Italia',
+            description: 'Laurea in Comunicazione e Media, voto 95/110. Stage presso rivista universitaria online, corso di web design, tesi in italiano e francese su "I media europei".',
+            image: universityImg,
+            category: 'ISTRUZIONE'
+          },
+          {
+            year: '2002-2003',
+            title: 'CRAZY COLOR FOUNDATION',
+            location: 'Italia',
+            description: 'Certificato Event Manager. Stage come DJ e animatore nel 4° più grande villaggio turistico d\'Italia, acquisendo esperienza nell\'intrattenimento e gestione eventi.',
+            image: crazyColorImg,
+            category: 'ESPERIENZA'
+          },
+          {
+            year: '2003-2004',
+            title: 'ERASMUS A SCIENCES PO GRENOBLE',
+            location: 'Grenoble, Francia',
+            description: 'Laurea in Amministrazione Pubblica attraverso il Programma di Scambio dell\'Unione Europea (Erasmus). Lavorato come community event manager, ispirato cultura mista creando eventi sociali con corsi di cucina, musica e opportunità coinvolgenti per tutti gli studenti.',
+            image: erasmusImg,
+            category: 'ISTRUZIONE'
+          },
+          {
+            year: '2005',
+            title: 'TESI SUI MEDIA EUROPEI',
+            location: 'Italia',
+            description: 'Pubblicato "Un Medium Europeo per un\'Opinione Pubblica Europea" su Tesionline. Tesi sui media europei, opinione pubblica e influenza dei media sull\'integrazione europea.',
+            image: erasmusDissertationImg,
+            category: 'PUBBLICAZIONI'
+          },
+          {
+            year: '2005-2006',
+            title: 'MASTER IN PROJECT MANAGEMENT',
+            location: 'Milano, Italia',
+            description: 'Master in Project Management presso l\'Università degli Studi di Milano. Stage presso la business school ISTUD, sviluppando competenze tecniche in gestione progetti.',
+            image: masterImg,
+            category: 'ISTRUZIONE'
+          },
+          {
+            year: '2006',
+            title: 'FONDATO MONDELIO',
+            location: 'Italia',
+            description: 'Lanciata prima impresa imprenditoriale in Italia, combinando educazione, consulenza e servizi di marketing digitale per piccole imprese e imprenditori.',
+            image: mondelioImg,
+            category: 'IMPRENDITORIA'
+          },
+          {
+            year: '2010-2011',
+            title: 'CAMPAGNA DI INTERNET MARKETING',
+            location: 'Internazionale',
+            description: '"Impara una lingua con Mondello" - Campagna video, articoli, podcast ottimizzata per i motori di ricerca. Formazione con la migliore azienda americana di internet marketing "Traffic Keyser".',
+            image: internetMarketingImg,
+            category: 'MARKETING'
+          },
+          {
+            year: '2011',
+            title: 'FONDATO MONDOSOL',
+            location: 'Norvegia',
+            description: 'Fondato Mondosol, una scuola di lingue e organizzazione culturale che aiuta le aziende a crescere in Europa attraverso educazione multilingue, marketing e consulenza aziendale.',
+            image: mondosolImg,
+            category: 'IMPRENDITORIA'
+          },
+          {
+            year: '2011-2023',
+            title: 'ASILI NIDO IN NORVEGIA',
+            location: 'Usle, Elgeru, Venteru - Norvegia',
+            description: 'Lavorato per due agenzie gestendo più asili nido (barnehager) in Norvegia tra cui Usle, Elgeru e Venteru, fornendo consulenza educativa e supporto amministrativo.',
+            image: nurseryImg,
+            category: 'ESPERIENZA'
+          },
+          {
+            year: '2012',
+            title: 'PUBBLICATO "COME CREARE E COMMERCIALIZZARE UN SITO WEB"',
+            location: 'Internazionale',
+            description: 'Rilasciata guida completa su www.eliomondello.com con 5 consigli di marketing, utilizzo di internet per lead, rivoluzione dei nuovi media e strategie mobile media.',
+            image: websiteMarketingImg,
+            category: 'PUBBLICAZIONI'
+          },
+          {
+            year: '2012-2013',
+            title: 'SITO WEB CAMERA DI COMMERCIO ITALO-NORVEGESE',
+            location: 'Oslo, Norvegia',
+            description: 'Guidato team di esperti (graphic designer, project manager, copywriter, programmatore) per creare nuovo sito web per la Camera di Commercio Italo-Norvegese di Oslo.',
+            image: chamberCommerceImg,
+            category: 'PROGETTI'
+          },
+          {
+            year: '2013-PRESENTE',
+            title: 'BLOG LINGUA NORVEGESE',
+            location: 'Hønefoss, Norvegia',
+            description: 'Gestisco e scrivo per blog di apprendimento della lingua norvegese presso Aring Center, fornendo risorse e guida per studenti di norvegese.',
+            image: norwegianBlogImg,
+            category: 'PROGETTI'
+          },
+          {
+            year: '2015-PRESENTE',
+            title: 'SOCIETÀ DI GESTIONE IMMOBILIARE',
+            location: 'Norvegia',
+            description: 'Stabilito e gestisco portfolio immobiliare in Norvegia, supervisionando proprietà in affitto e investimenti immobiliari.',
+            image: propertyManagementImg,
+            category: 'IMPRENDITORIA'
+          },
+          {
+            year: '2014',
+            title: 'PUBBLICATO "IMAGINE YOUR DREAM"',
+            location: 'Amazon',
+            description: 'Rilasciato "Imagine Your Dream" su Amazon - un libro sui principi fondamentali e strategie solide per implementare il cambiamento e raggiungere il successo.',
+            image: bookCover1,
+            category: 'PUBBLICAZIONI'
+          },
+          {
+            year: '2019',
+            title: 'SPEAKER A LONDRA',
+            location: 'Londra, Regno Unito',
+            description: 'Primo importante intervento come speaker a Londra come ospite invitato. Condiviso intuizioni su imprenditoria, marketing multilingue e crescita aziendale in Europa.',
+            image: londonSpeakerImg,
+            category: 'SPEAKING'
+          },
+          {
+            year: '2024',
+            title: 'KIRKEMOEN',
+            location: 'Norvegia',
+            description: 'Lavoro presso Kirkemoen, contribuendo con competenze in educazione e integrazione culturale.',
+            image: kirkemoenImg,
+            category: 'ESPERIENZA'
+          },
+          {
+            year: 'Ottobre 2025-PRESENTE',
+            title: 'TYRIFJORD BARNE- OG UNGDOMSSKOLE',
+            location: 'Tyrifjord, Vik - Norvegia',
+            description: 'Attualmente lavoro presso Tyrifjord barne- og ungdomsskole, una scuola primaria e secondaria della chiesa avventista vicino a Vik, fornendo supporto educativo e servizi di integrazione culturale.',
+            image: tyrifjordSchoolImg,
+            category: 'ESPERIENZA'
+          },
+          {
+            year: 'Ottobre 2025-PRESENTE',
+            title: 'SOLSTAD OG BU',
+            location: 'Vicino a Tyrifjord - Norvegia',
+            description: 'Attualmente lavoro presso Solstad og Bu, una struttura di assistenza residenziale per persone con problemi di salute mentale e abuso di sostanze, fornendo supporto e servizi di sviluppo comunitario.',
+            image: solstadCareImg,
+            category: 'ESPERIENZA'
+          }
+        ]
       },
       skills: {
         title: 'COMPETENZE',
-        categories: [] // Will be filled from en version
+        categories: [
+          {
+            name: 'Lingue',
+            items: ['Inglese (Madrelingua)', 'Italiano (Madrelingua)', 'Francese (Professionale)', 'Norvegese (Lavorativo)', 'Spagnolo (Limitato)']
+          },
+          {
+            name: 'Business',
+            items: ['Gestione Immobiliare', 'Ottimizzazione Airbnb', 'Consulenza Aziendale', 'Marketing Multilingue', 'SEO e Copywriting']
+          },
+          {
+            name: 'Educazione',
+            items: ['Insegnamento e Formazione', 'Sviluppo Curricolare', 'Apprendimento Online', 'Integrazione Culturale', 'Public Speaking']
+          },
+          {
+            name: 'Digitale',
+            items: ['Sviluppo Web', 'Gestione Contenuti', 'Social Media Marketing', 'Google Analytics', 'WordPress']
+          }
+        ]
       }
     },
     no: {
