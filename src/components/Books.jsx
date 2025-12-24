@@ -319,6 +319,18 @@ const Books = ({ language }) => {
                 ))}
               </div>
 
+              {/* Learn More Button */}
+              <div className="mb-8">
+                <Link to="/six-countries">
+                  <Button
+                    size="lg"
+                    className="bg-yellow-400 text-black hover:bg-yellow-300 font-bold px-8 py-4 text-lg w-full md:w-auto"
+                  >
+                    LEARN MORE
+                  </Button>
+                </Link>
+              </div>
+
               {/* Waitlist Form */}
               <div className="bg-black/50 border-2 border-yellow-400 rounded-lg p-8">
                 <div className="flex items-center gap-3 mb-4">

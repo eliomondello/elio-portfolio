@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials'
 import Services from './components/Services'
 import Books from './components/Books'
 import Speaking from './components/Speaking'
+import SixCountries from './components/SixCountries'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -27,6 +28,7 @@ function App() {
           <Route path="/services" element={<Services language={language} />} />
           <Route path="/books" element={<Books language={language} />} />
           <Route path="/speaking" element={<Speaking language={language} />} />
+          <Route path="/six-countries" element={<SixCountries language={language} />} />
           <Route path="/contact" element={<Contact language={language} />} />
         </Routes>
         <Footer language={language} />
