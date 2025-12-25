@@ -24,9 +24,9 @@ import londonSpeakerImg from '../assets/speaker_london_formal.jpg'
 import kirkemoenImg from '../assets/kirkemoen_teacher_casual.jpg'
 import tyrifjordSchoolImg from '../assets/tyrifjord_teacher_casual.jpg'
 import solstadCareImg from '../assets/solstad_care_casual.jpg'
-import erasmusDissertationImg from '../assets/erasmus_dissertation_cover.jpg'
-import norwegianBlogImg from '../assets/norwegian_blog_website.jpg'
-import propertyManagementImg from '../assets/property_management_business.jpg'
+import erasmusDissertationImg from '../assets/erasmus_dissertation_elio.jpg'
+import norwegianBlogImg from '../assets/norwegian_blog_teaching.jpg'
+import propertyManagementImg from '../assets/property_management_professional.jpg'
 import websiteMarketingImg from '../assets/website_marketing_guide.jpg'
 
 const About = ({ language = 'en' }) => {
