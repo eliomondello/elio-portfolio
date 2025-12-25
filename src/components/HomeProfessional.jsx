@@ -50,10 +50,10 @@ const HomeProfessional = ({ language = 'en' }) => {
       portfolio: {
         title: 'PROJECTS & RESULTS',
         items: [
-          { title: 'PROPERTY PORTFOLIO', image: portfolioImg1 },
-          { title: 'EDUCATION PROGRAMS', image: portfolioImg2 },
-          { title: 'MARKETING CAMPAIGNS', image: portfolioImg3 },
-          { title: 'SPEAKING ENGAGEMENTS', image: portfolioImg4 }
+          { title: 'PROPERTY PORTFOLIO', image: portfolioImg1, link: 'https://mondosol.com/short-term-let-property-management/' },
+          { title: 'EDUCATION PROGRAMS', image: portfolioImg2, link: 'https://mondosol.com/language-coaching-testimonial/' },
+          { title: 'MARKETING CAMPAIGNS', image: portfolioImg3, link: 'https://mondosol.com/multilingual-content-metrics/' },
+          { title: 'SPEAKING ENGAGEMENTS', image: portfolioImg4, link: '/speaking' }
         ]
       },
       timeline: {
@@ -112,10 +112,10 @@ const HomeProfessional = ({ language = 'en' }) => {
       portfolio: {
         title: 'PROGETTI & RISULTATI',
         items: [
-          { title: 'PORTFOLIO IMMOBILIARE', image: portfolioImg1 },
-          { title: 'PROGRAMMI EDUCATIVI', image: portfolioImg2 },
-          { title: 'CAMPAGNE MARKETING', image: portfolioImg3 },
-          { title: 'CONFERENZE', image: portfolioImg4 }
+          { title: 'PORTFOLIO IMMOBILIARE', image: portfolioImg1, link: 'https://mondosol.com/short-term-let-property-management/' },
+          { title: 'PROGRAMMI EDUCATIVI', image: portfolioImg2, link: 'https://mondosol.com/language-coaching-testimonial/' },
+          { title: 'CAMPAGNE MARKETING', image: portfolioImg3, link: 'https://mondosol.com/multilingual-content-metrics/' },
+          { title: 'CONFERENZE', image: portfolioImg4, link: '/speaking' }
         ]
       },
       timeline: {
@@ -174,10 +174,10 @@ const HomeProfessional = ({ language = 'en' }) => {
       portfolio: {
         title: 'PROSJEKTER & RESULTATER',
         items: [
-          { title: 'EIENDOMSPORTEFOLIO', image: portfolioImg1 },
-          { title: 'UTDANNINGSPROGRAMMER', image: portfolioImg2 },
-          { title: 'MARKEDSFØRINGSKAMPANJER', image: portfolioImg3 },
-          { title: 'FOREDRAG', image: portfolioImg4 }
+          { title: 'EIENDOMSPORTEFOLIO', image: portfolioImg1, link: 'https://mondosol.com/short-term-let-property-management/' },
+          { title: 'UTDANNINGSPROGRAMMER', image: portfolioImg2, link: 'https://mondosol.com/language-coaching-testimonial/' },
+          { title: 'MARKEDSFØRINGSKAMPANJER', image: portfolioImg3, link: 'https://mondosol.com/multilingual-content-metrics/' },
+          { title: 'FOREDRAG', image: portfolioImg4, link: '/speaking' }
         ]
       },
       timeline: {
@@ -341,13 +341,16 @@ const HomeProfessional = ({ language = 'en' }) => {
 
           <div className="grid grid-cols-2 gap-4">
             {t.portfolio.items.map((item, index) => (
-              <motion.div
+              <motion.a
                 key={index}
+                href={item.link}
+                target={item.link.startsWith('http') ? '_blank' : '_self'}
+                rel={item.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="group relative aspect-square overflow-hidden rounded-lg cursor-pointer"
+                className="group relative aspect-square overflow-hidden rounded-lg cursor-pointer block"
               >
                 <img
                   src={item.image}
@@ -357,7 +360,7 @@ const HomeProfessional = ({ language = 'en' }) => {
                 <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-all duration-300 flex items-end p-6">
                   <h3 className="text-2xl md:text-3xl font-bold text-white">{item.title}</h3>
                 </div>
-              </motion.div>
+              </motion.a>
             ))}
           </div>
         </div>
