@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { useState, useEffect } from 'react'
+// Version: 2025-12-25-v2 - Updated with new photos
 import { ChevronDown, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
