@@ -473,24 +473,201 @@ const About = ({ language = 'en' }) => {
       timeline: {
         title: 'MIN REISE',
         subtitle: 'Fra ydmyke begynnelser til internasjonal påvirkning',
-        events: [] // Will be filled from en version
+        events: [
+          {
+            year: '1978',
+            title: 'FØDT I ABBIATEGRASSO',
+            location: 'Milano, Italia',
+            description: 'Født i Abbiategrasso, en liten by nær Milano, i en multikulturell familie som formet mitt globale perspektiv fra en tidlig alder.',
+            image: childhoodImg,
+            category: 'LIV'
+          },
+          {
+            year: '1992-1997',
+            title: 'VIDEREGÅENDE SKOLE',
+            location: 'Milano, Italia',
+            description: 'Videregående skoleår fylt med vennskap, første erfaringer og oppdagelse av min lidenskap for kommunikasjon og kontakt med mennesker.',
+            image: highschoolImg,
+            category: 'UTDANNING'
+          },
+          {
+            year: '1997-1998',
+            title: 'CDM JOURNALISTIKKSKOLE',
+            location: 'Milano, Italia',
+            description: 'Journalistikksertifikat ved den viktigste journalistikkskolen i Italia. Organiserte og deltok på kurs med visedirektør Mr. Caporali, og utviklet profesjonelle skriveferdigheter.',
+            image: journalismImg,
+            category: 'UTDANNING'
+          },
+          {
+            year: '2001-2004',
+            title: 'UNIVERSITÀ DEGLI STUDI DI MILANO',
+            location: 'Milano, Italia',
+            description: 'Bachelor of Arts (B.A.) i Kommunikasjon og Media, karakter 95/110. Praksis ved nettbasert universitetsmagasin, webdesignkurs, avhandling på italiensk og fransk om "europeiske medier".',
+            image: universityImg,
+            category: 'UTDANNING'
+          },
+          {
+            year: '2002-2003',
+            title: 'CRAZY COLOR FOUNDATION',
+            location: 'Italia',
+            description: 'Event Manager-sertifikat. Praksis som DJ og underholder i det 4. største ferieanlegget i Italia, og fikk erfaring innen underholdning og arrangementsledelse.',
+            image: crazyColorImg,
+            category: 'ERFARING'
+          },
+          {
+            year: '2003-2004',
+            title: 'ERASMUS VED SCIENCES PO GRENOBLE',
+            location: 'Grenoble, Frankrike',
+            description: 'Grad i offentlig administrasjon gjennom EUs utvekslingsprogram (Erasmus). Jobbet som samfunnsarrangør, inspirerte blandet kultur ved å skape sosiale arrangementer med matkurs, musikk og engasjerende muligheter for alle studenter.',
+            image: erasmusImg,
+            category: 'UTDANNING'
+          },
+          {
+            year: '2005',
+            title: 'EUROPEISK MEDIA AVHANDLING',
+            location: 'Italia',
+            description: 'Publisert "Et europeisk medium for en europeisk offentlig mening" på Tesionline. Avhandling om europeiske medier, offentlig mening og medias innflytelse på europeisk integrasjon.',
+            image: erasmusDissertationImg,
+            category: 'PUBLIKASJONER'
+          },
+          {
+            year: '2005-2006',
+            title: 'MASTER I PROSJEKTLEDELSE',
+            location: 'Milano, Italia',
+            description: 'Master of Arts (M.A.) i prosjektledelse ved Università degli Studi di Milano. Praksis ved ISTUD business school, og utviklet teknisk kompetanse i prosjektledelse.',
+            image: masterImg,
+            category: 'UTDANNING'
+          },
+          {
+            year: '2006',
+            title: 'GRUNNLA MONDELIO',
+            location: 'Italia',
+            description: 'Lanserte første entreprenørielle virksomhet i Italia, som kombinerte utdanning, rådgivning og digitale markedsføringstjenester for små bedrifter og gründere.',
+            image: mondelioImg,
+            category: 'ENTREPRENØRSKAP'
+          },
+          {
+            year: '2010-2011',
+            title: 'INTERNETTMARKEDSFØRINGSKAMPANJE',
+            location: 'Internasjonal',
+            description: '"Lær et språk med Mondello" - Video-, artikkel- og podcastkampanje optimalisert for søkemotorer. Opplæring med topp amerikansk internettmarkedsføringsselskap "Traffic Keyser".',
+            image: internetMarketingImg,
+            category: 'MARKEDSFØRING'
+          },
+          {
+            year: '2011',
+            title: 'GRUNNLA MONDOSOL',
+            location: 'Norge',
+            description: 'Grunnla Mondosol, en språkskole og kulturorganisasjon som hjelper bedrifter med å skalere i Europa gjennom flerspråklig utdanning, markedsføring og forretningsrådgivning.',
+            image: mondosolImg,
+            category: 'ENTREPRENØRSKAP'
+          },
+          {
+            year: '2011-2023',
+            title: 'BARNEHAGER I NORGE',
+            location: 'Usle, Elgeru, Venteru - Norge',
+            description: 'Jobbet for to byråer som administrerte flere barnehager i Norge, inkludert Usle, Elgeru og Venteru, og ga pedagogisk rådgivning og administrativ støtte.',
+            image: nurseryImg,
+            category: 'ERFARING'
+          },
+          {
+            year: '2012',
+            title: 'PUBLISERT "HVORDAN LAGE OG MARKEDSFØRE ET NETTSTED"',
+            location: 'Internasjonal',
+            description: 'Utgitt omfattende guide på www.eliomondello.com som dekker 5 markedsføringstips, bruk av internett for leads, ny medievolusjon og mobilmediestrategier.',
+            image: websiteMarketingImg,
+            category: 'PUBLIKASJONER'
+          },
+          {
+            year: '2012-2013',
+            title: 'ITALIENSK-NORSK HANDELSKAMMER NETTSTED',
+            location: 'Oslo, Norge',
+            description: 'Ledet team av eksperter (grafisk designer, prosjektleder, tekstforfatter, programmerer) for å lage nytt nettsted for det italiensk-norske handelskammeret i Oslo.',
+            image: chamberCommerceImg,
+            category: 'PROSJEKTER'
+          },
+          {
+            year: '2013-NÅTID',
+            title: 'NORSK SPRÅKBLOGG',
+            location: 'Hønefoss, Norge',
+            description: 'Administrerer og skriver for norsk språklæringsblogg ved Aring Center, og gir ressurser og veiledning for norskspråkstudenter.',
+            image: norwegianBlogImg,
+            category: 'PROSJEKTER'
+          },
+          {
+            year: '2015-NÅTID',
+            title: 'EIENDOMSFORVALTNINGSSELSKAP',
+            location: 'Norge',
+            description: 'Etablerte og administrerer eiendomsportefølje i Norge, og fører tilsyn med utleieeiendommer og eiendomsinvesteringer.',
+            image: propertyManagementImg,
+            category: 'ENTREPRENØRSKAP'
+          },
+          {
+            year: '2014',
+            title: 'PUBLISERT "IMAGINE YOUR DREAM"',
+            location: 'Amazon',
+            description: 'Utgitt "Imagine Your Dream" på Amazon - en bok om kjerneprinsipper og solide strategier for å implementere endring og oppnå suksess.',
+            image: bookCover1,
+            category: 'PUBLIKASJONER'
+          },
+          {
+            year: '2019',
+            title: 'FOREDRAGSHOLDER I LONDON',
+            location: 'London, UK',
+            description: 'Første store foredrag i London som invitert vert. Delte innsikt om entreprenørskap, flerspråklig markedsføring og skalering av virksomheter i Europa.',
+            image: londonSpeakerImg,
+            category: 'FOREDRAG'
+          },
+          {
+            year: '2024',
+            title: 'KIRKEMOEN',
+            location: 'Norge',
+            description: 'Jobber ved Kirkemoen og bidrar med kompetanse innen utdanning og kulturell integrasjon.',
+            image: kirkemoenImg,
+            category: 'ERFARING'
+          },
+          {
+            year: 'Oktober 2025-NÅTID',
+            title: 'TYRIFJORD BARNE- OG UNGDOMSSKOLE',
+            location: 'Tyrifjord, Vik - Norge',
+            description: 'Jobber for tiden ved Tyrifjord barne- og ungdomsskole, en adventistkirkens grunnskole og ungdomsskole nær Vik, og gir pedagogisk støtte og kulturelle integrasjonstjenester.',
+            image: tyrifjordSchoolImg,
+            category: 'ERFARING'
+          },
+          {
+            year: 'Oktober 2025-NÅTID',
+            title: 'SOLSTAD OG BU',
+            location: 'Nær Tyrifjord - Norge',
+            description: 'Jobber for tiden ved Solstad og Bu, en bolig for mennesker med psykiske helseutfordringer og rusmisbruk, og gir støtte og samfunnsutviklingstjenester.',
+            image: solstadCareImg,
+            category: 'ERFARING'
+          }
+        ]
       },
       skills: {
         title: 'EKSPERTISE',
-        categories: [] // Will be filled from en version
+        categories: [
+          {
+            name: 'Språk',
+            items: ['Engelsk (Morsmål)', 'Italiensk (Morsmål)', 'Fransk (Profesjonell)', 'Norsk (Arbeidende)', 'Spansk (Begrenset)']
+          },
+          {
+            name: 'Forretning',
+            items: ['Eiendomsforvaltning', 'Airbnb Optimalisering', 'Forretningsrådgivning', 'Flerspråklig Markedsføring', 'SEO og Tekstforfatning']
+          },
+          {
+            name: 'Utdanning',
+            items: ['Undervisning og Opplæring', 'Pensumsutvikling', 'Nettbasert Læring', 'Kulturell Integrasjon', 'Offentlig Tale']
+          },
+          {
+            name: 'Digitalt',
+            items: ['Webutvikling', 'Innholdsstyring', 'Sosiale Medier Markedsføring', 'Google Analytics', 'WordPress']
+          }
+        ]
       }
     }
   }
 
-  // Fill in translations from English version
-  if (language === 'it') {
-    content.it.timeline.events = content.en.timeline.events
-    content.it.skills.categories = content.en.skills.categories
-  }
-  if (language === 'no') {
-    content.no.timeline.events = content.en.timeline.events
-    content.no.skills.categories = content.en.skills.categories
-  }
   
   const t = content[language] || content.en
 
