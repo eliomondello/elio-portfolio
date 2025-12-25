@@ -409,36 +409,6 @@ const Speaking = ({ language = 'en' }) => {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              {t.video.title}
-            </h2>
-            <p className="text-lg text-gray-400">
-              {t.video.subtitle}
-            </p>
-          </motion.div>
-          
-          {/* LinkedIn Video Embed */}
-          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-            <iframe 
-              src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196085693985316864"
-              className="absolute top-0 left-0 w-full h-full rounded-lg shadow-2xl"
-              frameBorder="0" 
-              allowFullScreen
-              title="LinkedIn Video - AirDNA Host Conference London"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Philosophy Section */}
       <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
